@@ -30,6 +30,7 @@ using System.Text.RegularExpressions;
 using System.Threading;
 using System.Web;
 using System.Web.Security;
+using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Xml;
 using System.Xml.XPath;
@@ -498,6 +499,22 @@ namespace DotNetNuke.Services.Install
             lblIntroDetail.Text = LocalizeString("IntroDetail");      
         }
 
+        private void VerifySystemRequirements()
+        {
+            var minimumNetFrameworkVersion = new Version(7, 4, 2);
+            if (Globals.NETFrameworkVersion < minimumNetFrameworkVersion)
+            {
+                this.form1.Visible = false;
+                this.SystemRequirementsUnmetPanel.Visible = true;
+                var requirementsMessage = string.Format(
+                    LocalizeString("MinimumNetFrameworkVersionMissing"),
+                    Globals.FormatVersion(Globals.NETFrameworkVersion),
+                    Globals.FormatVersion(minimumNetFrameworkVersion),
+                    Globals.FormatVersion(ApplicationVersion));
+                this.SystemRequirementsUnmetPanel.Controls.Add(new LiteralControl(requirementsMessage));
+            }
+        }
+
         private static string LocalizeStringStatic(string key)
         {
             return Localization.Localization.GetString(key, LocalResourceFile, _culture);
@@ -941,7 +958,8 @@ namespace DotNetNuke.Services.Install
 
             SetBrowserLanguage();
             LocalizePage();
-            
+            VerifySystemRequirements();
+
             base.OnLoad(e);
             visitSite.Click += VisitSiteClick;           
 

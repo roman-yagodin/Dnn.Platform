@@ -227,4 +227,7 @@ for people using the product. All of the data is anonymous and for internal use 
   <data name="AcceptTerms.Text" xml:space="preserve">
     <value>I accept the terms of the &lt;a href="../Licenses/Dnn_Corp_License.pdf" target="_blank"&gt;license agreement&lt;/a&gt;</value>
   </data>
+  <data name="MinimumNetFrameworkVersionMissing.Text" xml:space="preserve">
+    <value>&lt;p class="dnnFormMessage dnnValidationSummary"&gt;DNN Platform {2} requires .NET Framework {1}, but .NET Framework {0} is installed.  Upgrade cannot continue.  Please upgrade .NET Framework before upgrading this site.&lt;/p&gt;</value>
+  </data>
 </root>

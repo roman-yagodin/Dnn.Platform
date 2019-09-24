@@ -293,7 +293,6 @@ for people using the product. All of the data is anonymous and for internal use 
   <data name="DatabaseName.Help" xml:space="preserve">
     <value>The name of your database.</value>
   </data>
-
   <data name="DatabaseOwner.Text" xml:space="preserve">
     <value>Database Owner</value>
   </data>
@@ -546,5 +545,8 @@ Using Windows Explorer, browse to the folders of your website ( {0} ). Right-cli
   </data>
   <data name="AcceptTerms.Required" xml:space="preserve">
     <value>Accept the terms of the license agreement to continue.</value>
+  </data>
+  <data name="MinimumNetFrameworkVersionMissing.Text" xml:space="preserve">
+    <value>&lt;p class="dnnFormMessage dnnValidationSummary"&gt;DNN Platform {2} requires .NET Framework {1}, but .NET Framework {0} is installed.  Installation cannot continue.  Please upgrade .NET Framework before installing this site.&lt;/p&gt;</value>
   </data>
 </root>

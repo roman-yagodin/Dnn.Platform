@@ -155,7 +155,9 @@ namespace DotNetNuke.Common
 
             //If unknown version return as is.
             if (version != "4.0")
+            {
                 return new Version(version);
+            }
 
             //Otherwise utilize release DWORD from registry to determine version
             //Reference List: https://docs.microsoft.com/en-us/dotnet/framework/migration-guide/versions-and-dependencies
@@ -164,9 +166,41 @@ namespace DotNetNuke.Common
             {
                 version = "4.8";
             }
-            else
+            else if (release >= 461808)
             {
                 version = "4.7.2";
+            }
+            else if (release >= 461308)
+            {
+                version = "4.7.1";
+            }
+            else if (release >= 460798)
+            {
+                version = "4.7";
+            }
+            else if (release >= 394802)
+            {
+                version = "4.6.2";
+            }
+            else if (release >= 394254)
+            {
+                version = "4.6.1";
+            }
+            else if (release >= 393295)
+            {
+                version = "4.6";
+            }
+            else if (release >= 379893)
+            {
+                version = "4.5.2";
+            }
+            else if (release >= 378675)
+            {
+                version = "4.5.1";
+            }
+            else if (release >= 378389)
+            {
+                version = "4.5";
             }
 
             return new Version(version);
@@ -241,7 +275,7 @@ namespace DotNetNuke.Common
             }
             else
             {
-                //NET Framework version is neeed by Upgrade
+                //NET Framework version is needed by Upgrade
                 Globals.NETFrameworkVersion = GetNETFrameworkVersion();
                 Globals.IISAppName = request.ServerVariables["APPL_MD_PATH"];
                 Globals.OperatingSystemVersion = Environment.OSVersion.Version;

@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DotNetNuke.Services.Install {
-    
-    
-    public partial class UpgradeWizard {
-        
+namespace DotNetNuke.Services.Install
+{
+
+
+    public partial class UpgradeWizard
+    {
+
         /// <summary>
         /// ClientDependencyHeadCss control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace DotNetNuke.Services.Install {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.PlaceHolder ClientDependencyHeadCss;
-        
+
         /// <summary>
         /// ClientDependencyHeadJs control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace DotNetNuke.Services.Install {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.PlaceHolder ClientDependencyHeadJs;
-        
+
         /// <summary>
         /// SCRIPTS control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace DotNetNuke.Services.Install {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.PlaceHolder SCRIPTS;
-        
+
         /// <summary>
         /// ClientResourceIncludes control.
         /// </summary>
@@ -47,7 +49,16 @@ namespace DotNetNuke.Services.Install {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.PlaceHolder ClientResourceIncludes;
-        
+
+        /// <summary>
+        /// SystemRequirementsUnmetPanel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel SystemRequirementsUnmetPanel;
+
         /// <summary>
         /// form1 control.
         /// </summary>
@@ -56,7 +67,7 @@ namespace DotNetNuke.Services.Install {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-        
+
         /// <summary>
         /// scManager control.
         /// </summary>
@@ -65,7 +76,7 @@ namespace DotNetNuke.Services.Install {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.ScriptManager scManager;
-        
+
         /// <summary>
         /// BodySCRIPTS control.
         /// </summary>
@@ -74,7 +85,7 @@ namespace DotNetNuke.Services.Install {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.PlaceHolder BodySCRIPTS;
-        
+
         /// <summary>
         /// lang_en_US control.
         /// </summary>
@@ -83,7 +94,7 @@ namespace DotNetNuke.Services.Install {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton lang_en_US;
-        
+
         /// <summary>
         /// lang_de_DE control.
         /// </summary>
@@ -92,7 +103,7 @@ namespace DotNetNuke.Services.Install {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton lang_de_DE;
-        
+
         /// <summary>
         /// lang_es_ES control.
         /// </summary>
@@ -101,7 +112,7 @@ namespace DotNetNuke.Services.Install {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton lang_es_ES;
-        
+
         /// <summary>
         /// lang_fr_FR control.
         /// </summary>
@@ -110,7 +121,7 @@ namespace DotNetNuke.Services.Install {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton lang_fr_FR;
-        
+
         /// <summary>
         /// lang_it_IT control.
         /// </summary>
@@ -119,7 +130,7 @@ namespace DotNetNuke.Services.Install {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton lang_it_IT;
-        
+
         /// <summary>
         /// lang_nl_NL control.
         /// </summary>
@@ -128,7 +139,7 @@ namespace DotNetNuke.Services.Install {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton lang_nl_NL;
-        
+
         /// <summary>
         /// lblDotNetNukeUpgrade control.
         /// </summary>
@@ -137,7 +148,7 @@ namespace DotNetNuke.Services.Install {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblDotNetNukeUpgrade;
-        
+
         /// <summary>
         /// currentVersionLabel control.
         /// </summary>
@@ -146,7 +157,7 @@ namespace DotNetNuke.Services.Install {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label currentVersionLabel;
-        
+
         /// <summary>
         /// versionLabel control.
         /// </summary>
@@ -155,7 +166,7 @@ namespace DotNetNuke.Services.Install {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label versionLabel;
-        
+
         /// <summary>
         /// versionsMatch control.
         /// </summary>
@@ -164,7 +175,7 @@ namespace DotNetNuke.Services.Install {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label versionsMatch;
-        
+
         /// <summary>
         /// dnnInstall control.
         /// </summary>
@@ -173,7 +184,7 @@ namespace DotNetNuke.Services.Install {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl dnnInstall;
-        
+
         /// <summary>
         /// lblIntroDetail control.
         /// </summary>
@@ -182,7 +193,7 @@ namespace DotNetNuke.Services.Install {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblIntroDetail;
-        
+
         /// <summary>
         /// lblAccountInfoError control.
         /// </summary>
@@ -191,7 +202,7 @@ namespace DotNetNuke.Services.Install {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblAccountInfoError;
-        
+
         /// <summary>
         /// lblUsername control.
         /// </summary>
@@ -200,7 +211,7 @@ namespace DotNetNuke.Services.Install {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblUsername;
-        
+
         /// <summary>
         /// txtUsername control.
         /// </summary>
@@ -209,7 +220,7 @@ namespace DotNetNuke.Services.Install {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtUsername;
-        
+
         /// <summary>
         /// lblPassword control.
         /// </summary>
@@ -218,7 +229,7 @@ namespace DotNetNuke.Services.Install {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblPassword;
-        
+
         /// <summary>
         /// txtPassword control.
         /// </summary>
@@ -227,7 +238,7 @@ namespace DotNetNuke.Services.Install {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtPassword;
-        
+
         /// <summary>
         /// improvementsProgram control.
         /// </summary>
@@ -236,7 +247,7 @@ namespace DotNetNuke.Services.Install {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl improvementsProgram;
-        
+
         /// <summary>
         /// lblImprovementProgTitle control.
         /// </summary>
@@ -245,7 +256,7 @@ namespace DotNetNuke.Services.Install {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblImprovementProgTitle;
-        
+
         /// <summary>
         /// Label2 control.
         /// </summary>
@@ -254,7 +265,7 @@ namespace DotNetNuke.Services.Install {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label2;
-        
+
         /// <summary>
         /// lblImprovementProgExplain control.
         /// </summary>
@@ -263,7 +274,7 @@ namespace DotNetNuke.Services.Install {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblImprovementProgExplain;
-        
+
         /// <summary>
         /// chkImprovementProgram control.
         /// </summary>
@@ -272,7 +283,7 @@ namespace DotNetNuke.Services.Install {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CheckBox chkImprovementProgram;
-        
+
         /// <summary>
         /// lblImprovementProgram control.
         /// </summary>
@@ -281,7 +292,7 @@ namespace DotNetNuke.Services.Install {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblImprovementProgram;
-        
+
         /// <summary>
         /// continueLink control.
         /// </summary>
@@ -290,7 +301,7 @@ namespace DotNetNuke.Services.Install {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton continueLink;
-        
+
         /// <summary>
         /// pnlAcceptTerms control.
         /// </summary>
@@ -299,7 +310,7 @@ namespace DotNetNuke.Services.Install {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl pnlAcceptTerms;
-        
+
         /// <summary>
         /// chkAcceptTerms control.
         /// </summary>
@@ -308,7 +319,7 @@ namespace DotNetNuke.Services.Install {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CheckBox chkAcceptTerms;
-        
+
         /// <summary>
         /// lblUpgradeIntroInfo control.
         /// </summary>
@@ -317,7 +328,7 @@ namespace DotNetNuke.Services.Install {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblUpgradeIntroInfo;
-        
+
         /// <summary>
         /// upgrade control.
         /// </summary>
@@ -326,7 +337,7 @@ namespace DotNetNuke.Services.Install {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl upgrade;
-        
+
         /// <summary>
         /// visitSite control.
         /// </summary>
@@ -335,7 +346,7 @@ namespace DotNetNuke.Services.Install {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HyperLink visitSite;
-        
+
         /// <summary>
         /// PageLocale control.
         /// </summary>
@@ -344,7 +355,7 @@ namespace DotNetNuke.Services.Install {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputHidden PageLocale;
-        
+
         /// <summary>
         /// txtErrorMessage control.
         /// </summary>

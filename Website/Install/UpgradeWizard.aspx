@@ -18,6 +18,8 @@
 </head>
 <body>
     <asp:placeholder runat="server" id="ClientResourceIncludes" />
+    <asp:Panel runat="server" ID="SystemRequirementsUnmetPanel" Visible="false" CssClass="dnnForm dnnInstall dnnClear" />
+    
     <form id="form1" runat="server">
         <asp:ScriptManager ID="scManager" runat="server" EnablePageMethods="true"></asp:ScriptManager>
         <asp:placeholder id="BodySCRIPTS" runat="server">

@@ -27,6 +27,7 @@ using System.Globalization;
 using System.IO;
 using System.Threading;
 using System.Web;
+using System.Web.UI;
 using System.Xml.XPath;
 
 using DotNetNuke.Entities.Controllers;
@@ -128,7 +129,23 @@ namespace DotNetNuke.Services.Install
             else
             {
                 versionLabel.Text = string.Format(LocalizeString("Version"), Globals.FormatVersion(ApplicationVersion));
-                currentVersionLabel.Text = string.Format(LocalizeString("CurrentVersion"), Globals.FormatVersion(CurrentVersion));  
+                currentVersionLabel.Text = string.Format(LocalizeString("CurrentVersion"), Globals.FormatVersion(CurrentVersion));
+            }
+        }
+
+        private void VerifySystemRequirements()
+        {
+            var minimumNetFrameworkVersion = new Version(7, 4, 2);
+            if (Globals.NETFrameworkVersion < minimumNetFrameworkVersion)
+            {
+                this.form1.Visible = false;
+                this.SystemRequirementsUnmetPanel.Visible = true;
+                var requirementsMessage = string.Format(
+                    LocalizeString("MinimumNetFrameworkVersionMissing"),
+                    Globals.FormatVersion(Globals.NETFrameworkVersion),
+                    Globals.FormatVersion(minimumNetFrameworkVersion),
+                    Globals.FormatVersion(ApplicationVersion));
+                this.SystemRequirementsUnmetPanel.Controls.Add(new LiteralControl(requirementsMessage));
             }
         }
 
@@ -389,8 +406,9 @@ namespace DotNetNuke.Services.Install
 
             pnlAcceptTerms.Visible = NeedAcceptTerms;
             LocalizePage();
+            VerifySystemRequirements();
 
-			if (Request.RawUrl.EndsWith("?complete"))
+            if (Request.RawUrl.EndsWith("?complete"))
 			{
 				CompleteUpgrade();
 			}
