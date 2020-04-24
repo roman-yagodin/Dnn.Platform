@@ -220,7 +220,7 @@
     <value>URL карты сайта:</value>
   </data>
   <data name="lblVerification.Help" xml:space="preserve">
-    <value>При регистрации в Инструментах для веб-мастеров Google необходимо проверить принадлежность сайта. В экране проверки Google Verification выберите "Загрузить HTML-файл" ("Upload an HTML file"). В текстовом окне верификации отобразится название файла (например, google53c0cef435b2b81e.html), нажмите "Создать" (Create). Вернитесь в Google и выберите кнопку "Проверить" (Verify).</value>
+    <value>При регистрации в Инструментах для веб-мастеров Google вам будет необходимо подтвердить право владения сайтом. На экране Google Verification выберите "Загрузить HTML-файл". В текстовом поле для верификации отобразится название файла (например, google53c0cef435b2b81e.html), нажмите "Создать". Вернитесь в Google и нажмите кнопку "Проверить".</value>
   </data>
   <data name="lblVerification.Text" xml:space="preserve">
     <value>Проверка:</value>

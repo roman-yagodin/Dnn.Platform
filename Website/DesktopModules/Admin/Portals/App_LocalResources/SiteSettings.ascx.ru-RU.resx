@@ -175,7 +175,7 @@
     <value>Проверка:</value>
   </data>
   <data name="plVerification.Help" xml:space="preserve">
-    <value>При регистрации в инструментальных средствах для веб-мастеров Google (Google Webmaster Tools), вы будете должны проверить ваше монопольное использование сайта. Выберите "Upload an HTML file" на экране верификации Google. Введите отображенное имя файла (например google53c0cef435b2b81e.html) в поле верификации и щелкните Создать. Вернитесь в Google и выберите кнопку Verify.</value>
+    <value>При регистрации в Инструментах для веб-мастеров Google вам будет необходимо подтвердить право владения сайтом. На экране Google Verification выберите "Загрузить HTML-файл". В текстовом поле для верификации отобразится название файла (например, google53c0cef435b2b81e.html), нажмите "Создать". Вернитесь в Google и нажмите кнопку "Проверить".</value>
   </data>
   <data name="cmdVerification.Text" xml:space="preserve">
     <value>Создать</value>
