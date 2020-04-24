@@ -793,7 +793,7 @@
     <value>Все пользователи</value>
   </data>
   <data name="Superuser.Text" xml:space="preserve">
-    <value>Суперпользователь</value>
+    <value>Администратор хостинга</value>
   </data>
   <data name="UnauthenticatedUsers.Text" xml:space="preserve">
     <value>Пользователи, не прошедшие проверку</value>

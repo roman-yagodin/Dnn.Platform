@@ -134,7 +134,7 @@
     <value>Этой учетной записи нет на этом портале.</value>
   </data>
   <data name="SuperUser.Text" xml:space="preserve">
-    <value>Эта учетная запись принадлежит администратору. У Вас нет прав на  редактирование учетных записей администраторов.</value>
+    <value>Эта учетная запись принадлежит администратору хостинга. У Вас нет прав на  редактирование учетных записей администраторов хостинга.</value>
   </data>
   <data name="NoUser.Text" xml:space="preserve">
     <value>Эта учетная запись не существует.</value>
@@ -266,9 +266,9 @@
     <value>Информация об учетной записи</value>
   </data>
   <data name="UserPromotedToSuperuser.Text" xml:space="preserve">
-    <value>Пользователь получил полномочия администратора.</value>
+    <value>Пользователь получил полномочия администратора хоста.</value>
   </data>
   <data name="UserDemotedFromSuperuser.Text" xml:space="preserve">
-    <value>С пользователя сняты полномочия администратора.</value>
+    <value>С пользователя сняты полномочия администратора хостинга.</value>
   </data>
 </root>

@@ -244,7 +244,7 @@
     <value>Списки</value>
   </data>
   <data name="//Host//SuperuserAccounts.String" xml:space="preserve">
-    <value>Учетные записи администраторов</value>
+    <value>Учетные записи администраторов хостинга</value>
   </data>
   <data name="View.Permission" xml:space="preserve">
     <value>Просмотр модуля</value>

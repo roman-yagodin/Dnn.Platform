@@ -199,7 +199,7 @@
     <value>Сделать обычным пользователем</value>
   </data>
   <data name="PromoteToSuperUser.Text" xml:space="preserve">
-    <value>Сделать администратором</value>
+    <value>Сделать администратором хостинга</value>
   </data>
   <data name="UserFolder.Help" xml:space="preserve">
     <value>Папка, в которой хранятся файлы пользователя.</value>
