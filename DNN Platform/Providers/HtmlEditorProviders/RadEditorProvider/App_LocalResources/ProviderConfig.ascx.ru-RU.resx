@@ -118,455 +118,453 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="lblNote.Text" xml:space="preserve">
-    <value>The purpose of this module is to register and configure the Rad Editor Provider. It helps host users to set the HTML provider in the web.config and maintain its configuration.</value>
+    <value>Назначение данного модуля - регистрация и настойка поставщика редактора HTML Rad Editor. Модуль помогает администраторам хостинга зарегистрировать поставщик HTML в web.config и поддерживать конфигурацию Rad Editor.</value>
   </data>
   <data name="lblOnlyHost.Text" xml:space="preserve">
-    <value>Only host users are allowed to use this module.</value>
+    <value>Использовать данный модуль могут только администраторы хостинга.</value>
   </data>
   <data name="lblEditorType.Text" xml:space="preserve">
-    <value>The current provider in this DotNetNuke installation is &lt;b&gt;{0}&lt;/b&gt;</value>
+    <value>Текущий поставщик редактора HTML для данной установки DNN: &lt;b&gt;{0}&lt;/b&gt;</value>
   </data>
   <data name="btnUpdateConfig.Text" xml:space="preserve">
-    <value>Update Configuration</value>
+    <value>Сохранить конфигурацию</value>
   </data>
   <data name="lblEditorConfig.Text" xml:space="preserve">
-    <value>Editor Configuration</value>
+    <value>Настройки редактора</value>
   </data>
   <data name="lblNotAuthorized.Text" xml:space="preserve">
-    <value>You are not authorized to use this module.</value>
+    <value>У вас нет прав для использования данного модуля.</value>
   </data>
   <data name="btnEditToolsFile.Text" xml:space="preserve">
-    <value>Configure Editor Toolbars</value>
+    <value>Настроить панели инструментов</value>
   </data>
   <data name="AutoResizeHeight.Help" xml:space="preserve">
-    <value>The value of the AutoResizeHeight property indicates whether the RadEditor will auto-resize its height to match content height.
+    <value>Параметр высоты автоматического размера задает, будет ли редактор RadEditor автоматически менять высоту для подгонки высоты контента.
 
-This property is similar to the Overflow property of the DIV element, which is not supported by the IFRAME elements.
+Данная функция схожа со свойством выхода за границы (Overflow) элемента DIV, который не поддерживается элементами IFRAME.
 
-When the AutoResizeHeight property is set to true, then the editor's content area is resizing to match content heigh and no scrollbars will appear.</value>
+Если свойство высоты автоматического размера активировано, область содержимого редактора изменится, чтобы подогнать размер под высоту, чтобы не появилась линейка прокрутки.</value>
   </data>
   <data name="BorderWidth.Help" xml:space="preserve">
-    <value>Sets the border in pixels around the control</value>
+    <value>Устанавливает границу вокруг элемента управления в пикселях</value>
   </data>
   <data name="ContentFilters.Help" xml:space="preserve">
-    <value>Filters in RadEditor for ASP.NET AJAX are small code snippets, which are called in a sequence to process the editor content, when the mode (html / design / preview) is switched or when the page is submitted. Each filter is described here: &lt;a href="http://www.telerik.com/help/aspnet-ajax/contentfilters.html" target="_blank"&gt;Telerik Onlinehelp&lt;/a&gt;</value>
+    <value>Фильтры редактора RadEditor для ASP.NET AJAX представляют собой небольшие фрагменты кода, называемые в последовательности для обработки содержимого редактора, если переключается режим просмотра (html / схема / предварительный просмотр), либо страница сохранятся на сервере. Все фильтры описаны здесь: &lt;a href="http://www.telerik.com/help/aspnet-ajax/contentfilters.html" target="_blank"&gt;Telerik Onlinehelp&lt;/a&gt;</value>
   </data>
-  <data name="CssFile.Help" xml:space="preserve">
-    <value>The css file to be used by the editor in wysiwyg mode. This file must reside either in the theme directory or in the website directory. The path set here is relative to its parent (e.g. /editor.css is a file in the root of your theme)</value>
-  </data>
+  
   <data name="DocumentsFilters.Help" xml:space="preserve">
-    <value>A semicolon separated list of possible extensions to be used in the document manager.  The extensions must also be in the host settings list of allowed extensions.  Use the following format: *.extensionname</value>
+    <value>Список возможных расширений диспетчера документов - элементы списка разделяются точкой с запятой. Расширения также должны находиться в списке разрешенных расширений настроек хоста. Используйте следующий формат: *.имярасширения</value>
   </data>
   <data name="DocumentsPath.Help" xml:space="preserve">
-    <value>The folder that the document manager starts with when loading the dialog</value>
+    <value>Папка, с которой начинается работа диспетчера документов при запуске диалога</value>
   </data>
   <data name="EditModes.Help" xml:space="preserve">
-    <value>RadEditor offers three different edit modes Design, Html and Preview:
+    <value>Редактор RadEditor предлагает три различных режима редактирования: Проект, HTML и Пред. просмотр:
 
-&lt;ul&gt;&lt;li&gt;Design: In the Design mode you can edit and format the content by using the RadEditor toolbar buttons, dropdowns and dialogs. &lt;/li&gt;&lt;li&gt;Html: HTML mode provides direct access to the content HTML . This mode is used most often by advanced users.&lt;/li&gt;&lt;li&gt;Preview: Shows how the content will look like before updating the page.&lt;/li&gt;&lt;/ul&gt;</value>
+&lt;ul&gt;&lt;li&gt;Проект: В этом режиме Вы можете редактировать и форматировать контент, используя кнопки на панели инструментов RadEditor, выпадающие окна и диалоги. &lt;/li&gt;&lt;li&gt;Html: Режим HTML предоставляет прямой доступ к контенту HTML. Данный режим чаще используется опытными пользователями.&lt;/li&gt;&lt;li&gt;Предварительный просмотр: отображает, как будет выглядеть контент перед обновлением страницы.&lt;/li&gt;&lt;/ul&gt;</value>
   </data>
   <data name="EnableResize.Help" xml:space="preserve">
-    <value>Gets or sets the value indicating whether the users will be able to resize the RadEditor control on the client.</value>
+    <value>Получает или устанавливает значение, показывающее, смогут ли пользователи изменять размер элемента управления RadEditor на стороне клиента.</value>
   </data>
   <data name="FileBrowserContentProviderTypeName.Help" xml:space="preserve">
-    <value>The content provider is a class that handles how files and folders in the file mananger dialogs are handled. Override this setting if you have another content provider in place. </value>
+    <value>Поставщик содержимого - это класс, управляющий операциями с файлами и папкам в диалогах менеджера файлов. Используйте эту настройку, если Вам нужно использовать другой контент-провайдер. </value>
   </data>
   <data name="FlashFilters.Help" xml:space="preserve">
-    <value>A semicolon separated list of possible extensions to be used in the flash manager.  The extensions must also be in the host settings list of allowed extensions.  Use the following format: *.extensionname</value>
+    <value>Список возможных расширений диспетчера flash - элементы списка разделяются точкой с запятой. Расширения также должны находиться в списке разрешенных расширений настроек хоста. Используйте следующий формат: *.имярасширения</value>
   </data>
   <data name="FlashPath.Help" xml:space="preserve">
-    <value>The folder that the flash manager starts with when loading the dialog</value>
+    <value>Папка, с которой начинается работа диспетчера flash при запуске диалога</value>
   </data>
   <data name="Height.Help" xml:space="preserve">
-    <value>The overall height of the editor control</value>
+    <value>Общая высота элемента управления редактора</value>
   </data>
   <data name="ImagesFilters.Help" xml:space="preserve">
-    <value>A semicolon separated list of possible extensions to be used in the image manager.  The extensions must also be in the host settings list of allowed extensions.  Use the following format: *.extensionname</value>
+    <value>Список возможных расширений диспетчера изображений - элементы списка разделяются точкой с запятой. Расширения также должны находиться в списке разрешенных расширений настроек хоста. Используйте следующий формат: *.имярасширения</value>
   </data>
   <data name="ImagesPath.Help" xml:space="preserve">
-    <value>The folder that the image manager starts with when loading the dialog</value>
+    <value>Папка, с которой начинается работа диспетчера изображений при запуске диалога</value>
   </data>
   <data name="Language.Help" xml:space="preserve">
-    <value>If set, this will override the language of the website context. The current locale is used by default, so in most cases you should leave this empty</value>
+    <value>Если отмечено, данные установки переопределяют язык в контексте сайта. Текущий язык используется по умолчанию, поэтому в большинстве случаев поле можно оставить это поле пустым</value>
   </data>
   <data name="LinksUseRelativeUrls.Help" xml:space="preserve">
-    <value>If set to false, links are created absolute</value>
+    <value>Если не отмечено флажком, создаются абсолютные ссылки</value>
   </data>
   <data name="LinksType.Help" xml:space="preserve">
-    <value>"Use Page Name":a link to a website page is built like this: default.aspx?TabName=Home;&lt;br /&gt;"Use Page Id":a link to a website page is built like this: default.aspx?TabId=100;&lt;br /&gt;"Normal": a link to a website page is built as a normal link.</value>
+    <value>Используйте ссылку вида "Имя страницы":a  для вставки ссылки "default.aspx?TabName=Home;&lt;br /&gt;Используйте ссылку вида "Ид. страницы":a для вставки ссылки "default.aspx?TabId=100";&lt;br /&gt;Используйте ссылку вида "Обычная": a для вставки обычной ссылки.</value>
   </data>
   <data name="MaxDocumentSize.Help" xml:space="preserve">
-    <value>Maximum document upload size in bytes</value>
+    <value>Максимальный размер подгружаемого документа в байтах</value>
   </data>
   <data name="MaxFlashSize.Help" xml:space="preserve">
-    <value>Maximum flash upload size in bytes</value>
+    <value>Максимальный размер подгружаемого flash в байтах</value>
   </data>
   <data name="MaxImageSize.Help" xml:space="preserve">
-    <value>Maximum image upload size in bytes</value>
+    <value>Максимальный размер подгружаемого изображения в байтах</value>
   </data>
   <data name="MaxMediaSize.Help" xml:space="preserve">
-    <value>Maximum movie upload size in bytes</value>
+    <value>Максимальный размер подгружаемого видео в байтах</value>
   </data>
   <data name="MaxSilverlightSize.Help" xml:space="preserve">
-    <value>Maximum silverlight upload size in bytes</value>
+    <value>Максимальный размер подгружаемого silverlight в байтах</value>
   </data>
   <data name="MaxTemplateSize.Help" xml:space="preserve">
-    <value>Maximum template upload size in bytes</value>
+    <value>Максимальный размер подгружаемого шаблона в байтах</value>
   </data>
   <data name="MediaFilters.Help" xml:space="preserve">
-    <value>A semicolon separated list of possible extensions to be used in the media manager.  The extensions must also be in the host settings list of allowed extensions.  Use the following format: *.extensionname</value>
+    <value>Список возможных расширений диспетчера медиа-файлов - элементы списка разделяются точкой с запятой. Расширения также должны находиться в списке разрешенных расширений настроек хоста. Используйте следующий формат: *.имярасширения</value>
   </data>
   <data name="MediaPath.Help" xml:space="preserve">
-    <value>The folder that the media manager starts with when loading the dialog</value>
+    <value>Папка, с которой начинается работа диспетчера медиа-файлов при запуске диалога</value>
   </data>
   <data name="NewLineBr.Help" xml:space="preserve">
-    <value>The NewLineBr property specifies whether the editor should insert a new line (&lt;BR&gt; tag) or a new paragraph (&lt;P&gt; tag) when the Enter key is pressed. The default value is true (&lt;BR&gt; tag) in order to closely reflect the behavior of desktop word-processors. In this case you can insert paragraph tags by pressing Ctrl+M or the New Paragraph button.
+    <value>Свойство NewLineBr указывает, нужно ли редактору вставлять новую строку (тег &lt;BR&gt;) или новый параграф (тег &lt;P&gt; ) при нажатии кнопки Enter (Ввод). Значение по умолчанию - "верно" (вставляется тег &lt;BR&gt;) для более точного отражения поведения редакторов компьютера. В этом случае можно вставить теги параграфа, нажав Ctrl+M или кнопку "Новый параграф".
 
-If you set the NewLineBr property to false, a paragraph tag will be entered on every carriage return (pressing Enter). Here, pressing Shift+Enter will insert a &lt;BR&gt; tag.
+Если флаг NewLineBr сброше, тег параграфа будет вставляться при каждом нажатии кнопки Enter (Ввод). При нажатии Shift+Enter вставляется тег &lt;BR&gt;.
 
-Working with bulleted/ numbered lists in Telerik RadEditor
-Lists are types of paragraphs and they accept the same attributes as paragraph tags. This means that whenever you insert a list in your HTML, you insert a new paragraph. Since Telerik RadEditor v5.05 the NewLineBr mechanism has been improved. However this makes it impossible for example to start bulleted/numbered list with the line being blank. &lt;a href="http://www.telerik.com/help/aspnet-ajax/usingthenewlinebrproperty.html" target="_blank"&gt;Read the onlinehelp for more information&lt;/a&gt;</value>
+Работа с нумерованными/маркированными списками в редакторе Telerik RadEditor
+Списки представляют собой типы параграфов и имеют те же свойства, что и теги параграфов. Это означает, что при добавлении списка в HTML вы вставляете новый параграф. С версии Telerik RadEditor v5.05 механизм NewLineBr был улучшен. Однако, при этом стало невозможно, например, начать маркированный/нумерованный список с пустой строки. &lt;a href="http://www.telerik.com/help/aspnet-ajax/usingthenewlinebrproperty.html" target="_blank"&gt;Дополнительную информацию можно найти в разделе онлайн-справки&lt;/a&gt;</value>
   </data>
   <data name="OnClientCommandExecuting.Help" xml:space="preserve">
-    <value>Set a function name to be called when the editor fires the OnExecute event on the client (fired just before a command is executed). The funtion can be placed in the js file defined in the ScriptToLoad setting. This event comes in handy if you want to add smily support for example. (Read &lt;a href="http://radeditor.codeplex.com/Thread/View.aspx?ThreadId=231612" target="_blank"&gt;this forum post&lt;/a&gt; for more information)</value>
+    <value>Установите имя функции, которая будет вызываться при запуске редактором события OnExecute (перед запуском каждой команды редактора). Функцию можно поместить в отдельном файле .js, указанном в настройке Загрузить сценарий. (Подробнее &lt;a href="http://radeditor.codeplex.com/Thread/View.aspx?ThreadId=231612" target="_blank"&gt;в данном сообщении на форуме&lt;/a&gt;)</value>
   </data>
   <data name="OnClientPasteHtml.Help" xml:space="preserve">
-    <value>Set a function name to be called when the editor fires the OnPaste event (every time something is being pasted into the html code of the editors html editing area). The funtion can be placed in the js file defined in the ScriptToLoad setting.
+    <value>Установите имя функции, которая будет вызываться при запуске редактором события OnPaste (при каждой вставке в HTML-код зоны редактирования HTML редактора). Функцию можно поместить в отдельном файле .js, указанном в настройке Загрузить сценарий.
 
-&lt;a href="http://radeditor.codeplex.com/wikipage?title=OnClientPasteExample" target="_blank"&gt;See this example for a detailed example&lt;/a&gt;</value>
+&lt;a href="http://radeditor.codeplex.com/wikipage?title=OnClientPasteExample" target="_blank"&gt;Подробнее см. в данном примере&lt;/a&gt;</value>
   </data>
   <data name="PortalRoot.Text" xml:space="preserve">
-    <value>[PortalRoot]</value>
+    <value>[Корень сайта]</value>
   </data>
   <data name="ScriptToLoad.Help" xml:space="preserve">
-    <value>If set the provider will load the javascript file specified here. This must be a relative path to the current theme directory.
+    <value>При установке этой настройки, при поставщик будет загружать указанный здесь файл JavaScript. Здесь должен быть указан путь относительно папки текущей темы.
 
-&lt;a href="http://radeditor.codeplex.com/wikipage?title=OnClientPasteExample" target="_blank"&gt;See this example for a detailed example&lt;/a&gt;</value>
+&lt;a href="http://radeditor.codeplex.com/wikipage?title=OnClientPasteExample" target="_blank"&gt;Подробнее см. в указанном примере&lt;/a&gt;</value>
   </data>
   <data name="ShowPortalLinks.Help" xml:space="preserve">
-    <value>If set to true a dropdownlist will appear in the toolbar that renders a tree of website pages. When this feature is active, you can mark a textblock and select a page from that tree to cause the editor to link the text to a certain page.
+    <value>Если отмечено, в панели инструментов появляется выпадающий список, отображающий дерево страниц сайта. Когда данная функция активна, Вы можете отметить текстовой блок и выбрать страницу в данном дереве, чтобы редактор мог привязать текст к определенной странице.
 
-You must set the CustomLinks tool in your toolbar configuratioon in order to make this work!</value>
+Для правильной работы функции в настройках панели необходимо настроить инструмент CustomLinks!</value>
   </data>
   <data name="SilverlightFilters.Help" xml:space="preserve">
-    <value>A semicolon separated list of possible extensions to be used in the silverlight manager.  The extensions must also be in the host settings list of allowed extensions.  Use the following format: *.extensionname</value>
+    <value>Список возможных расширений диспетчера silverlight - элементы списка разделяются точкой с запятой. Расширения также должны находиться в списке разрешенных расширений настроек хоста. Используйте следующий формат: *.имярасширения</value>
   </data>
   <data name="SilverlightPath.Help" xml:space="preserve">
-    <value>The folder that the silverlight manager starts with when loading the dialog</value>
+    <value>Папка, с которой начинается работа диспетчера silverlight при запуске диалога</value>
   </data>
   <data name="Skin.Help" xml:space="preserve">
-    <value>The theme to used by the editor control</value>
+    <value>Тема элемента управления редактора</value>
   </data>
   <data name="SpellAllowAddCustom.Help" xml:space="preserve">
-    <value>Spellchecking options are rarely documented, unfortunately. In general you should leave these fields empty unless you know what you're doing. &lt;a href="http://www.telerik.com/products/aspnet-ajax/spell.aspx" target="_blank"&gt;Learn more about spell checking options at the Telerik website&lt;/a&gt;</value>
+    <value>К сожалению, функции проверки орфографии редко документируются. Как правило, нужно оставлять эти поля пустыми, если Вы точно не уверены в своих действиях. &lt;a href="http://www.telerik.com/products/aspnet-ajax/spell.aspx" target="_blank"&gt;Подробнее о функции проверки орфографии - на сайте Telerik&lt;/a&gt;</value>
   </data>
   <data name="SpellCheckProvider.Help" xml:space="preserve">
-    <value>Spellchecking options are rarely documented, unfortunately. In general you should leave these fields empty unless you know what you're doing. &lt;a href="http://www.telerik.com/products/aspnet-ajax/spell.aspx" target="_blank"&gt;Learn more about spell checking options at the Telerik website&lt;/a&gt;</value>
+    <value>К сожалению, функции проверки орфографии редко документируются. Как правило, нужно оставлять эти поля пустыми, если Вы точно не уверены в своих действиях. &lt;a href="http://www.telerik.com/products/aspnet-ajax/spell.aspx" target="_blank"&gt;Подробнее о функции проверки орфографии - на сайте Telerik&lt;/a&gt;</value>
   </data>
   <data name="SpellCustomDictionarySourceTypeName.Help" xml:space="preserve">
-    <value>Spellchecking options are rarely documented, unfortunately. In general you should leave these fields empty unless you know what you're doing. &lt;a href="http://www.telerik.com/products/aspnet-ajax/spell.aspx" target="_blank"&gt;Learn more about spell checking options at the Telerik website&lt;/a&gt;</value>
+    <value>К сожалению, функции проверки орфографии редко документируются. Как правило, нужно оставлять эти поля пустыми, если Вы точно не уверены в своих действиях. &lt;a href="http://www.telerik.com/products/aspnet-ajax/spell.aspx" target="_blank"&gt;Подробнее о функции проверки орфографии - на сайте Telerik&lt;/a&gt;</value>
   </data>
   <data name="SpellCustomDictionarySuffix.Help" xml:space="preserve">
-    <value>Spellchecking options are rarely documented, unfortunately. In general you should leave these fields empty unless you know what you're doing. &lt;a href="http://www.telerik.com/products/aspnet-ajax/spell.aspx" target="_blank"&gt;Learn more about spell checking options at the Telerik website&lt;/a&gt;</value>
+    <value>К сожалению, функции проверки орфографии редко документируются. Как правило, нужно оставлять эти поля пустыми, если Вы точно не уверены в своих действиях. &lt;a href="http://www.telerik.com/products/aspnet-ajax/spell.aspx" target="_blank"&gt;Подробнее о функции проверки орфографии - на сайте Telerik&lt;/a&gt;</value>
   </data>
   <data name="SpellDictionaryLanguage.Help" xml:space="preserve">
-    <value>Spellchecking options are rarely documented, unfortunately. In general you should leave these fields empty unless you know what you're doing. &lt;a href="http://www.telerik.com/products/aspnet-ajax/spell.aspx" target="_blank"&gt;Learn more about spell checking options at the Telerik website&lt;/a&gt;</value>
+    <value>К сожалению, функции проверки орфографии редко документируются. Как правило, нужно оставлять эти поля пустыми, если Вы точно не уверены в своих действиях. &lt;a href="http://www.telerik.com/products/aspnet-ajax/spell.aspx" target="_blank"&gt;Подробнее о функции проверки орфографии - на сайте Telerik&lt;/a&gt;</value>
   </data>
   <data name="SpellDictionaryPath.Help" xml:space="preserve">
-    <value>Spellchecking options are rarely documented, unfortunately. In general you should leave these fields empty unless you know what you're doing. &lt;a href="http://www.telerik.com/products/aspnet-ajax/spell.aspx" target="_blank"&gt;Learn more about spell checking options at the Telerik website&lt;/a&gt;</value>
+    <value>К сожалению, функции проверки орфографии редко документируются. Как правило, нужно оставлять эти поля пустыми, если Вы точно не уверены в своих действиях. &lt;a href="http://www.telerik.com/products/aspnet-ajax/spell.aspx" target="_blank"&gt;Подробнее о функции проверки орфографии - на сайте Telerik&lt;/a&gt;</value>
   </data>
   <data name="SpellEditDistance.Help" xml:space="preserve">
-    <value>Spellchecking options are rarely documented, unfortunately. In general you should leave these fields empty unless you know what you're doing. &lt;a href="http://www.telerik.com/products/aspnet-ajax/spell.aspx" target="_blank"&gt;Learn more about spell checking options at the Telerik website&lt;/a&gt;</value>
+    <value>К сожалению, функции проверки орфографии редко документируются. Как правило, нужно оставлять эти поля пустыми, если Вы точно не уверены в своих действиях. &lt;a href="http://www.telerik.com/products/aspnet-ajax/spell.aspx" target="_blank"&gt;Подробнее о функции проверки орфографии - на сайте Telerik&lt;/a&gt;</value>
   </data>
   <data name="SpellFragmentIgnoreOptions.Help" xml:space="preserve">
-    <value>Spellchecking options are rarely documented, unfortunately. In general you should leave these fields empty unless you know what you're doing. &lt;a href="http://www.telerik.com/products/aspnet-ajax/spell.aspx" target="_blank"&gt;Learn more about spell checking options at the Telerik website&lt;/a&gt;</value>
+    <value>К сожалению, функции проверки орфографии редко документируются. Как правило, нужно оставлять эти поля пустыми, если Вы точно не уверены в своих действиях. &lt;a href="http://www.telerik.com/products/aspnet-ajax/spell.aspx" target="_blank"&gt;Подробнее о функции проверки орфографии - на сайте Telerik&lt;/a&gt;</value>
   </data>
   <data name="SpellWordIgnoreOptions.Help" xml:space="preserve">
-    <value>Spellchecking options are rarely documented, unfortunately. In general you should leave these fields empty unless you know what you're doing. &lt;a href="http://www.telerik.com/products/aspnet-ajax/spell.aspx" target="_blank"&gt;Learn more about spell checking options at the Telerik website&lt;/a&gt;</value>
+    <value>К сожалению, функции проверки орфографии редко документируются. Как правило, нужно оставлять эти поля пустыми, если Вы точно не уверены в своих действиях. &lt;a href="http://www.telerik.com/products/aspnet-ajax/spell.aspx" target="_blank"&gt;Подробнее о функции проверки орфографии - на сайте Telerik&lt;/a&gt;</value>
   </data>
   <data name="StripFormattingOptions.Help" xml:space="preserve">
-    <value>Developers can enforce content formatting using the StripFormattingOptions property. As a result, format stripping will be applied to all content that users are trying to paste. The EditorStripFormattingOptions setting can have any or a combination of the following values:
+    <value>Разработчики могут ограничить использование форматирования путем задания настройки StripFormattingOptions. В результате чего ко всему  вставляемому пользователями содержимому будут применяться правила очистки форматирования. Настройка EditorStripFormattingOptions может быть иметь одно или несколько следующих значений:
 &lt;ul&gt;
-&lt;li&gt;None: pastes the clipboard content as is. &lt;/li&gt;
-&lt;li&gt;NoneSupressCleanMessage: Doesn't strip anything on paste and does not ask questions. &lt;/li&gt;
-&lt;li&gt;MSWord: strips Word-specific tags on Paste, preserving fonts and text sizes. &lt;/li&gt;
-&lt;li&gt;MSWordNoFonts: strips Word-specific tags on Paste, preserving text sizes only. &lt;/li&gt;
-&lt;li&gt;MSWordRemoveAll: strips Word-specific tag on Paste, removing both fonts and text sizes. &lt;/li&gt;
-&lt;li&gt;Css: strips CSS styles on Paste. &lt;/li&gt;
-&lt;li&gt;Font: strips Font tags on Paste. &lt;/li&gt;
-&lt;li&gt;Span: strips Span tags on Paste. &lt;/li&gt;
-&lt;li&gt;All: strips all HTML formatting and pastes plain text. &lt;/li&gt;
-&lt;li&gt;AllExceptNewLines: Clears all tags except "br" and new lines (\n) on paste.&lt;/li&gt;&lt;/ul&gt;</value>
+&lt;li&gt;None: содержимое буфера обмена вставляется как есть. &lt;/li&gt;
+&lt;li&gt;NoneSupressCleanMessage: ничего не очищать при вставке и не задавать вопросов. &lt;/li&gt;
+&lt;li&gt;MSWord: очистить при вставке форматирование, характерное для Word, сохранив гарнитуру и размер шрифта.&lt;/li&gt;
+&lt;li&gt;MSWordNoFonts: strips  очистить при вставке форматирование, характерное для Word, сохранив только размер шрифта.&lt;/li&gt;
+&lt;li&gt;MSWordRemoveAll: strips очистить при вставке все форматирование, характерное для Word. &lt;/li&gt;
+&lt;li&gt;Css: очистить при вставке стили CSS.&lt;/li&gt;
+&lt;li&gt;Font: очистить при вставке теги font.&lt;/li&gt;
+&lt;li&gt;Span: очистить при вставке теги span.&lt;/li&gt;
+&lt;li&gt;All: удалить все форматирование HTML и вставить только текст. &lt;/li&gt;
+&lt;li&gt;AllExceptNewLines: при вставке удаляются все теги, кроме "br" и переводов строки (\n) .&lt;/li&gt;&lt;/ul&gt;</value>
   </data>
   <data name="TemplateFilters.Help" xml:space="preserve">
-    <value>A semicolon separated list of possible extensions to be used in the template manager.  The extensions must also be in the host settings list of allowed extensions.  Use the following format: *.extensionname</value>
+    <value>Список возможных расширений диспетчера шаблонов - элементы списка разделяются точкой с запятой. Расширения также должны находиться в списке разрешенных расширений настроек хоста. Используйте следующий формат: *.имярасширения</value>
   </data>
   <data name="TemplatePath.Help" xml:space="preserve">
-    <value>The folder that the template manager starts with when loading the dialog</value>
+    <value>Папка, открываемая менеджером шаблонов при загружке диалога</value>
   </data>
   <data name="ToolbarMode.Help" xml:space="preserve">
-    <value>RadEditor for ASP.NET AJAX introduces a property named ToolbarMode, which specifies the behavior of the toolbar. Here are the different options for setting the ToolbarMode:&lt;ul&gt;&lt;li&gt;Default - the toolbar is static and positioned over the content area
-&lt;/li&gt;&lt;li&gt;PageTop - in this mode, when a particular editor gets the focus its toolbar will appear docked at the top of the page
-&lt;/li&gt;&lt;li&gt;ShowOnFocus - here the toolbar will appear right above the editor when it gets focus.
-&lt;/li&gt;&lt;li&gt;Floating - the toolbar will pop up in a window and will allow the user to move it over the page
+    <value>Редактор RadEditor for ASP.NET AJAX включает функцию "Режим панели инструментов" (ToolbarMode), определяющую поведение панели инструментов. Ниже представлены различные варианты настроек режима панели инструментов:&lt;ul&gt;&lt;li&gt;По умолчанию - панель инструментов статична и располагается над областью контента
+&lt;/li&gt;&lt;li&gt;Вверху страницы - в этом режиме внимание уделяется отдельному редактору и панель инструментов закрепляется вверху страницы
+&lt;/li&gt;&lt;li&gt;Показать в фокусе (ShowOnFocus) - панель инструментов появляется над редактором, который получает фокус.
+&lt;/li&gt;&lt;li&gt;Плавающая - панель инструментов появляется во всплывающем окне и позволяет пользователю перемещать ее на странице
 &lt;/li&gt;&lt;/ul&gt;</value>
   </data>
   <data name="ToolsWidth.Help" xml:space="preserve">
-    <value>Sets the width of the editor's toolbar, this should only be used when Toolbar mode is set to anything else than Default!</value>
+    <value>Устанавливает ширину панели инструментов редактора. Эту функцию нужно использовать только в случае, если не выбран режим панели инструментов по-умолчанию!</value>
   </data>
   <data name="Width.Help" xml:space="preserve">
-    <value>The overall width of the editor control. </value>
+    <value>Общая ширина элемента управления редактора. </value>
   </data>
   <data name="btnEnable.Text" xml:space="preserve">
-    <value>Change</value>
+    <value>Изменить</value>
   </data>
   <data name="lblChangeProvider.Help" xml:space="preserve">
-    <value>Selecting a different provider from the drop down list, and then clicking 'Change', will change the set HTML Editor Provider for the entire installation.</value>
+    <value>Выберите другого поставщика в выпадающем списке и нажмите Изменить. При этом изменятся настройки поставщика редактора HTML для всей установки.</value>
   </data>
   <data name="lblChangeProvider.Text" xml:space="preserve">
-    <value>Change Provider</value>
+    <value>Изменить поставщика</value>
   </data>
   <data name="lblCurrentProvider.Help" xml:space="preserve">
-    <value>This is the HTML Editor Provider that is currently set for this installation. </value>
+    <value>Этот поставщик редактора HTML, который в настоящее время выбран для данной установки DNN. </value>
   </data>
   <data name="lblCurrentProvider.Text" xml:space="preserve">
-    <value>Current Provider</value>
+    <value>Текущий поставщик</value>
   </data>
   <data name="cmdCopy.Text" xml:space="preserve">
-    <value>Copy</value>
+    <value>Копировать</value>
   </data>
   <data name="EditConfigTab.Text" xml:space="preserve">
-    <value>Editor Configuration</value>
+    <value>Настройки редактора</value>
   </data>
   <data name="ToolbarConfigTab.Text" xml:space="preserve">
-    <value>Toolbar Configuration</value>
+    <value>Конфигурация панели инструментов</value>
   </data>
   <data name="AutoResizeHeight.Text" xml:space="preserve">
-    <value>Auto Resize Height:</value>
+    <value>Высота автоматического размера:</value>
   </data>
   <data name="BorderWidth.Text" xml:space="preserve">
-    <value>Border Width:</value>
+    <value>Ширина границы:</value>
   </data>
   <data name="ContentFilters.Text" xml:space="preserve">
-    <value>Content Filters:</value>
+    <value>Фильтры содержимого:</value>
   </data>
   <data name="CssFile.Text" xml:space="preserve">
-    <value>CSS File:</value>
+    <value>Файл CSS:</value>
   </data>
   <data name="DocumentsFilters.Text" xml:space="preserve">
-    <value>Filters:</value>
+    <value>Фильтры:</value>
   </data>
   <data name="DocumentsPath.Text" xml:space="preserve">
-    <value>Path:</value>
+    <value>Путь:</value>
   </data>
   <data name="EditModes.Text" xml:space="preserve">
-    <value>Edit Modes:</value>
+    <value>Режимы редактирования:</value>
   </data>
   <data name="EnableResize.Text" xml:space="preserve">
-    <value>Enable Resize:</value>
+    <value>Разрешить изменение размера:</value>
   </data>
   <data name="FileBrowserContentProviderTypeName.Text" xml:space="preserve">
-    <value>File Browser Provider:</value>
+    <value>Поставщик выбора файлов:</value>
   </data>
   <data name="FlashFilters.Text" xml:space="preserve">
-    <value>Filters:</value>
+    <value>Фильтры:</value>
   </data>
   <data name="FlashPath.Text" xml:space="preserve">
-    <value>Path:</value>
+    <value>Путь:</value>
   </data>
   <data name="Height.Text" xml:space="preserve">
-    <value>Height:</value>
+    <value>Высота:</value>
   </data>
   <data name="ImagesFilters.Text" xml:space="preserve">
-    <value>Filters:</value>
+    <value>Фильтры:</value>
   </data>
   <data name="ImagesPath.Text" xml:space="preserve">
-    <value>Path:</value>
+    <value>Путь:</value>
   </data>
   <data name="Language.Text" xml:space="preserve">
-    <value>Language:</value>
+    <value>Язык:</value>
   </data>
   <data name="LinksUseRelativeUrls.Text" xml:space="preserve">
-    <value>Enable Relative URL Links:</value>
+    <value>Активирует относительные URL-ссылки:</value>
   </data>
   <data name="LinksType.Text" xml:space="preserve">
-    <value>Page Links Type:</value>
+    <value>Тип ссылки на страницу:</value>
   </data>
   <data name="MaxDocumentSize.Text" xml:space="preserve">
-    <value>Max File Size:</value>
+    <value>Максимальный размер файла:</value>
   </data>
   <data name="MaxFlashSize.Text" xml:space="preserve">
-    <value>Max File Size:</value>
+    <value>Максимальный размер файла:</value>
   </data>
   <data name="MaxImageSize.Text" xml:space="preserve">
-    <value>Max File Size:</value>
+    <value>Максимальный размер файла:</value>
   </data>
   <data name="MaxMediaSize.Text" xml:space="preserve">
-    <value>Max File Size:</value>
+    <value>Максимальный размер файла:</value>
   </data>
   <data name="MaxSilverlightSize.Text" xml:space="preserve">
-    <value>Max File Size:</value>
+    <value>Максимальный размер файла:</value>
   </data>
   <data name="MaxTemplateSize.Text" xml:space="preserve">
-    <value>Max File Size:</value>
+    <value>Максимальный размер файла:</value>
   </data>
   <data name="MediaFilters.Text" xml:space="preserve">
-    <value>Filters:</value>
+    <value>Фильтры:</value>
   </data>
   <data name="MediaPath.Text" xml:space="preserve">
-    <value>Path:</value>
+    <value>Путь:</value>
   </data>
   <data name="NewLineBr.Text" xml:space="preserve">
-    <value>Render New Lines As Breaks:</value>
+    <value>Новая строка как разрыв:</value>
   </data>
   <data name="OnClientCommandExecuting.Text" xml:space="preserve">
-    <value>Command Executing:</value>
+    <value>Исполнение команды:</value>
   </data>
   <data name="OnClientPasteHtml.Text" xml:space="preserve">
-    <value>Paste HTML:</value>
+    <value>Вставить HTML:</value>
   </data>
   <data name="ScriptToLoad.Text" xml:space="preserve">
-    <value>Script to Load:</value>
+    <value>Загрузить сценарий:</value>
   </data>
   <data name="ShowPortalLinks.Text" xml:space="preserve">
-    <value>Show Website Links:</value>
+    <value>Показать ссылки портала:</value>
   </data>
   <data name="SilverlightFilters.Text" xml:space="preserve">
-    <value>Filters:</value>
+    <value>Фильтры:</value>
   </data>
   <data name="SilverlightPath.Text" xml:space="preserve">
-    <value>Path:</value>
+    <value>Путь:</value>
   </data>
   <data name="Skin.Text" xml:space="preserve">
-    <value>Theme:</value>
+    <value>Тема:</value>
   </data>
   <data name="SpellAllowAddCustom.Text" xml:space="preserve">
-    <value>Allow Custom Spelling:</value>
+    <value>Разрешить пользовательскую орфографию:</value>
   </data>
   <data name="SpellCheckProvider.Text" xml:space="preserve">
-    <value>Spell Check Provider Name:</value>
+    <value>Имя поставщика проверки орфографии:</value>
   </data>
   <data name="SpellCustomDictionarySourceTypeName.Text" xml:space="preserve">
-    <value>Custom Spell Dictionary Name:</value>
+    <value>Имя пользовательского словаря орфографии:</value>
   </data>
   <data name="SpellCustomDictionarySuffix.Text" xml:space="preserve">
-    <value>Custom Spell Dictionary Suffix:</value>
+    <value>Суффикс пользовательского словаря орфографии:</value>
   </data>
   <data name="SpellDictionaryLanguage.Text" xml:space="preserve">
-    <value>Spell Dictionary Language:</value>
+    <value>Язык словаря орфографии:</value>
   </data>
   <data name="SpellDictionaryPath.Text" xml:space="preserve">
-    <value>Spell Dictionary Path:</value>
+    <value>Путь к словарю:</value>
   </data>
   <data name="SpellEditDistance.Text" xml:space="preserve">
-    <value>Spell Edit Distance:</value>
+    <value>Расстояние редактора орфографии:</value>
   </data>
   <data name="SpellFragmentIgnoreOptions.Text" xml:space="preserve">
-    <value>Spell Fragment Ignore Options:</value>
+    <value>Пропуск фрагментов текста при проверке:</value>
   </data>
   <data name="SpellWordIgnoreOptions.Text" xml:space="preserve">
-    <value>Spell Word Ignore Options:</value>
+    <value>Пропуск слов при проверке:</value>
   </data>
   <data name="StripFormattingOptions.Text" xml:space="preserve">
-    <value>Strip Formatting Options:</value>
+    <value>Очистить форматирование:</value>
   </data>
   <data name="TemplateFilters.Text" xml:space="preserve">
-    <value>Filters:</value>
+    <value>Фильтры:</value>
   </data>
   <data name="TemplatePath.Text" xml:space="preserve">
-    <value>Path:</value>
+    <value>Путь:</value>
   </data>
   <data name="ToolbarMode.Text" xml:space="preserve">
-    <value>Mode:</value>
+    <value>Режим:</value>
   </data>
   <data name="ToolsWidth.Text" xml:space="preserve">
-    <value>Width:</value>
+    <value>Ширина:</value>
   </data>
   <data name="Width.Text" xml:space="preserve">
-    <value>Width:</value>
+    <value>Ширина:</value>
   </data>
   <data name="lblSelectedProvider.Text" xml:space="preserve">
-    <value>Current Provider</value>
+    <value>Текущий поставщик</value>
   </data>
   <data name="lblMode.Help" xml:space="preserve">
-    <value>The role you wish to associate this editor configuration with.</value>
+    <value>Роль, которую Вы хотели бы связать с этой конфигурацией редактора.</value>
   </data>
   <data name="lblMode.Text" xml:space="preserve">
-    <value>Bind to Role</value>
+    <value>Привязать к роли</value>
   </data>
   <data name="lblPortal.Help" xml:space="preserve">
-    <value>If checked, the current website will be associated with this editor configuration. </value>
+    <value>Если отмечено, текущий сайт будет связан с данной конфигурацией редактора. </value>
   </data>
   <data name="lblPortal.Text" xml:space="preserve">
-    <value>Bind to Website</value>
+    <value>Привязать к сайту</value>
   </data>
   <data name="lblTabs.Help" xml:space="preserve">
-    <value>Selecting a page from the treeview will associate this editor configuration with the selected page.</value>
+    <value>При выборе страницы из дравовидного списка, конфигурация редактора будет привязана к выбранной странице.</value>
   </data>
   <data name="lblTabs.Text" xml:space="preserve">
-    <value>Bind to Tab</value>
+    <value>Прикрепить ко вкладке</value>
   </data>
   <data name="ContentAreaMode.Text" xml:space="preserve">
-    <value>Content Area Mode</value>
+    <value>Режим области содержимого</value>
   </data>
   <data name="ContentAreaMode.Help" xml:space="preserve">
-    <value>Choose between editing in a seperate document in an Iframe (default), or inline in a Div in the current page.</value>
+    <value>Выберите между редактированием в отдельном окне (по умолчанию) и встраиваемом редактированем внутри текущей страницы.</value>
   </data>
   <data name="cmdCreate.Text" xml:space="preserve">
-    <value>Create</value>
+    <value>Создать</value>
   </data>
   <data name="HTMLEditorPageDescription.Text" xml:space="preserve">
-    <value>Provides configuration options for HTML Editor Provider.</value>
+    <value>Предоставляет возможности настройки поставщика редактора HTML.</value>
   </data>
   <data name="HTMLEditorPageName.Text" xml:space="preserve">
-    <value>HTML Editor Manager</value>
+    <value>Диспетчер настроек редактора HTML</value>
   </data>
   <data name="NotCurrentProvider.Text" xml:space="preserve">
-    <value>RadEditorProvider is not default html editor provider now, any changes will not apply to current editor provider. If you want to make configuration take effect please update default provider to 'DotNetNuke.RadEditorProvider' in left drop down list.</value>
+    <value>RadEditorProvider не установлен в качестве редактора HTML по умолчанию, поэтому все произведенные изменения настроек не коснутся текущего поставщика редактора. Для того, чтобы произведенные изменения вступили в силу, установите поставщик по умолчанию на 'DotNetNuke.RadEditorProvider' в выпадающем списке, расположенном слева.</value>
   </data>
   <data name="Client Script Settings.Title" xml:space="preserve">
-    <value>Client Script Settings</value>
+    <value>Настройки сценариев</value>
   </data>
   <data name="Common Settings.Title" xml:space="preserve">
-    <value>Common Settings</value>
+    <value>Основные настройки</value>
   </data>
   <data name="Developer Settings.Title" xml:space="preserve">
-    <value>Developer Settings</value>
+    <value>Настройки разработчика</value>
   </data>
   <data name="Document Manager Settings.Title" xml:space="preserve">
-    <value>Document Manager Settings</value>
+    <value>Настройки диспетчера документов</value>
   </data>
   <data name="Flash Manager Settings.Title" xml:space="preserve">
-    <value>Flash Manager Settings</value>
+    <value>Настройки диспетчера Flash</value>
   </data>
   <data name="Image Manager Settings.Title" xml:space="preserve">
-    <value>Image Manager Settings</value>
+    <value>Настройки диспетчера изображений</value>
   </data>
   <data name="Media Manager Settings.Title" xml:space="preserve">
-    <value>Media Manager Settings</value>
+    <value>Настройки диспетчера мультимедиа</value>
   </data>
   <data name="Silverlight Manager Settings.Title" xml:space="preserve">
-    <value>Silverlight Manager Settings</value>
+    <value>Настройки диспетчера Silverlight</value>
   </data>
   <data name="Template Manager Settings.Title" xml:space="preserve">
-    <value>Template Manager Settings</value>
+    <value>Настройки диспетчера шаблонов</value>
   </data>
   <data name="Toolbar Settings.Title" xml:space="preserve">
-    <value>Toolbar Settings</value>
+    <value>Настройки панели инструментов</value>
   </data>
   <data name="UserFolder.Text" xml:space="preserve">
-    <value>[UserFolder]</value>
+    <value>[Папка пользователя]</value>
   </data>
   <data name="LinksType_Normal.Text" xml:space="preserve">
-    <value>Normal</value>
+    <value>Обычный</value>
   </data>
   <data name="LinksType_UseTabId.Text" xml:space="preserve">
-    <value>Use Page Id in URL</value>
+    <value>Использовать ид. страницы в URL</value>
   </data>
   <data name="LinksType_UseTabName.Text" xml:space="preserve">
-    <value>Use Page Name in URL</value>
+    <value>Использовать имя страницы в URL</value>
   </data>
   <data name="ControlTitle_.Text" xml:space="preserve">
-    <value>HTML Editor Manager</value>
+    <value>Диспетчер настроек редактора HTML</value>
   </data>
 </root>

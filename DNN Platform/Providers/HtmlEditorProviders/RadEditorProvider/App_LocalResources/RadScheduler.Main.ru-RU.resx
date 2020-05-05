@@ -117,337 +117,167 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ReservedResource" xml:space="preserve">
-    <value>Please do not remove this key.</value>
-  </data>
-  <data name="AdvancedAllDayEvent" xml:space="preserve">
-    <value>All day</value>
-  </data>
+  
+  
   <data name="AdvancedDaily" xml:space="preserve">
-    <value>Daily</value>
+    <value>Ежедневно</value>
   </data>
   <data name="AdvancedDay" xml:space="preserve">
-    <value>Day</value>
+    <value>день</value>
   </data>
-  <data name="AdvancedDays" xml:space="preserve">
-    <value>day(s)</value>
-  </data>
+  
   <data name="AdvancedSubject" xml:space="preserve">
-    <value>Subject</value>
+    <value>Тема</value>
   </data>
   <data name="AdvancedDescription" xml:space="preserve">
-    <value>Description</value>
+    <value>Описание</value>
   </data>
-  <data name="AdvancedEndAfter" xml:space="preserve">
-    <value>End after</value>
-  </data>
-  <data name="AdvancedEndByThisDate" xml:space="preserve">
-    <value>End by</value>
-  </data>
+  
+  
   <data name="AdvancedEvery" xml:space="preserve">
-    <value>Every</value>
+    <value>Каждый</value>
   </data>
-  <data name="AdvancedEveryWeekday" xml:space="preserve">
-    <value>Every weekday</value>
-  </data>
+  
   <data name="AdvancedFirst" xml:space="preserve">
-    <value>first</value>
+    <value>Начальный IP</value>
   </data>
-  <data name="AdvancedFourth" xml:space="preserve">
-    <value>fourth</value>
-  </data>
-  <data name="AdvancedFrom" xml:space="preserve">
-    <value>Start time</value>
-  </data>
+  
+  
   <data name="AdvancedHourly" xml:space="preserve">
-    <value>Hourly</value>
+    <value>Ежечасно</value>
   </data>
-  <data name="AdvancedHours" xml:space="preserve">
-    <value>hour(s)</value>
-  </data>
-  <data name="AdvancedLast" xml:space="preserve">
-    <value>last</value>
-  </data>
-  <data name="AdvancedMaskDay" xml:space="preserve">
-    <value>day</value>
-  </data>
-  <data name="AdvancedMaskWeekday" xml:space="preserve">
-    <value>weekday</value>
-  </data>
-  <data name="AdvancedMaskWeekendDay" xml:space="preserve">
-    <value>weekend day</value>
-  </data>
+  
+  
+  
+  
+  
   <data name="AdvancedMonthly" xml:space="preserve">
-    <value>Monthly</value>
+    <value>Ежемесячно</value>
   </data>
-  <data name="AdvancedMonths" xml:space="preserve">
-    <value>month(s)</value>
-  </data>
-  <data name="AdvancedMoreDetails" xml:space="preserve">
-    <value>More details</value>
-  </data>
-  <data name="AdvancedNoEndDate" xml:space="preserve">
-    <value>No end date</value>
-  </data>
-  <data name="AdvancedOccurrences" xml:space="preserve">
-    <value>occurrences</value>
-  </data>
+  
+  
+  
+  
   <data name="AdvancedOf" xml:space="preserve">
-    <value>of</value>
+    <value>из</value>
   </data>
-  <data name="AdvancedOfEvery" xml:space="preserve">
-    <value>of every</value>
-  </data>
-  <data name="AdvancedRange" xml:space="preserve">
-    <value>Range of recurrence:</value>
-  </data>
-  <data name="AdvancedRecurEvery" xml:space="preserve">
-    <value>Recur every</value>
-  </data>
-  <data name="AdvancedRecurrence" xml:space="preserve">
-    <value>Recurrence</value>
-  </data>
-  <data name="AdvancedRecurringAppointment" xml:space="preserve">
-    <value>Recurring task</value>
-  </data>
-  <data name="AdvancedReset" xml:space="preserve">
-    <value>reset exceptions</value>
-  </data>
-  <data name="AdvancedSecond" xml:space="preserve">
-    <value>second</value>
-  </data>
-  <data name="AdvancedThe" xml:space="preserve">
-    <value>The</value>
-  </data>
-  <data name="AdvancedThird" xml:space="preserve">
-    <value>third</value>
-  </data>
-  <data name="AdvancedTo" xml:space="preserve">
-    <value>End time</value>
-  </data>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   <data name="AdvancedWeekly" xml:space="preserve">
-    <value>Weekly</value>
+    <value>Еженедельно</value>
   </data>
-  <data name="AdvancedWeeks" xml:space="preserve">
-    <value>week(s) on</value>
-  </data>
-  <data name="AdvancedYearly" xml:space="preserve">
-    <value>Yearly</value>
-  </data>
-  <data name="AllDay" xml:space="preserve">
-    <value>all day</value>
-  </data>
+  
+  
+  
   <data name="Cancel" xml:space="preserve">
-    <value>Cancel</value>
+    <value>Отмена</value>
   </data>
   <data name="ConfirmCancel" xml:space="preserve">
-    <value>Cancel</value>
+    <value>Отмена</value>
   </data>
-  <data name="ConfirmDeleteText" xml:space="preserve">
-    <value>Are you sure you want to delete this appointment?</value>
-  </data>
-  <data name="ConfirmDeleteTitle" xml:space="preserve">
-    <value>Confirm delete</value>
-  </data>
-  <data name="ConfirmOK" xml:space="preserve">
-    <value>OK</value>
-  </data>
-  <data name="ConfirmRecurrenceDeleteOccurrence" xml:space="preserve">
-    <value>Delete only this occurrence.</value>
-  </data>
-  <data name="ConfirmRecurrenceDeleteSeries" xml:space="preserve">
-    <value>Delete the series.</value>
-  </data>
-  <data name="ConfirmRecurrenceDeleteTitle" xml:space="preserve">
-    <value>Deleting a recurring appointment</value>
-  </data>
-  <data name="ConfirmRecurrenceEditOccurrence" xml:space="preserve">
-    <value>Edit only this occurrence.</value>
-  </data>
-  <data name="ConfirmRecurrenceEditSeries" xml:space="preserve">
-    <value>Edit the series.</value>
-  </data>
-  <data name="ConfirmRecurrenceEditTitle" xml:space="preserve">
-    <value>Editing a recurring appointment</value>
-  </data>
-  <data name="ConfirmRecurrenceResizeOccurrence" xml:space="preserve">
-    <value>Resize only this occurrence.</value>
-  </data>
-  <data name="ConfirmRecurrenceResizeSeries" xml:space="preserve">
-    <value>Resize the series.</value>
-  </data>
-  <data name="ConfirmRecurrenceResizeTitle" xml:space="preserve">
-    <value>Resizing a recurring appointment</value>
-  </data>
-  <data name="ConfirmRecurrenceMoveOccurrence" xml:space="preserve">
-    <value>Move only this occurrence.</value>
-  </data>
-  <data name="ConfirmRecurrenceMoveSeries" xml:space="preserve">
-    <value>Move the series.</value>
-  </data>
-  <data name="ConfirmRecurrenceMoveTitle" xml:space="preserve">
-    <value>Moving a recurring appointment</value>
-  </data>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   <data name="HeaderDay" xml:space="preserve">
-    <value>Day</value>
+    <value>день</value>
   </data>
   <data name="HeaderMonth" xml:space="preserve">
-    <value>Month</value>
+    <value>Месяц</value>
   </data>
-  <data name="HeaderTimeline" xml:space="preserve">
-    <value>Timeline</value>
-  </data>
-  <data name="HeaderMultiDay" xml:space="preserve">
-    <value>Multi-day</value>
-  </data>
-  <data name="HeaderNextDay" xml:space="preserve">
-    <value>next day</value>
-  </data>
-  <data name="HeaderPrevDay" xml:space="preserve">
-    <value>previous day</value>
-  </data>
-  <data name="HeaderToday" xml:space="preserve">
-    <value>today</value>
-  </data>
+  
+  
+  
+  
+  
   <data name="HeaderWeek" xml:space="preserve">
-    <value>Week</value>
+    <value>Неделя</value>
   </data>
-  <data name="Show24Hours" xml:space="preserve">
-    <value>Show 24 hours...</value>
-  </data>
+  
   <data name="ShowAdvancedForm" xml:space="preserve">
-    <value>Options</value>
+    <value>Настройки</value>
   </data>
-  <data name="ShowBusinessHours" xml:space="preserve">
-    <value>Show business hours...</value>
-  </data>
-  <data name="ShowMore" xml:space="preserve">
-    <value>more...</value>
-  </data>
-  <data name="AdvancedCalendarOK" xml:space="preserve">
-    <value>OK</value>
-  </data>
+  
+  
+  
   <data name="AdvancedCalendarCancel" xml:space="preserve">
-    <value>Cancel</value>
+    <value>Отмена</value>
   </data>
   <data name="AdvancedCalendarToday" xml:space="preserve">
-    <value>Today</value>
+    <value>Сегодня</value>
   </data>
-  <data name="AdvancedSubjectRequired" xml:space="preserve">
-    <value>Please provide appointment subject</value>
-  </data>
-  <data name="AdvancedStartTimeBeforeEndTime" xml:space="preserve">
-    <value>Start time must be before end time</value>
-  </data>
-  <data name="AdvancedStartTimeRequired" xml:space="preserve">
-    <value>Start time is required</value>
-  </data>
-  <data name="AdvancedStartDateRequired" xml:space="preserve">
-    <value>Start date is required</value>
-  </data>
-  <data name="AdvancedEndTimeRequired" xml:space="preserve">
-    <value>End time is required</value>
-  </data>
-  <data name="AdvancedEndDateRequired" xml:space="preserve">
-    <value>End date is required</value>
-  </data>
+  
+  
+  
+  
+  
+  
   <data name="AdvancedInvalidNumber" xml:space="preserve">
-    <value>Invalid number</value>
+    <value>Неверное число</value>
   </data>
-  <data name="AdvancedWorking" xml:space="preserve">
-    <value>Working...</value>
-  </data>
+  
   <data name="AdvancedDone" xml:space="preserve">
-    <value>Done</value>
+    <value>Готово</value>
   </data>
-  <data name="AdvancedNewAppointment" xml:space="preserve">
-    <value>New Appointment</value>
-  </data>
-  <data name="AdvancedEditAppointment" xml:space="preserve">
-    <value>Edit Appointment</value>
-  </data>
+  
+  
   <data name="AdvancedClose" xml:space="preserve">
-    <value>Close</value>
+    <value>Закрыть</value>
   </data>
-  <data name="ConfirmResetExceptionsTitle" xml:space="preserve">
-    <value>Confirm reset exceptions</value>
-  </data>
-  <data name="ConfirmResetExceptionsText" xml:space="preserve">
-    <value>Do you want to delete all existing recurrence exceptions?</value>
-  </data>
+  
+  
   <data name="Save" xml:space="preserve">
-    <value>Save</value>
+    <value>Сохранить</value>
   </data>
-  <data name="ContextMenuAddAppointment" xml:space="preserve">
-    <value>New Appointment</value>
-  </data>
-  <data name="ContextMenuAddRecurringAppointment" xml:space="preserve">
-    <value>New Recurring Appointment</value>
-  </data>
+  
+  
   <data name="ContextMenuDelete" xml:space="preserve">
-    <value>Delete</value>
+    <value>Удалить</value>
   </data>
   <data name="ContextMenuEdit" xml:space="preserve">
-    <value>Edit</value>
+    <value>Редактировать</value>
   </data>
-  <data name="ContextMenuGoToToday" xml:space="preserve">
-    <value>Go to today</value>
-  </data>
-  <data name="Reminder" xml:space="preserve">
-    <value>Reminder</value>
-  </data>
-  <data name="Reminders" xml:space="preserve">
-    <value>Reminders</value>
-  </data>
-  <data name="ReminderDueIn" xml:space="preserve">
-    <value>due in</value>
-  </data>
-  <data name="ReminderOverdue" xml:space="preserve">
-    <value>overdue</value>
-  </data>
-  <data name="ReminderMinute" xml:space="preserve">
-    <value>minute</value>
-  </data>
-  <data name="ReminderMinutes" xml:space="preserve">
-    <value>minutes</value>
-  </data>
-  <data name="ReminderHour" xml:space="preserve">
-    <value>hour</value>
-  </data>
-  <data name="ReminderHours" xml:space="preserve">
-    <value>hours</value>
-  </data>
-  <data name="ReminderDay" xml:space="preserve">
-    <value>day</value>
-  </data>
-  <data name="ReminderDays" xml:space="preserve">
-    <value>days</value>
-  </data>
-  <data name="ReminderWeek" xml:space="preserve">
-    <value>week</value>
-  </data>
-  <data name="ReminderWeeks" xml:space="preserve">
-    <value>weeks</value>
-  </data>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   <data name="ReminderNone" xml:space="preserve">
-    <value>None</value>
+    <value>Нет</value>
   </data>
-  <data name="ReminderSnooze" xml:space="preserve">
-    <value>Snooze</value>
-  </data>
+  
   <data name="ReminderDismiss" xml:space="preserve">
-    <value>Dismiss</value>
+    <value>Отклонить</value>
   </data>
-  <data name="ReminderDismissAll" xml:space="preserve">
-    <value>Dismiss All</value>
-  </data>
-  <data name="ReminderOpenItem" xml:space="preserve">
-    <value>Open Item</value>
-  </data>
-  <data name="ReminderSnoozeHint" xml:space="preserve">
-    <value>Click Snooze to be reminded again in:</value>
-  </data>
-  <data name="ReminderBeforeStart" xml:space="preserve">
-    <value>before start</value>
-  </data>
+  
+  
+  
+  
 </root>

@@ -117,208 +117,68 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ReservedResource" xml:space="preserve">
-    <value>Please, do not delete this string. RadEditor needs it to determine if an external resource file is present in App_GlobalResources.</value>
-    <comment>
-    </comment>
-  </data>
-  <data name="blank" xml:space="preserve">
-    <value>New Window</value>
-    <comment>
-    </comment>
-  </data>
-  <data name="media" xml:space="preserve">
-    <value>Media Pane</value>
-    <comment>
-    </comment>
-  </data>
-  <data name="parent" xml:space="preserve">
-    <value>Parent Window</value>
-    <comment>
-    </comment>
-  </data>
-  <data name="search" xml:space="preserve">
-    <value>Search Pane</value>
-    <comment>
-    </comment>
-  </data>
-  <data name="self" xml:space="preserve">
-    <value>Same Window</value>
-    <comment>
-    </comment>
-  </data>
-  <data name="top" xml:space="preserve">
-    <value>Browser Window</value>
-    <comment>
-    </comment>
-  </data>
+  
+  
+  
+  
+  
+  
+  
   <data name="action" xml:space="preserve">
-    <value>Action</value>
+    <value>Действие</value>
     <comment>
     </comment>
   </data>
-  <data name="align" xml:space="preserve">
-    <value>Alignment</value>
-    <comment>
-    </comment>
-  </data>
-  <data name="alt" xml:space="preserve">
-    <value>ToolTip</value>
-    <comment>
-    </comment>
-  </data>
-  <data name="bgColor" xml:space="preserve">
-    <value>Background</value>
-    <comment>
-    </comment>
-  </data>
-  <data name="border" xml:space="preserve">
-    <value>Border Width</value>
-    <comment>
-    </comment>
-  </data>
-  <data name="borderColor" xml:space="preserve">
-    <value>Border color</value>
-    <comment>
-    </comment>
-  </data>
-  <data name="cellPadding" xml:space="preserve">
-    <value>CellPadding</value>
-    <comment>
-    </comment>
-  </data>
-  <data name="cellSpacing" xml:space="preserve">
-    <value>CellSpacing</value>
-    <comment>
-    </comment>
-  </data>
-  <data name="className" xml:space="preserve">
-    <value>Classname</value>
-    <comment>
-    </comment>
-  </data>
-  <data name="cols" xml:space="preserve">
-    <value>Columns</value>
-    <comment>
-    </comment>
-  </data>
-  <data name="Doctype" xml:space="preserve">
-    <value>Select Doctype</value>
-    <comment>
-    </comment>
-  </data>
-  <data name="DomInspectorRemoveElement" xml:space="preserve">
-    <value>RemoveElement</value>
-    <comment>
-    </comment>
-  </data>
-  <data name="ExpandValidator" xml:space="preserve">
-    <value>Expand Report Pane</value>
-    <comment>
-    </comment>
-  </data>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   <data name="height" xml:space="preserve">
-    <value>Height</value>
+    <value>Высота</value>
     <comment>
     </comment>
   </data>
   <data name="href" xml:space="preserve">
-    <value>URL</value>
+    <value>Ссылка</value>
     <comment>
     </comment>
   </data>
-  <data name="id" xml:space="preserve">
-    <value>Id</value>
-    <comment>
-    </comment>
-  </data>
+  
   <data name="name" xml:space="preserve">
-    <value>Name</value>
+    <value>Имя</value>
     <comment>
     </comment>
   </data>
-  <data name="NodeInspectorInvalidValue" xml:space="preserve">
-    <value>Invalid value. Please enter a number.</value>
-    <comment>
-    </comment>
-  </data>
-  <data name="NodeInspectorSelectedElement" xml:space="preserve">
-    <value>The selected element is </value>
-    <comment>
-    </comment>
-  </data>
-  <data name="noWrap" xml:space="preserve">
-    <value>Nowrap</value>
-    <comment>
-    </comment>
-  </data>
-  <data name="RadEditorDomInspector" xml:space="preserve">
-    <value>Tag Inspector</value>
-    <comment>
-    </comment>
-  </data>
-  <data name="RadEditorHtmlInspector" xml:space="preserve">
-    <value>Real-Time HTML View</value>
-    <comment>
-    </comment>
-  </data>
-  <data name="RadEditorNodeInspector" xml:space="preserve">
-    <value>Properties Inspector</value>
-    <comment>
-    </comment>
-  </data>
-  <data name="RadEditorStatistics" xml:space="preserve">
-    <value>Statistics</value>
-    <comment>
-    </comment>
-  </data>
-  <data name="RadEditorXhtmlValidator" xml:space="preserve">
-    <value>XHTML Validator</value>
-    <comment>
-    </comment>
-  </data>
-  <data name="rows" xml:space="preserve">
-    <value>Rows</value>
-    <comment>
-    </comment>
-  </data>
-  <data name="StatisticsCharacters" xml:space="preserve">
-    <value>Characters:</value>
-    <comment>
-    </comment>
-  </data>
-  <data name="StatisticsWords" xml:space="preserve">
-    <value>Words:</value>
-    <comment>
-    </comment>
-  </data>
-  <data name="target" xml:space="preserve">
-    <value>Target</value>
-    <comment>
-    </comment>
-  </data>
-  <data name="title" xml:space="preserve">
-    <value>ToolTip</value>
-    <comment>
-    </comment>
-  </data>
-  <data name="ValidateXHTML" xml:space="preserve">
-    <value>Validate XHTML</value>
-    <comment>
-    </comment>
-  </data>
-  <data name="vAlign" xml:space="preserve">
-    <value>Vertical Alignment</value>
-    <comment>
-    </comment>
-  </data>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   <data name="value" xml:space="preserve">
-    <value>Value</value>
+    <value>Значение</value>
     <comment>
     </comment>
   </data>
   <data name="width" xml:space="preserve">
-    <value>Width</value>
+    <value>Ширина</value>
     <comment>
     </comment>
   </data>

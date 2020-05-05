@@ -159,12 +159,8 @@
   <data name="Never.Text" xml:space="preserve">
     <value>Никогда</value>
   </data>
-  <data name="ResultCount.Text" xml:space="preserve">
-    <value>{0}</value>
-  </data>
-  <data name="SingleResultCount.Text" xml:space="preserve">
-    <value>{0}</value>
-  </data>
+  
+  
   <data name="Items.Text" xml:space="preserve">
     <value>[ITEMS] элементов</value>
   </data>

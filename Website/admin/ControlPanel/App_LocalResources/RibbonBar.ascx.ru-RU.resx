@@ -135,9 +135,7 @@
   <data name="hypUpgrade.Text" xml:space="preserve">
     <value>Нажмите здесь, чтобы получить последнюю версию</value>
   </data>
-  <data name="hypMessageUrl.Text" xml:space="preserve">
-    <value>http://www.dotnetnuke.com</value>
-  </data>
+  
   <data name="AdminConsole.Text" xml:space="preserve">
     <value>Админ</value>
   </data>

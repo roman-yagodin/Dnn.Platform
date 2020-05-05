@@ -118,30 +118,20 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="All.Text" xml:space="preserve">
-    <value>All</value>
+    <value>Все</value>
   </data>
   <data name="Crawler_tab.Text" xml:space="preserve">
-    <value>Pages</value>
+    <value>Страницы</value>
   </data>
   <data name="Crawler_user.Text" xml:space="preserve">
-    <value>Users</value>
+    <value>Пользователи</value>
   </data>
-  <data name="Module_Answers.Text" xml:space="preserve">
-    <value>Answers</value>
-  </data>
-  <data name="Module_Blogs.Text" xml:space="preserve">
-    <value>Blogs</value>
-  </data>
-  <data name="Module_Events.Text" xml:space="preserve">
-    <value>Events</value>
-  </data>
-  <data name="Module_Ideas.Text" xml:space="preserve">
-    <value>Ideas</value>
-  </data>
-  <data name="Module_Journal.Text" xml:space="preserve">
-    <value>Journal</value>
-  </data>
+  
+  
+  
+  
+  
   <data name="Module_Text/HTML.Text" xml:space="preserve">
-    <value>Pages</value>
+    <value>Страницы</value>
   </data>
 </root>

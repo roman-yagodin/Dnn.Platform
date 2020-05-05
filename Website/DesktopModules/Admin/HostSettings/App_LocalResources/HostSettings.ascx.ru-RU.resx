@@ -187,7 +187,7 @@
     <value>Физическое местоположение корня сайта на сервере.</value>
   </data>
   <data name="plGUID.Text" xml:space="preserve">
-    <value>GUID:</value>
+    <value>GUID :</value>
   </data>
   <data name="plGUID.Help" xml:space="preserve">
     <value>Глобально уникальный идентификатор, который может использоваться для идентификации этого приложения.</value>
@@ -571,12 +571,8 @@
   <data name="Server.Text" xml:space="preserve">
     <value>Сервер</value>
   </data>
-  <data name="ServerAndNoCache.Text" xml:space="preserve">
-    <value>ServerAndNoCache</value>
-  </data>
-  <data name="ServerAndPrivate.Text" xml:space="preserve">
-    <value>ServerAndPrivate</value>
-  </data>
+  
+  
   <data name="plUpgrade.Text" xml:space="preserve">
     <value>Проверять обновления</value>
   </data>
@@ -916,9 +912,7 @@
   <data name="LogSettingsHelp.Text" xml:space="preserve">
     <value>Просмотр журнала установки и других</value>
   </data>
-  <data name="Html5Doctype.Text" xml:space="preserve">
-    <value>HTML 5</value>
-  </data>
+  
   <data name="LogLocations.Text" xml:space="preserve">
     <value>Хранение журнала</value>
   </data>

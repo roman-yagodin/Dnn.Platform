@@ -162,12 +162,8 @@
   <data name="Location.Text" xml:space="preserve">
     <value>Переместить</value>
   </data>
-  <data name="NoLocationSelection.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="NoPageSelection.Text" xml:space="preserve">
-    <value></value>
-  </data>
+  
+  
   <data name="Permissions.Text" xml:space="preserve">
     <value>Разрешения</value>
   </data>
@@ -180,7 +176,5 @@
   <data name="Secured.ToolTip" xml:space="preserve">
     <value>Доступ к странице осуществляется с использованием шифрования SSL. Это работает только в том случае, если SSL разрешен в настройках сайта.</value>
   </data>
-  <data name="SkinLstSeparator.Text" xml:space="preserve">
-    <value>-----------------------------------------</value>
-  </data>
+  
 </root>

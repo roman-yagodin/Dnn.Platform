@@ -117,67 +117,33 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AddCustom" xml:space="preserve">
-    <value>Add Custom</value>
-  </data>
-  <data name="AddWord1" xml:space="preserve">
-    <value>Are you sure you want to add '</value>
-  </data>
-  <data name="AddWord2" xml:space="preserve">
-    <value>' to the custom dictionary?</value>
-  </data>
+  
+  
+  
   <data name="Cancel" xml:space="preserve">
-    <value>Close</value>
+    <value>Закрыть</value>
   </data>
   <data name="Change" xml:space="preserve">
-    <value>Change</value>
+    <value>Изменить</value>
   </data>
-  <data name="ChangeAll" xml:space="preserve">
-    <value>Change All</value>
-  </data>
-  <data name="ChangesMade" xml:space="preserve">
-    <value>You have made changes to the text.</value>
-  </data>
-  <data name="Confirm" xml:space="preserve">
-    <value>Do you want to apply or cancel the changes to the text so far?</value>
-  </data>
+  
+  
+  
   <data name="Help" xml:space="preserve">
-    <value>Help</value>
+    <value>Справка</value>
   </data>
   <data name="Ignore" xml:space="preserve">
-    <value>Ignore</value>
+    <value>Игнорировать</value>
   </data>
-  <data name="IgnoreAll" xml:space="preserve">
-    <value>Ignore All</value>
-  </data>
-  <data name="NoPermission" xml:space="preserve">
-    <value>You don't have permission to access this page or your cookie has expired!&lt;br /&gt;Please, refresh the page!</value>
-  </data>
-  <data name="Nosuggestions" xml:space="preserve">
-    <value>No suggestions</value>
-  </data>
-  <data name="NotInDictionary" xml:space="preserve">
-    <value>Not in Dictionary:</value>
-  </data>
-  <data name="ProgressMessage" xml:space="preserve">
-    <value>Spell Checking in progress....</value>
-  </data>
-  <data name="ReservedResource" xml:space="preserve">
-    <value>Please do not change/remove this resource. </value>
-  </data>
-  <data name="SpellCheckComplete" xml:space="preserve">
-    <value>The Spell Check is complete!</value>
-  </data>
-  <data name="Suggestions" xml:space="preserve">
-    <value>Suggestions:</value>
-  </data>
-  <data name="Title" xml:space="preserve">
-    <value>Spell Check</value>
-  </data>
-  <data name="Undo" xml:space="preserve">
-    <value>Undo</value>
-  </data>
-  <data name="UndoEdit" xml:space="preserve">
-    <value>Undo Edit</value>
-  </data>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 </root>

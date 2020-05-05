@@ -354,36 +354,28 @@
   <data name="ProfileProperties_Facebook.Required" xml:space="preserve">
     <value>Ссылка на профиль Facebook обязательна.</value>
   </data>
-  <data name="ProfileProperties_Facebook.Text" xml:space="preserve">
-    <value>Facebook</value>
-  </data>
+  
   <data name="ProfileProperties_GooglePlus.Help" xml:space="preserve">
     <value>Ссылка на профиль Google+, начинающаяся на plus.google.com/</value>
   </data>
   <data name="ProfileProperties_GooglePlus.Required" xml:space="preserve">
     <value>Ссылка на профиль Google+ обязательна.</value>
   </data>
-  <data name="ProfileProperties_GooglePlus.Text" xml:space="preserve">
-    <value>Google+</value>
-  </data>
+  
   <data name="ProfileProperties_LinkedIn.Help" xml:space="preserve">
     <value>Ссылка на профиль LinkedIn, начинающаяся с www.linkedin.com/ или [страна].linkedin.com/</value>
   </data>
   <data name="ProfileProperties_LinkedIn.Required" xml:space="preserve">
     <value>Ссылка на профиль LinkedIn обязательна.</value>
   </data>
-  <data name="ProfileProperties_LinkedIn.Text" xml:space="preserve">
-    <value>LinkedIn</value>
-  </data>
+  
   <data name="ProfileProperties_Twitter.Help" xml:space="preserve">
     <value>Ссылка на профиль Twitter, начинающаяся с twitter.com/</value>
   </data>
   <data name="ProfileProperties_Twitter.Required" xml:space="preserve">
     <value>Ссылка на профиль Twitter обязательна.</value>
   </data>
-  <data name="ProfileProperties_Twitter.Text" xml:space="preserve">
-    <value>Twitter</value>
-  </data>
+  
   <data name="ProfileProperties_Skype.Help" xml:space="preserve">
     <value>Ссылка для звонка вам через Skype по имени пользователя.</value>
   </data>

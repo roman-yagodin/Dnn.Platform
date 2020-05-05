@@ -126,9 +126,7 @@
   <data name="Messages.Text" xml:space="preserve">
     <value>&lt;span&gt;{0}&lt;/span&gt;&lt;strong&gt; сообщений&lt;/strong&gt;</value>
   </data>
-  <data name="NewMessages.Text" xml:space="preserve">
-    <value> ({0})</value>
-  </data>
+  
   <data name="NoMessages.Text" xml:space="preserve">
     <value>&lt;strong&gt; сообщений&lt;/strong&gt;</value>
   </data>

@@ -123,19 +123,7 @@
   <data name="Comments.Text" xml:space="preserve">
     <value>Комментарии</value>
   </data>
-  <data name="journal_status.Text" xml:space="preserve">
-    <value>&lt;div class="author"&gt;&lt;img src="[JournalProfile:relativeurl|32]" /&gt;&lt;/div&gt;
-&lt;div class="journalitem"&gt;
-	&lt;p&gt;
-		&lt;span class="authorname"&gt;[JournalControl:AUTHORNAMELINK]&lt;/span&gt;[JournalItem:Summary]&lt;/p&gt;
-		&lt;p class="journalfooter"&gt;
-		&lt;abbr title="[journalItem:DateCreated]"&gt;[journalitem:TimeFrame]&lt;/abbr&gt; {CanComment}&lt;span&gt;&amp;#149;&lt;/span&gt; [JOURNALCONTROL:LIKELINK] &lt;span&gt;&amp;#149;&lt;/span&gt; [JOURNALCONTROL:COMMENTLINK]{/CanComment}
-	&lt;/p&gt;
-		[JOURNALCONTROL:LIKELIST]
-		[JOURNALCONTROL:COMMENTAREA]
-	&lt;/div&gt;
-</value>
-  </data>
+  
   <data name="{resx:like}.Text" xml:space="preserve">
     <value>Нравится</value>
   </data>
@@ -169,70 +157,12 @@
   <data name="{resx:leavecomment}.Text" xml:space="preserve">
     <value>Комментировать...</value>
   </data>
-  <data name="journal_link.Text" xml:space="preserve">
-    <value>&lt;div class="author"&gt;
-	&lt;img src="[JournalProfile:relativeurl|32]" /&gt;
-&lt;/div&gt;
-&lt;div class="journalitem"&gt;
-	&lt;p&gt;
-		&lt;span class="authorname"&gt;[JournalControl:AUTHORNAMELINK]&lt;/span&gt;[JournalItem:Summary]
-		&lt;div class="jlink dnnClear"&gt;
-			&lt;a href="[journaldata:Url]" target="_blank"&gt;&lt;img src="[journaldata:ImageUrl]" /&gt;&lt;/a&gt;
-			&lt;div&gt;&lt;a href="[journaldata:Url]" target="_blank"&gt;[journaldata:Title]&lt;/a&gt;&lt;br /&gt;[journaldata:Description]&lt;/div&gt;
-			
-		&lt;/div&gt;
-	&lt;/p&gt;
-
-	&lt;p class="journalfooter"&gt;
-		&lt;abbr title="[journalItem:DateCreated]"&gt;[journalitem:TimeFrame]&lt;/abbr&gt; {CanComment}&lt;span&gt;&amp;#149;&lt;/span&gt; [JOURNALCONTROL:LIKELINK] &lt;span&gt;&amp;#149;&lt;/span&gt; [JOURNALCONTROL:COMMENTLINK]{/CanComment}
-	&lt;/p&gt;
-	[JOURNALCONTROL:LIKELIST]
-	[JOURNALCONTROL:COMMENTAREA]
-&lt;/div&gt;</value>
-  </data>
-  <data name="journal_photo.Text" xml:space="preserve">
-    <value>&lt;div class="author"&gt;
-	&lt;img src="[JournalProfile:relativeurl|32]" /&gt;
-&lt;/div&gt;
-&lt;div class="journalitem"&gt;
-	&lt;p&gt;
-		&lt;span class="authorname"&gt;[JournalControl:AUTHORNAMELINK]&lt;/span&gt;[JournalItem:Summary]
-		&lt;div class="jphoto dnnClear"&gt;
-			&lt;a href="[journaldata:ImageUrl]" target="_blank"&gt;&lt;img src="[journaldata:ImageUrl]" style="width:250px;" /&gt;&lt;/a&gt;
-		&lt;/div&gt;
-	&lt;/p&gt;
-
-	&lt;p class="journalfooter"&gt;
-		&lt;abbr title="[journalItem:DateCreated]"&gt;[journalitem:TimeFrame]&lt;/abbr&gt; {CanComment}&lt;span&gt;&amp;#149;&lt;/span&gt; [JOURNALCONTROL:LIKELINK] &lt;span&gt;&amp;#149;&lt;/span&gt; [JOURNALCONTROL:COMMENTLINK]{/CanComment}
-	&lt;/p&gt;
-	[JOURNALCONTROL:LIKELIST]
-	[JOURNALCONTROL:COMMENTAREA]
-&lt;/div&gt;</value>
-  </data>
+  
+  
   <data name="UserFolderTitle.Text" xml:space="preserve">
     <value>Мои файлы</value>
   </data>
-  <data name="journal_file.Text" xml:space="preserve">
-    <value>&lt;div class="author"&gt;
-	&lt;img src="[JournalProfile:relativeurl|32]" /&gt;
-&lt;/div&gt;
-&lt;div class="journalitem"&gt;
-	&lt;p&gt;
-		&lt;span class="authorname"&gt;[JournalControl:AUTHORNAMELINK]&lt;/span&gt;[JournalItem:Summary]
-		&lt;div class="jfile dnnClear"&gt;
-			&lt;img src="[journaldata:ImageUrl]" /&gt;
-			&lt;div&gt;&lt;a href="[journaldata:Url]" target="_blank"&gt;[journaldata:Title]&lt;/a&gt;&lt;br /&gt;[journaldata:Description]&lt;/div&gt;
-			
-		&lt;/div&gt;
-	&lt;/p&gt;
-
-	&lt;p class="journalfooter"&gt;
-		&lt;abbr title="[journalItem:DateCreated]"&gt;[journalitem:TimeFrame]&lt;/abbr&gt; {CanComment}&lt;span&gt;&amp;#149;&lt;/span&gt; [JOURNALCONTROL:LIKELINK] &lt;span&gt;&amp;#149;&lt;/span&gt; [JOURNALCONTROL:COMMENTLINK]{/CanComment}
-	&lt;/p&gt;
-	[JOURNALCONTROL:LIKELIST]
-	[JOURNALCONTROL:COMMENTAREA]
-&lt;/div&gt;</value>
-  </data>
+  
   <data name="file.Text" xml:space="preserve">
     <value>Файлы</value>
   </data>
@@ -302,30 +232,8 @@
   <data name="groupjoin.Text" xml:space="preserve">
     <value>Состоит в группах</value>
   </data>
-  <data name="journal_groupcreate.Text" xml:space="preserve">
-    <value>&lt;div class="author"&gt;&lt;img src="[JournalProfile:relativeurl|32]" /&gt;&lt;/div&gt;
-&lt;div class="journalitem"&gt;
-	&lt;p&gt;
-		&lt;span class="authorname"&gt;[JournalControl:AUTHORNAMELINK]&lt;/span&gt;created the group &lt;a href="[journaldata:Url]"&gt;[JournalItem:Title]&lt;/a&gt;&lt;div class="dnnClear"&gt;&lt;i&gt;[journalitem:Summary]&lt;/i&gt;&lt;/div&gt;&lt;/p&gt;
-		&lt;p class="journalfooter"&gt;
-		&lt;abbr title="[journalItem:DateCreated]"&gt;[journalitem:TimeFrame]&lt;/abbr&gt; {CanComment}&lt;span&gt;&amp;#149;&lt;/span&gt; [JOURNALCONTROL:LIKELINK] &lt;span&gt;&amp;#149;&lt;/span&gt; [JOURNALCONTROL:COMMENTLINK]{/CanComment}
-	&lt;/p&gt;
-		[JOURNALCONTROL:LIKELIST]
-		[JOURNALCONTROL:COMMENTAREA]
-	&lt;/div&gt;</value>
-  </data>
-  <data name="journal_groupjoin.Text" xml:space="preserve">
-    <value>&lt;div class="author"&gt;&lt;img src="[JournalProfile:relativeurl|32]" /&gt;&lt;/div&gt;
-&lt;div class="journalitem"&gt;
-	&lt;p&gt;
-		&lt;span class="authorname"&gt;[JournalControl:AUTHORNAMELINK]&lt;/span&gt;joined the group &lt;a href="[journaldata:Url]"&gt;[JournalItem:Title]&lt;/a&gt;&lt;div class="dnnClear"&gt;&lt;i&gt;[journalitem:Summary]&lt;/i&gt;&lt;/div&gt;&lt;/p&gt;
-		&lt;p class="journalfooter"&gt;
-		&lt;abbr title="[journalItem:DateCreated]"&gt;[journalitem:TimeFrame]&lt;/abbr&gt; {CanComment}&lt;span&gt;&amp;#149;&lt;/span&gt; [JOURNALCONTROL:LIKELINK] &lt;span&gt;&amp;#149;&lt;/span&gt; [JOURNALCONTROL:COMMENTLINK]{/CanComment}
-	&lt;/p&gt;
-		[JOURNALCONTROL:LIKELIST]
-		[JOURNALCONTROL:COMMENTAREA]
-	&lt;/div&gt;</value>
-  </data>
+  
+  
   <data name="achievement.Action" xml:space="preserve">
     <value>получил награду</value>
   </data>
@@ -548,9 +456,7 @@
 	[JOURNALCONTROL:LIKELIST]
 &lt;/div&gt;</value>
   </data>
-  <data name="Notification_Mention.Body" xml:space="preserve">
-    <value>{0}</value>
-  </data>
+  
   <data name="Notification_Mention.Subject" xml:space="preserve">
     <value>{0} упомянул(а) Вас в {1}</value>
   </data>

@@ -132,9 +132,7 @@
   <data name="ExcludeSubfoldersLabel.Help" xml:space="preserve">
     <value>Если отмечено, модуль будет показывать файлы, а также файлы в подпапках, но не сами подпапки</value>
   </data>
-  <data name="ExcludeSubfoldersLabel.Text" xml:space="preserve">
-    <value></value>
-  </data>
+  
   <data name="FilterByFolder.Text" xml:space="preserve">
     <value>Фильтровать по папке</value>
   </data>

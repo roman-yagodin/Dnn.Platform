@@ -195,15 +195,9 @@
   <data name="InstallExtensions.Action" xml:space="preserve">
     <value>Установить доступные расширения</value>
   </data>
-  <data name="AppTitle.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="AppType.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="AppDescription.Text" xml:space="preserve">
-    <value></value>
-  </data>
+  
+  
+  
   <data name="UpgradeMessage.Text" xml:space="preserve">
     <value>Нажмите, чтобы получить обновление</value>
   </data>

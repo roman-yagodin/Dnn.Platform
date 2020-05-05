@@ -304,54 +304,42 @@
   <data name="Tab.Home.Header.Title" xml:space="preserve">
     <value>Каждое путешествие начинается с первого шага. </value>
   </data>
-  <data name="Tab.Home.Main.Blog.Link" xml:space="preserve">
-    <value>http://www.dnnsoftware.com/community-blog?utm_source=dnn-platform-install&amp;utm_medium=web-link&amp;utm_term=blog&amp;utm_content=7.3-tile&amp;utm_campaign=dnn-platform-home</value>
-  </data>
+  
   <data name="Tab.Home.Main.Blog.Title" xml:space="preserve">
     <value>Блог</value>
   </data>
   <data name="Tab.Home.Main.Blog.Tooltip" xml:space="preserve">
     <value>Информационный и развлекательный, сложный и образовательный, блог сообщества DNN всегда предоставляет свежий контент, свежие идеи и новые мнения. Ныряйте смело.</value>
   </data>
-  <data name="Tab.Home.Main.Forums.Link" xml:space="preserve">
-    <value>http://www.dnnsoftware.com/forums?utm_source=dnn-platform-install&amp;utm_medium=web-link&amp;utm_term=forums&amp;utm_content=7.3-tile&amp;utm_campaign=dnn-platform-home</value>
-  </data>
+  
   <data name="Tab.Home.Main.Forums.Title" xml:space="preserve">
     <value>Форумы</value>
   </data>
   <data name="Tab.Home.Main.Forums.Tooltip" xml:space="preserve">
     <value>Древнеримский форум был площадкой для публичных выступлений, коммерческих сделок и гладиаторских боев. Форум DNN является столь же важным местом для сообщества.</value>
   </data>
-  <data name="Tab.Home.Main.LeaderBoard.Link" xml:space="preserve">
-    <value>http://www.dnnsoftware.com/leaderboard?utm_source=dnn-platform-install&amp;utm_medium=web-link&amp;utm_term=leaderboard&amp;utm_content=7.3-tile&amp;utm_campaign=dnn-platform-home</value>
-  </data>
+  
   <data name="Tab.Home.Main.LeaderBoard.Title" xml:space="preserve">
     <value>Лидеры сообщества</value>
   </data>
   <data name="Tab.Home.Main.LeaderBoard.Tooltip" xml:space="preserve">
     <value>Ваш вклад - это возможность заработать признание. Посмотрите на лидеров сообщества и подумайте, где вы могли бы пригодиться. Даже небольшой вклад - это прыжок, который поможет опередить других в гонке. Никто не против небольшого дружеского соревнования.</value>
   </data>
-  <data name="Tab.Home.Main.OnlineHelp.Link" xml:space="preserve">
-    <value>http://www.dnnsoftware.com/help?utm_source=dnn-platform-install&amp;utm_medium=web-link&amp;utm_term=online-help&amp;utm_content=7.3-tile&amp;utm_campaign=dnn-platform-home</value>
-  </data>
+  
   <data name="Tab.Home.Main.OnlineHelp.Title" xml:space="preserve">
     <value>Онлайн-справка</value>
   </data>
   <data name="Tab.Home.Main.OnlineHelp.Tooltip" xml:space="preserve">
     <value>Вы просто не можете обойтись без некоторой помощи ваших друзей. Или некоторой помощи от обширной библиотеки DNN.</value>
   </data>
-  <data name="Tab.Home.Main.QA.Link" xml:space="preserve">
-    <value>http://www.dnnsoftware.com/answers?utm_source=dnn-platform-install&amp;utm_medium=web-link&amp;utm_term=q%26a&amp;utm_content=7.3-tile&amp;utm_campaign=dnn-platform-home</value>
-  </data>
+  
   <data name="Tab.Home.Main.QA.Title" xml:space="preserve">
     <value>Вопрос-ответ</value>
   </data>
   <data name="Tab.Home.Main.QA.Tooltip" xml:space="preserve">
     <value>Вы не могли добраться сюда без того, чтобы у Вас не появилось несколько вопросов. У Вас даже может быть несколько ответов, чтобы внести свой вклад. В любом случае, направляйтесь на страницу Вопросы и Ответы.</value>
   </data>
-  <data name="Tab.Home.Main.Shop.Link" xml:space="preserve">
-    <value>http://store.dnnsoftware.com/?utm_source=dnn-platform-install&amp;utm_medium=web-link&amp;utm_term=shop&amp;utm_content=7.3-tile&amp;utm_campaign=dnn-platform-home</value>
-  </data>
+  
   <data name="Tab.Home.Main.Shop.Title" xml:space="preserve">
     <value>Магазин</value>
   </data>
@@ -361,27 +349,21 @@
   <data name="Tab.Home.Main.Title" xml:space="preserve">
     <value>Присоединяйтесь к сообществу для общения и обучения</value>
   </data>
-  <data name="Tab.Home.Main.Videos.Link" xml:space="preserve">
-    <value>http://www.dnnsoftware.com/videos?utm_source=dnn-platform-install&amp;utm_medium=web-link&amp;utm_term=videos&amp;utm_content=7.3-tile&amp;utm_campaign=dnn-platform-home</value>
-  </data>
+  
   <data name="Tab.Home.Main.Videos.Title" xml:space="preserve">
     <value>Видео</value>
   </data>
   <data name="Tab.Home.Main.Videos.Tooltip" xml:space="preserve">
     <value>Лучше один раз увидеть. Что может быть лучше, чем смотреть онлайн видео в процессе работы? Видео-библиотека DNN - огромный кладезь полезной информации.</value>
   </data>
-  <data name="Tab.Home.Main.Webinars.Link" xml:space="preserve">
-    <value>http://www.dnnsoftware.com/about/resources/webinars?utm_source=dnn-platform-install&amp;utm_medium=web-link&amp;utm_term=webinars&amp;utm_content=7.3-tile&amp;utm_campaign=dnn-platform-home</value>
-  </data>
+  
   <data name="Tab.Home.Main.Webinars.Title" xml:space="preserve">
     <value>Вебинары</value>
   </data>
   <data name="Tab.Home.Main.Webinars.Tooltip" xml:space="preserve">
     <value>Войдите в мир вебинаров DNN, где знающие люди делятся своими знаниями. Там Вы сможете узнать много нового и интересного.</value>
   </data>
-  <data name="Tab.Home.Main.Wikis.Link" xml:space="preserve">
-    <value>http://www.dnnsoftware.com/wiki?utm_source=dnn-platform-install&amp;utm_medium=web-link&amp;utm_term=wiki&amp;utm_content=7.3-tile&amp;utm_campaign=dnn-platform-home</value>
-  </data>
+  
   <data name="Tab.Home.Main.Wikis.Title" xml:space="preserve">
     <value>Вики</value>
   </data>
@@ -394,39 +376,27 @@
   <data name="Tab.Home.PageName.Title" xml:space="preserve">
     <value>Главная</value>
   </data>
-  <data name="Tab.Home.Product.Content.Link" xml:space="preserve">
-    <value>http://www.dnnsoftware.com/solutions/evoq-content-management-system?utm_source=dnn-platform-install&amp;utm_medium=web-link&amp;utm_term=evoq-content&amp;utm_content=7.3-banner&amp;utm_campaign=dnn-platform-home</value>
-  </data>
+  
   <data name="Tab.Home.Product.Content.Link.Title" xml:space="preserve">
     <value>Создавайте содержимое и управляйте им</value>
   </data>
   <data name="Tab.Home.Product.Content.Text" xml:space="preserve">
     <value>Богатое содержание, усиленная безопасность и улучшенное продвижение прямо в ваших руках</value>
   </data>
-  <data name="Tab.Home.Product.Social.Link" xml:space="preserve">
-    <value>http://www.dnnsoftware.com/solutions/evoq-social-online-community-management?utm_source=dnn-platform-install&amp;utm_medium=web-link&amp;utm_term=evoq-social&amp;utm_content=7.3-banner&amp;utm_campaign=dnn-platform-home</value>
-  </data>
+  
   <data name="Tab.Home.Product.Social.Link.Title" xml:space="preserve">
     <value>Создавайте и взращивайте сообщества</value>
   </data>
   <data name="Tab.Home.Product.Social.Text" xml:space="preserve">
     <value>Растите пользователей, позволяйте им создавать содержимое и привлекайте аудиторию с помощью онлайн-сообществ.</value>
   </data>
-  <data name="Tab.Home.SocialLinks.Facebook.Link" xml:space="preserve">
-    <value>http://facebook.com/dotnetnuke</value>
-  </data>
-  <data name="Tab.Home.SocialLinks.LinkedIn.Link" xml:space="preserve">
-    <value>http://www.linkedin.com/company/207975</value>
-  </data>
+  
+  
   <data name="Tab.Home.SocialLinks.Title" xml:space="preserve">
     <value>Быть на связи с DNN</value>
   </data>
-  <data name="Tab.Home.SocialLinks.Twitter.Link" xml:space="preserve">
-    <value>http://twitter.com/dnncorp</value>
-  </data>
-  <data name="Tab.Home.SocialLinks.Youtube.Link" xml:space="preserve">
-    <value>http://www.youtube.com/user/dotnetnuke</value>
-  </data>
+  
+  
   <data name="Tab.Languages.Content.Text" xml:space="preserve">
     <value>Языки</value>
   </data>

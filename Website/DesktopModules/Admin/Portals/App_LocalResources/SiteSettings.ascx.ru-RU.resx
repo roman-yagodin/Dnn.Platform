@@ -1208,9 +1208,7 @@
   <data name="SMTPBasic.Text" xml:space="preserve">
     <value>Простая</value>
   </data>
-  <data name="SMTPNTLM.Text" xml:space="preserve">
-    <value>NTLM</value>
-  </data>
+  
   <data name="SmtpServerWarning.Text" xml:space="preserve">
     <value>Вы пытаетесь использовать нестандартный порт SMTP, при этом приложение работает в режиме 'medium trust'. Свяжитесь с Вашим хостинг-провайдером чтобы убедиться, что с данными настройкам приложение будет работать правильно.</value>
   </data>

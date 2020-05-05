@@ -207,9 +207,7 @@
   <data name="IconFile.Text" xml:space="preserve">
     <value>Файл значка:</value>
   </data>
-  <data name="feedEndpoint.Text" xml:space="preserve">
-    <value>catalog.dotnetnuke.com</value>
-  </data>
+  
   <data name="setupCredentials.Text" xml:space="preserve">
     <value>Введите учетные данные Магазина</value>
   </data>
@@ -219,9 +217,7 @@
   <data name="WebservicePermission.Text" xml:space="preserve">
     <value>Настройки этого сайта не позволяют соединения с внешними веб-службами.</value>
   </data>
-  <data name="StoreFile.Text" xml:space="preserve">
-    <value>https://www.snowcovered.com/Snowcovered2/AppGalleryHandler.ashx?PortalID=0</value>
-  </data>
+  
   <data name="fetchExtensions.Text" xml:space="preserve">
     <value>Получить список расширений</value>
   </data>

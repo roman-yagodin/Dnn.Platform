@@ -141,9 +141,7 @@
   <data name="CopyModuleWOcontent.ToolTip" xml:space="preserve">
     <value>Создает независимый экземпляр модуля, который будет иметь те же настройки, что и оригинал. Содержимое нельзя скопировать, так как модуль не поддерживает интерфейс IPortable.</value>
   </data>
-  <data name="DefaultModule.Text" xml:space="preserve">
-    <value>DNN_HTML</value>
-  </data>
+  
   <data name="Module.Text" xml:space="preserve">
     <value>Модуль</value>
   </data>

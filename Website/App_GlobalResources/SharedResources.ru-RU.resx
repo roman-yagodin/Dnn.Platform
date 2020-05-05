@@ -1433,9 +1433,7 @@
   <data name="EXCEPTION_ModuleCacheMissing.Text" xml:space="preserve">
     <value>ModuleCachingProvider неверно сконфигурирован. Убедитесь, что конфигурация &amp;lt;moduleCaching&amp;gt; существует в web.config и указан провайдер по-умолчанию.</value>
   </data>
-  <data name="File.Text" xml:space="preserve">
-    <value></value>
-  </data>
+  
   <data name="Localization_NotLocalized.Text" xml:space="preserve">
     <value>Не локализовано</value>
   </data>
@@ -1715,12 +1713,8 @@
   <data name="DefaultWorkflowState1.OnCompleteMessageSubject" xml:space="preserve">
     <value>Файл готов к проверке</value>
   </data>
-  <data name="DefaultWorkflowState1.OnDiscardMessageBody" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="DefaultWorkflowState1.OnDiscardMessageSubject" xml:space="preserve">
-    <value></value>
-  </data>
+  
+  
   <data name="DefaultWorkflowState1.StateName" xml:space="preserve">
     <value>Черновик</value>
   </data>
@@ -1739,18 +1733,10 @@
   <data name="DefaultWorkflowState2.StateName" xml:space="preserve">
     <value>Готово к проверке</value>
   </data>
-  <data name="DefaultWorkflowState3.OnCompleteMessageBody" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="DefaultWorkflowState3.OnCompleteMessageSubject" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="DefaultWorkflowState3.OnDiscardMessageBody" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="DefaultWorkflowState3.OnDiscardMessageSubject" xml:space="preserve">
-    <value></value>
-  </data>
+  
+  
+  
+  
   <data name="DefaultWorkflowState3.StateName" xml:space="preserve">
     <value>Опубликовано</value>
   </data>

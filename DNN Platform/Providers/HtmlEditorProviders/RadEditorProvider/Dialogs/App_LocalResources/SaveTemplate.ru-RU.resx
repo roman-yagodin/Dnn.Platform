@@ -118,44 +118,28 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="cmdCancel.Text" xml:space="preserve">
-    <value>Cancel</value>
+    <value>Отмена</value>
   </data>
   <data name="cmdClose.Text" xml:space="preserve">
-    <value>Close</value>
+    <value>Закрыть</value>
   </data>
-  <data name="lblDialogTitle.Text" xml:space="preserve">
-    <value>Save as template</value>
-  </data>
+  
   <data name="lblFileName.Text" xml:space="preserve">
-    <value>File Name</value>
+    <value>Имя файла</value>
   </data>
   <data name="lblFolders.Text" xml:space="preserve">
-    <value>Folder</value>
+    <value>Папка</value>
   </data>
-  <data name="lblOverwrite.Text" xml:space="preserve">
-    <value>Overwrite if file exists?</value>
-  </data>
+  
   <data name="cmdSave.Text" xml:space="preserve">
-    <value>Save</value>
+    <value>Сохранить</value>
   </data>
-  <data name="msgError.Text" xml:space="preserve">
-    <value>The template was not saved. The following error was reported:
-&lt;br /&gt;&lt;br /&gt;</value>
-  </data>
-  <data name="msgSuccess.Text" xml:space="preserve">
-    <value>The template was saved successfully.
-&lt;br /&gt;</value>
-  </data>
+  
+  
   <data name="lblRootFolder.Text" xml:space="preserve">
-    <value>Root</value>
+    <value>Корень</value>
   </data>
-  <data name="msgFileExists.Text" xml:space="preserve">
-    <value>The file already exists.</value>
-  </data>
-  <data name="msgNoFolders.Text" xml:space="preserve">
-    <value>You do not have permission to complete the action.</value>
-  </data>
-  <data name="msgFolderDoesNotExist.Text" xml:space="preserve">
-    <value>The folder does not exist. Refresh your folder list.</value>
-  </data>
+  
+  
+  
 </root>

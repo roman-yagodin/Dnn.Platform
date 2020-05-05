@@ -195,9 +195,7 @@
   <data name="DefaultStopwordGroup.Text" xml:space="preserve">
     <value>без,вам,вас,весь,весь,все,всего,всех,дабы,даже,для,его,еще,ещё,затем,зачем,или,итого,как,коли,которая,которое,который,которых,лишь,меня,мне,над,нет,они,откуда,под,после,потом,почему,при,так,таким,только,тот,что</value>
   </data>
-  <data name="DefaultSynonymGroup.Text" xml:space="preserve">
-    <value>dnn,dotnetnuke</value>
-  </data>
+  
   <data name="ControlTitle_.Text" xml:space="preserve">
     <value>Администрирование поиска</value>
   </data>

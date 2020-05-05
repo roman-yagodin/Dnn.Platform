@@ -123,9 +123,7 @@
   <data name="plPortals.Text" xml:space="preserve">
     <value>Сайты:</value>
   </data>
-  <data name="GUID.Header" xml:space="preserve">
-    <value>GUID</value>
-  </data>
+  
   <data name="Pages.Header" xml:space="preserve">
     <value>Страницы</value>
   </data>

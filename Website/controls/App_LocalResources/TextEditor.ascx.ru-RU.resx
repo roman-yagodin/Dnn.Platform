@@ -126,9 +126,7 @@
   <data name="Text.Text" xml:space="preserve">
     <value>Текст</value>
   </data>
-  <data name="Html.Text" xml:space="preserve">
-    <value>HTML</value>
-  </data>
+  
   <data name="Raw.Text" xml:space="preserve">
     <value>Без обработки</value>
   </data>

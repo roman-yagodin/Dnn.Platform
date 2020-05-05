@@ -147,12 +147,8 @@
   <data name="plLanguage.Help" xml:space="preserve">
     <value>Выберите предпочитаемый язык для разработки модуля.</value>
   </data>
-  <data name="C#.Text" xml:space="preserve">
-    <value>C#</value>
-  </data>
-  <data name="VB.Text" xml:space="preserve">
-    <value>Visual Basic</value>
-  </data>
+  
+  
   <data name="plTemplate.Text" xml:space="preserve">
     <value>Шаблон:</value>
   </data>

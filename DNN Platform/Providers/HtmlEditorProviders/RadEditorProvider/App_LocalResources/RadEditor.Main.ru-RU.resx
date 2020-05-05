@@ -117,230 +117,105 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ReservedResource" xml:space="preserve">
-    <value>Please, do not delete this string. RadEditor needs it to determine if an external resource file is present in App_GlobalResources.</value>
-  </data>
-  <data name="AddCustomColor" xml:space="preserve">
-    <value>Add Custom Color...</value>
-  </data>
-  <data name="AddCustomHexColor" xml:space="preserve">
-    <value>Add Hex Color...</value>
-  </data>
-  <data name="AddCustomWordSuccess" xml:space="preserve">
-    <value>successfully added to dictionary</value>
-  </data>
-  <data name="AddToDictionary" xml:space="preserve">
-    <value>Add to dictionary</value>
-  </data>
-  <data name="AskWordCleaning" xml:space="preserve">
-    <value>The content you are trying to paste has MS Word formatting.
-Would you like to clean it?</value>
-  </data>
+  
+  
+  
+  
+  
+  
   <data name="CancelButton" xml:space="preserve">
-    <value>Cancel</value>
+    <value>Отмена</value>
   </data>
   <data name="CancelTable" xml:space="preserve">
-    <value>Cancel</value>
+    <value>Отмена</value>
   </data>
-  <data name="CellProperties" xml:space="preserve">
-    <value>Cell Properties</value>
-  </data>
-  <data name="CellWarning" xml:space="preserve">
-    <value>Please, select a cell to set its properties!</value>
-  </data>
-  <data name="ChangeWordString" xml:space="preserve">
-    <value>Change Manually</value>
-  </data>
-  <data name="Class" xml:space="preserve">
-    <value>CSS Class</value>
-  </data>
-  <data name="ClearAllHtmlTags" xml:space="preserve">
-    <value>All HTML Tags</value>
-  </data>
-  <data name="ClearCssFormatting" xml:space="preserve">
-    <value>Cascading Style Sheets</value>
-  </data>
-  <data name="ClearFontTags" xml:space="preserve">
-    <value>Font Tags</value>
-  </data>
-  <data name="ClearFormatting" xml:space="preserve">
-    <value>Clear Formatting</value>
-  </data>
-  <data name="ClearSpanTags" xml:space="preserve">
-    <value>Span Tags</value>
-  </data>
-  <data name="ClearStyle" xml:space="preserve">
-    <value>Clear Style</value>
-  </data>
-  <data name="ClearWordFormatting" xml:space="preserve">
-    <value>Microsoft Word Formatting</value>
-  </data>
-  <data name="CorrectSpelling" xml:space="preserve">
-    <value>Spelling Changes</value>
-  </data>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   <data name="CreateLink" xml:space="preserve">
-    <value>Create Link</value>
+    <value>Создать ссылку</value>
   </data>
-  <data name="DialogToolbar" xml:space="preserve">
-    <value>Dialogs</value>
-  </data>
-  <data name="DropdownToolbar" xml:space="preserve">
-    <value>Dropdowns</value>
-  </data>
-  <data name="EnhancedEditToolbar" xml:space="preserve">
-    <value>Enhanced Edit</value>
-  </data>
-  <data name="FileOpen" xml:space="preserve">
-    <value>Open file..</value>
-  </data>
-  <data name="FileSaveAs" xml:space="preserve">
-    <value>Save as...</value>
-  </data>
+  
+  
+  
+  
+  
   <data name="FormButton" xml:space="preserve">
-    <value>Button</value>
+    <value>Кнопка</value>
   </data>
-  <data name="FormCheckbox" xml:space="preserve">
-    <value>Checkbox</value>
-  </data>
-  <data name="FormForm" xml:space="preserve">
-    <value>Form</value>
-  </data>
+  
+  
   <data name="FormHidden" xml:space="preserve">
-    <value>Hidden</value>
+    <value>Скрытый</value>
   </data>
   <data name="FormPassword" xml:space="preserve">
-    <value>Password</value>
+    <value>Пароль</value>
   </data>
-  <data name="FormRadio" xml:space="preserve">
-    <value>Radio button</value>
-  </data>
-  <data name="FormReset" xml:space="preserve">
-    <value>Reset</value>
-  </data>
+  
+  
   <data name="FormSelect" xml:space="preserve">
-    <value>Select</value>
+    <value>Выбрать</value>
   </data>
   <data name="FormSubmit" xml:space="preserve">
-    <value>Submit</value>
+    <value>Отправить</value>
   </data>
-  <data name="FormText" xml:space="preserve">
-    <value>Textbox</value>
-  </data>
-  <data name="FormTextarea" xml:space="preserve">
-    <value>Textarea</value>
-  </data>
-  <data name="HtmlMode" xml:space="preserve">
-    <value>HTML Mode</value>
-  </data>
-  <data name="IgnoreAllString" xml:space="preserve">
-    <value>Ignore All</value>
-  </data>
+  
+  
+  
+  
   <data name="IgnoreString" xml:space="preserve">
-    <value>Ignore</value>
+    <value>Игнорировать</value>
   </data>
-  <data name="ImageMapWarning" xml:space="preserve">
-    <value>Please, select an image to set its image map properties!</value>
-  </data>
-  <data name="IndentHtml" xml:space="preserve">
-    <value>Indent HTML</value>
-  </data>
+  
+  
   <data name="InsertToolbar" xml:space="preserve">
-    <value>Insert</value>
+    <value>Расположение</value>
   </data>
-  <data name="MainToolbar" xml:space="preserve">
-    <value>Main Toolbar</value>
-  </data>
-  <data name="MoreThanOnceMessage" xml:space="preserve">
-    <value>This word occurs more than once in the text. Would you like to replace all instances?</value>
-  </data>
+  
+  
   <data name="MoveCommand" xml:space="preserve">
-    <value>Move</value>
+    <value>Переместить</value>
   </data>
-  <data name="NoSpellingMistakes" xml:space="preserve">
-    <value>No mistakes found.</value>
-  </data>
-  <data name="NoSuggestions" xml:space="preserve">
-    <value>(no suggestions)</value>
-  </data>
-  <data name="PromptColor" xml:space="preserve">
-    <value>Please, provide the custom color HEX value:</value>
-  </data>
-  <data name="RadEditorDesignMode" xml:space="preserve">
-    <value>Design</value>
-  </data>
-  <data name="RadEditorHtmlMode" xml:space="preserve">
-    <value>HTML</value>
-  </data>
+  
+  
+  
+  
+  
   <data name="RadEditorPreviewMode" xml:space="preserve">
-    <value>Preview</value>
+    <value>Препросмотр</value>
   </data>
-  <data name="ResizeCommand" xml:space="preserve">
-    <value>Resize Object</value>
-  </data>
-  <data name="SetHtml" xml:space="preserve">
-    <value>Set HTML</value>
-  </data>
-  <data name="ShowToolbarTooltip" xml:space="preserve">
-    <value>Show toolbar</value>
-  </data>
-  <data name="SpellCheckComplete" xml:space="preserve">
-    <value>The Spell Check is complete!</value>
-  </data>
-  <data name="SpellCheckEnd" xml:space="preserve">
-    <value>Finish spellchecking</value>
-  </data>
-  <data name="SpellingChange" xml:space="preserve">
-    <value>Spelling Change</value>
-  </data>
-  <data name="SpellingInProgress" xml:space="preserve">
-    <value>Spell checking in progress...</value>
-  </data>
-  <data name="SpellingMode" xml:space="preserve">
-    <value>Spell checking mode. Misspelled words are highlighted in yellow.</value>
-  </data>
-  <data name="Table" xml:space="preserve">
-    <value>Table</value>
-  </data>
-  <data name="TableToolbar" xml:space="preserve">
-    <value>Table</value>
-  </data>
-  <data name="TableWarning" xml:space="preserve">
-    <value>Please, select a table to set its properties!</value>
-  </data>
-  <data name="ToolbarCaption" xml:space="preserve">
-    <value>RadEditor Toolbar</value>
-  </data>
-  <data name="ToolNotSupportedByNetscape" xml:space="preserve">
-    <value>This tool is not supported by Mozilla/Netscape browsers.</value>
-  </data>
-  <data name="Typing" xml:space="preserve">
-    <value>Typing...</value>
-  </data>
-  <data name="UndoDisabledMessage" xml:space="preserve">
-    <value>You cannot undo further while in spellcheck mode. Please finish spellchecking first.</value>
-  </data>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   <data name="UpdateButton" xml:space="preserve">
-    <value>Update</value>
+    <value>Сохранить</value>
   </data>
-  <data name="UseCtrlC" xml:space="preserve">
-    <value>Please use Ctrl+C to Copy</value>
-  </data>
-  <data name="UseCtrlV" xml:space="preserve">
-    <value>Please use Ctrl+V to Paste</value>
-  </data>
-  <data name="UseCtrlX" xml:space="preserve">
-    <value>Please use Ctrl+X to Cut</value>
-  </data>
-  <data name="ClearClass" xml:space="preserve">
-    <value>Clear Class</value>
-  </data>
-  <data name="ExceededHtmlLength" xml:space="preserve">
-    <value>The added HTML code exceeded the character limit</value>
-  </data>
-  <data name="ExceededTextLength" xml:space="preserve">
-    <value>The added text exceeded the character limit</value>
-  </data>
-  <data name="ReduceTheConentLength" xml:space="preserve">
-    <value>Please, reduce the content of the field</value>
-  </data>
+  
+  
+  
+  
+  
+  
+  
 </root>

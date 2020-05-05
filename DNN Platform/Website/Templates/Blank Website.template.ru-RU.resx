@@ -129,21 +129,13 @@
   <data name="PortalDescription.Text" xml:space="preserve">
     <value>Пустой шаблон</value>
   </data>
-  <data name="Tab.Home.Description.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="Tab.Home.Keywords.Text" xml:space="preserve">
-    <value></value>
-  </data>
+  
+  
   <data name="Tab.Home.Name.Text" xml:space="preserve">
     <value>Домашняя</value>
   </data>
-  <data name="Tab.Home.PageHeadText.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="Tab.Home.Title.Text" xml:space="preserve">
-    <value></value>
-  </data>
+  
+  
   <data name="RoleGroup.Description.Text" xml:space="preserve">
     <value>Имя, представляющее Глобальные роли</value>
   </data>

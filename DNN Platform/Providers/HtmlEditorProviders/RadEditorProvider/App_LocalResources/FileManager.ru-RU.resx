@@ -117,70 +117,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ErrorCodes.AddFolder_NoPermission" xml:space="preserve">
-    <value>User does not have permission to add to folder</value>
-  </data>
-  <data name="ErrorCodes.AddFolder_NotInsecureFolder" xml:space="preserve">
-    <value>User cannot add a folder or file in a folder marked as database or secure</value>
-  </data>
-  <data name="ErrorCodes.CannotCopyFolder_ChildrenVisible" xml:space="preserve">
-    <value>User does not have permission to copy the folder because not all files are visible in the dialog.</value>
-  </data>
-  <data name="ErrorCodes.CannotDeleteFolder_ChildrenVisible" xml:space="preserve">
-    <value>User does not have permission to delete the folder because not all files are visible in the dialog.</value>
-  </data>
-  <data name="ErrorCodes.CannotMoveFolder_ChildrenVisible" xml:space="preserve">
-    <value>User does not have permission to move the folder because not all files are visible in the dialog.</value>
-  </data>
-  <data name="ErrorCodes.CopyFolder_NoPermission" xml:space="preserve">
-    <value>User does not have permission to copy to folder</value>
-  </data>
-  <data name="ErrorCodes.CopyFolder_NotInsecureFolder" xml:space="preserve">
-    <value>User cannot copy a folder or file in a folder marked as database or secure</value>
-  </data>
-  <data name="ErrorCodes.DeleteFolder_NoPermission" xml:space="preserve">
-    <value>User does not have permission to delete the folder or file</value>
-  </data>
-  <data name="ErrorCodes.DeleteFolder_NotInsecureFolder" xml:space="preserve">
-    <value>User cannot delete a folder or file from a folder marked as database or secure</value>
-  </data>
-  <data name="ErrorCodes.DeleteFolder_Protected" xml:space="preserve">
-    <value>User does not have permission to delete the folder because it is marked as protected</value>
-  </data>
-  <data name="ErrorCodes.DeleteFolder_Root" xml:space="preserve">
-    <value>Cannot delete root folder</value>
-  </data>
-  <data name="ErrorCodes.DirectoryAlreadyExists" xml:space="preserve">
-    <value>Folder already exists. Refresh your folder list.</value>
-  </data>
-  <data name="ErrorCodes.FileDoesNotExist" xml:space="preserve">
-    <value>File does not exist. Refresh your folder list.</value>
-  </data>
-  <data name="ErrorCodes.FolderDoesNotExist" xml:space="preserve">
-    <value>Folder does not exist. Refresh your folder list.</value>
-  </data>
-  <data name="ErrorCodes.General_PermissionDenied" xml:space="preserve">
-    <value>You do not have sufficient permissions to complete the action or the action was prevented by the system. Please contact your system administrator for more information.</value>
-  </data>
-  <data name="ErrorCodes.InvalidCharactersInPath" xml:space="preserve">
-    <value>There are invalid characters in the path.</value>
-  </data>
-  <data name="ErrorCodes.NewFileAlreadyExists" xml:space="preserve">
-    <value>File already exists. Refresh your folder list.</value>
-  </data>
-  <data name="ErrorCodes.RenameFolder_Root" xml:space="preserve">
-    <value>Cannot rename root folder</value>
-  </data>
-  <data name="FolderDoesNotExist.Text" xml:space="preserve">
-    <value>Folder does not exist. Refresh your folder list.</value>
-  </data>
-  <data name="MyFolder.Text" xml:space="preserve">
-    <value>My Folder</value>
-  </data>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   <data name="Root.Text" xml:space="preserve">
-    <value>Root</value>
+    <value>Корень</value>
   </data>
-  <data name="SystemError.Text" xml:space="preserve">
-    <value>Unable to complete operation. An unknown error occurred.</value>
-  </data>
+  
 </root>

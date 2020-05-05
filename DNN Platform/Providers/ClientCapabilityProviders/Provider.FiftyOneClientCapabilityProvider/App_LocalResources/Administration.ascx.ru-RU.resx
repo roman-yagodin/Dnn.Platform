@@ -262,9 +262,7 @@
   <data name="DeviceBrowserUnavailableButton.Action" xml:space="preserve">
     <value>Просмотр устройств</value>
   </data>
-  <data name="DeviceBrowserUnavailableButton.Url" xml:space="preserve">
-    <value>https://51degrees.com/resources/device-explorer</value>
-  </data>
+  
   <data name="Explorer.Header" xml:space="preserve">
     <value>Просмотр устройств</value>
   </data>

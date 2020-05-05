@@ -118,33 +118,15 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Cancel" xml:space="preserve">
-    <value>Cancel</value>
+    <value>Отмена</value>
   </data>
-  <data name="CurrentFileName" xml:space="preserve">
-    <value>Uploading file: </value>
-  </data>
-  <data name="ElapsedTime" xml:space="preserve">
-    <value>Elapsed time: </value>
-  </data>
-  <data name="EstimatedTime" xml:space="preserve">
-    <value>Estimated time: </value>
-  </data>
-  <data name="ReservedResource" xml:space="preserve">
-    <value>Please do not remove this key.</value>
-  </data>
-  <data name="Total" xml:space="preserve">
-    <value>Total </value>
-  </data>
-  <data name="TotalFiles" xml:space="preserve">
-    <value>Total files: </value>
-  </data>
-  <data name="TransferSpeed" xml:space="preserve">
-    <value>Speed: </value>
-  </data>
-  <data name="Uploaded" xml:space="preserve">
-    <value>Uploaded</value>
-  </data>
-  <data name="UploadedFiles" xml:space="preserve">
-    <value>Uploaded files: </value>
-  </data>
+  
+  
+  
+  
+  
+  
+  
+  
+  
 </root>

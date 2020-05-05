@@ -126,12 +126,8 @@
   <data name="cmdRefresh.Text" xml:space="preserve">
     <value>Обновить таблицу</value>
   </data>
-  <data name="Edit.Header" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="Del.Header" xml:space="preserve">
-    <value></value>
-  </data>
+  
+  
   <data name="Name.Header" xml:space="preserve">
     <value>Имя</value>
   </data>
@@ -156,12 +152,8 @@
   <data name="Visible.Header" xml:space="preserve">
     <value>Показывать</value>
   </data>
-  <data name="Dn.Header" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="Up.Header" xml:space="preserve">
-    <value></value>
-  </data>
+  
+  
   <data name="MoveDown.Text" xml:space="preserve">
     <value>Вниз</value>
   </data>

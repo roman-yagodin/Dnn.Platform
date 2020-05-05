@@ -189,9 +189,7 @@
   <data name="cmdSave.Text" xml:space="preserve">
     <value>Создать папку</value>
   </data>
-  <data name="CSharp.Text" xml:space="preserve">
-    <value>C# (C sharp)</value>
-  </data>
+  
   <data name="LanguageError.Text" xml:space="preserve">
     <value>Необходимо выбрать язык для элемента управления модуля.</value>
   </data>
@@ -209,9 +207,7 @@
   <data name="plFile2.Text" xml:space="preserve">
     <value>Имя файла:</value>
   </data>
-  <data name="VisualBasic.Text" xml:space="preserve">
-    <value>Visual Basic</value>
-  </data>
+  
   <data name="FileExists.Text" xml:space="preserve">
     <value>Выбранное Вами имя файла уже существует. Пожалуйста, используйте другое имя.</value>
   </data>

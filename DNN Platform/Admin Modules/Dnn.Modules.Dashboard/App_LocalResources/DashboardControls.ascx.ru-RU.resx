@@ -135,18 +135,12 @@
   <data name="DashboardControlSrc.Header" xml:space="preserve">
     <value>Исходный код инструмента</value>
   </data>
-  <data name="Del.Header" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="Dn.Header" xml:space="preserve">
-    <value></value>
-  </data>
+  
+  
   <data name="IsEnabled.Header" xml:space="preserve">
     <value>Включено</value>
   </data>
-  <data name="Up.Header" xml:space="preserve">
-    <value></value>
-  </data>
+  
   <data name="Delete.Text" xml:space="preserve">
     <value>Удалить этот инструмент</value>
   </data>
