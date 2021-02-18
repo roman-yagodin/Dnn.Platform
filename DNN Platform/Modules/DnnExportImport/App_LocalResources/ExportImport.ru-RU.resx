@@ -117,14 +117,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  <data name="InvalidPortal.Text" xml:space="preserve">
+    <value>Неверный портал.</value>
+  </data>
+  <data name="JobNotExist.Text" xml:space="preserve">
+    <value>Нет такой задачи!</value>
+  </data>
+  <data name="JobStatus_Cancelled.Text" xml:space="preserve">
+    <value>Отменено</value>
+  </data>
+  <data name="JobStatus_DoneFailure.Text" xml:space="preserve">
+    <value>Завершена неудачно</value>
+  </data>
+  <data name="JobStatus_DoneSuccess.Text" xml:space="preserve">
+    <value>Успешно</value>
+  </data>
+  <data name="JobStatus_InProgress.Text" xml:space="preserve">
+    <value>В процессе</value>
+  </data>
+  <data name="JobStatus_Submitted.Text" xml:space="preserve">
+    <value>Отправлена</value>
+  </data>
+  <data name="JobType_Export.Text" xml:space="preserve">
+    <value>Экспорт сайта</value>
+  </data>
+  <data name="JobType_Import.Text" xml:space="preserve">
+    <value>Импорт сайта</value>
+  </data>
+  <data name="NotPortalAdmin.Text" xml:space="preserve">
+    <value>Пользователь не является администратором портала</value>
+  </data>
 </root>

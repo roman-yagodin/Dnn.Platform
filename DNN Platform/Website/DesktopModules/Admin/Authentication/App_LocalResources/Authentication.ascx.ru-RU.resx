@@ -123,5 +123,7 @@
   <data name="ControlTitle_.Text" xml:space="preserve">
     <value>Настройки аутентификации</value>
   </data>
-  
+  <data name="NoProvidersEnabled.Text" xml:space="preserve">
+    <value>Нет активных провайдеров. Будет использован стандартный поставщик аутентификации DNN.</value>
+  </data>
 </root>

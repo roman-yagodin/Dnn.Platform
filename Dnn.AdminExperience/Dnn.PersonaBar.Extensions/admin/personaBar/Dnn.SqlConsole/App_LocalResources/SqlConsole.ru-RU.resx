@@ -129,7 +129,9 @@
     <value>Сохранить запрос</value>
   </data>
   
-  
+  <data name="UploadFile.Text" xml:space="preserve">
+    <value>Загрузить файл</value>
+  </data>
   
   <data name="Export.Text" xml:space="preserve">
     <value>Экспорт</value>

@@ -134,7 +134,9 @@
   <data name="TabSiteAliases.Text" xml:space="preserve">
     <value>Псевдонимы сайта</value>
   </data>
-  
+  <data name="TabMore.Text" xml:space="preserve">
+    <value>Подробнее</value>
+  </data>
   <data name="TabBasicSettings.Text" xml:space="preserve">
     <value>Основные настройки</value>
   </data>
@@ -174,7 +176,9 @@
   <data name="plFooterText.Help" xml:space="preserve">
     <value>Текст копирайта, который будет показан на Вашем сайте, если это поддерживает выбранная тема оформления.</value>
   </data>
-  
+  <data name="plHomeDirectory.Text" xml:space="preserve">
+    <value>Домашняя папка</value>
+  </data>
   <data name="plHomeDirectory.Help" xml:space="preserve">
     <value>Домашний каталог сайта.</value>
   </data>
@@ -375,7 +379,9 @@
   <data name="ProfilePropertyDefinition_Visible.Help" xml:space="preserve">
     <value>Если оставить флаг снятым, то данное свойство будет видимо только администраторам - пользователь не сможет его увидеть или отредактировать.</value>
   </data>
-  
+  <data name="ProfilePropertyDefinition_ViewOrder.Text" xml:space="preserve">
+    <value>Порядок показа</value>
+  </data>
   <data name="ProfilePropertyDefinition_ViewOrder.Help" xml:space="preserve">
     <value>Введите порядковый номер для отображения этого свойства, или оставьте поле пустым.</value>
   </data>
@@ -604,7 +610,9 @@
     <value>Нейтральная культура</value>
   </data>
   
-  
+  <data name="Enabled.Header.Text" xml:space="preserve">
+    <value>ВКЛЮЧЕНО</value>
+  </data>
   <data name="fallBackLabel.Help" xml:space="preserve">
     <value>Выберите резервный язык, который будет использован в том случае, если выбранный язык будет недоступен.</value>
   </data>
@@ -809,7 +817,9 @@
   
   
   
-  
+  <data name="SelectResourcePlaceholder.Text" xml:space="preserve">
+    <value>-- Выбрать --</value>
+  </data>
   
   
   
@@ -841,29 +851,53 @@
     <value>Выберите, чтобы разрешить для этого списка заказной порядок сортировки.</value>
   </data>
   
+  <data name="BrowseButton.Text" xml:space="preserve">
+    <value>Выбрать файл</value>
+  </data>
   
-  
-  
-  
+  <data name="DragDefault.Text" xml:space="preserve">
+    <value>Перетащите файл или выберите нужный параметр</value>
+  </data>
+  <data name="DragOver.Text" xml:space="preserve">
+    <value>Перетащите файл</value>
+  </data>
   <data name="File.Text" xml:space="preserve">
     <value>Файл</value>
   </data>
   <data name="Folder.Text" xml:space="preserve">
     <value>Папка</value>
   </data>
+  <data name="LinkButton.Text" xml:space="preserve">
+    <value>Введите ссылку</value>
+  </data>
   
   
+  <data name="LinkInputTitle.Text" xml:space="preserve">
+    <value>Ссылка</value>
+  </data>
+  <data name="NotSpecified.Text" xml:space="preserve">
+    <value>&lt;Не указано&gt;</value>
+  </data>
+  <data name="SearchFilesPlaceHolder.Text" xml:space="preserve">
+    <value>Поиск файлов...</value>
+  </data>
+  <data name="SearchFoldersPlaceHolder.Text" xml:space="preserve">
+    <value>Поиск папок...</value>
+  </data>
+  <data name="UploadButton.Text" xml:space="preserve">
+    <value>Загрузить файл</value>
+  </data>
+  <data name="UploadComplete.Text" xml:space="preserve">
+    <value>Загрузка завершена</value>
+  </data>
   
+  <data name="UploadFailed.Text" xml:space="preserve">
+    <value>Ошибка загрузки</value>
+  </data>
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  <data name="WrongFormat.Text" xml:space="preserve">
+    <value>Неверный формат</value>
+  </data>
   <data name="Host.Text" xml:space="preserve">
     <value>Хост</value>
   </data>

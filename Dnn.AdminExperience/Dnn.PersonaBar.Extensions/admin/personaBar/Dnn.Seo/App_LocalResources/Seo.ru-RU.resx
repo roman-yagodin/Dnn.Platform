@@ -121,6 +121,65 @@
   <data name="URLManagementTab.Text" xml:space="preserve">
     <value>Управление URL</value>
   </data>
+  <data name="GeneralSettingsTab.Text" xml:space="preserve">
+    <value>ОБЩИЕ НАСТРОЙКИ</value>
+  </data>
+  <data name="ExtensionUrlProvidersTab.Text" xml:space="preserve">
+    <value>ПОСТАВЩИКИ URL-АДРЕСОВ РАСШИРЕНИЙ</value>
+  </data>
+  <data name="ExpressionsTab.Text" xml:space="preserve">
+    <value>ВЫПОЛНЕНИЯ</value>
+  </data>
+  <data name="TestURLTab.Text" xml:space="preserve">
+    <value>ТЕСТОВЫЙ URL-АДРЕС</value>
+  </data>
+  <data name="SitemapSettingsTab.Text" xml:space="preserve">
+    <value>Настройки карты сайта</value>
+  </data>
+  <data name="minusCharacter.Text" xml:space="preserve">
+    <value>"-" например, название страницы</value>
+  </data>
+  <data name="underscoreCharacter.Text" xml:space="preserve">
+    <value>"_" например, имя страницы</value>
+  </data>
+  <data name="Do301RedirectToPortalHome.Text" xml:space="preserve">
+    <value>Главная страница сайта</value>
+  </data>
+  <data name="Do404Error.Text" xml:space="preserve">
+    <value>Ошибка 404</value>
+  </data>
+  
+  
+  <data name="enableSystemGeneratedUrlsLabel.Text" xml:space="preserve">
+    <value>Объединить страницы</value>
+  </data>
+  <data name="enableSystemGeneratedUrlsLabel.Help" xml:space="preserve">
+    <value>Вы можете настроить, как система будет генерировать URL-адреса.</value>
+  </data>
+  <data name="enableLowerCaseLabel.Help" xml:space="preserve">
+    <value>Установите этот флажок, чтобы принудительно преобразовать URL-адреса в строчные буквы.</value>
+  </data>
+  <data name="enableLowerCaseLabel.Text" xml:space="preserve">
+    <value>Преобразование URL-адресов в строчные буквы</value>
+  </data>
+  <data name="autoAsciiConvertLabel.Help" xml:space="preserve">
+    <value>Если этот флажок установлен, то все акцентированные (диакритические) символы, такие как å и è, будут преобразованы в их обычный ascii-эквивалент. Пример : å -&gt; a и è -&gt; e.</value>
+  </data>
+  <data name="autoAsciiConvertLabel.Text" xml:space="preserve">
+    <value>Преобразование символов с ударением</value>
+  </data>
+  <data name="setDefaultSiteLanguageLabel.Help" xml:space="preserve">
+    <value>Если этот флажок установлен, то язык по умолчанию для этого сайта всегда будет установлен в переписанном URL-адресе, если другой язык не найден.</value>
+  </data>
+  <data name="setDefaultSiteLanguageLabel.Text" xml:space="preserve">
+    <value>Установить язык сайта по умолчанию</value>
+  </data>
+  <data name="UrlRewriter.Text" xml:space="preserve">
+    <value>ПЕРЕЗАПИСИ URL-АДРЕСОВ</value>
+  </data>
+  <data name="UrlRedirects.Text" xml:space="preserve">
+    <value>ПЕРЕАДРЕСАЦИЯ</value>
+  </data>
   
   
   
@@ -132,28 +191,9 @@
   
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  <data name="ExtensionUrlProviders.Text" xml:space="preserve">
+    <value>ПОСТАВЩИКИ URL-АДРЕСОВ РАСШИРЕНИЙ</value>
+  </data>
   
   
   
@@ -204,11 +244,17 @@
   
   
   
+  <data name="resultingUrlsLabel.Text" xml:space="preserve">
+    <value>Результат URL-адресов</value>
+  </data>
   
   
-  
-  
-  
+  <data name="testUrlRewritingButton.Text" xml:space="preserve">
+    <value>Тестовое переписывание URL-адресов</value>
+  </data>
+  <data name="testUrlRewritingLabel.Text" xml:space="preserve">
+    <value>URL для тестирования</value>
+  </data>
   
   
   
@@ -232,26 +278,42 @@
   <data name="Exception.Text" xml:space="preserve">
     <value>Ошибка</value>
   </data>
+  <data name="File_Url.Text" xml:space="preserve">
+    <value>Url-Адрес Файла</value>
+  </data>
+  <data name="Host_Portal_Used.Text" xml:space="preserve">
+    <value>Используемый Хост-Портал</value>
+  </data>
+  
+  
+  
+  
+  <data name="Page_404.Text" xml:space="preserve">
+    <value>Страница 404</value>
+  </data>
+  <data name="Requested_404.Text" xml:space="preserve">
+    <value>Запрошено 404</value>
+  </data>
+  <data name="Requested_404_In_Url.Text" xml:space="preserve">
+    <value>Запрошено 404 в адресе</value>
+  </data>
+  
+  
+  <data name="SiteUrls_Config_Rule.Text" xml:space="preserve">
+    <value>Правило конфигурации сайта</value>
+  </data>
+  <data name="Site_Root_Home.Text" xml:space="preserve">
+    <value>Корневая система сайта</value>
+  </data>
   
   
   
   
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  <data name="Wrong_Portal_Alias.Text" xml:space="preserve">
+    <value>Неверный псевдоним портала</value>
+  </data>
   
   
   

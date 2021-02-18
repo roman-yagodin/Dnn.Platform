@@ -306,8 +306,12 @@
   <data name="InvalidUserName.Text" xml:space="preserve">
     <value>Введенное имя пользователя не корректно. Укажите корректное имя пользователя.</value>
   </data>
-  
-  
+  <data name="InvalidFirstName.Text" xml:space="preserve">
+    <value>Указано некорректное имя.</value>
+  </data>
+  <data name="InvalidLastName.Text" xml:space="preserve">
+    <value>Указана некорректная фамилия.</value>
+  </data>
   <data name="UserRejected.Text" xml:space="preserve">
     <value>Регистрация пользователя была отвергнута. Свяжитесь с администратором для получения подробной информации.</value>
   </data>
@@ -899,7 +903,9 @@
   <data name="CreatePortal.Error" xml:space="preserve">
     <value>Ошибка при создании сайта.</value>
   </data>
-  
+  <data name="CreatePortalHomeFolderExists.Error" xml:space="preserve">
+    <value>Папка портала {0} уже используется.</value>
+  </data>
   <data name="CreateAdminUser.Error" xml:space="preserve">
     <value>Ошибка при создании учетной записи администратора.</value>
   </data>
@@ -1020,9 +1026,15 @@
   <data name="PasswordResetFailed_WrongAnswer.Text" xml:space="preserve">
     <value>Ваш новый пароль не был принят из соображений безопасности. Пожалуйста, убедитесь в том, что Вы указали правильное имя пользователя и ответ на секретный вопрос.</value>
   </data>
-  
-  
-  
+  <data name="InsecureAdmin.Text" xml:space="preserve">
+    <value>Ваша учетная запись администратора по-прежнему использует известный пароль по умолчанию. Пожалуйста, перейдите в меню Управление-&gt;Пользователи и обновите пароль. Кроме того, пожалуйста, убедитесь, что введен действительный адрес электронной почты.</value>
+  </data>
+  <data name="InsecureHost.Text" xml:space="preserve">
+    <value>Ваша учетная запись администратора хостинга (суперпользователь) все еще использует известный пароль по умолчанию. Пожалуйста, перейдите в меню Управление&gt;Пользователи и обновите пароль.</value>
+  </data>
+  <data name="InsecureDefaults.Text" xml:space="preserve">
+    <value>Обе учетных записи по умолчанию (администратор хостинга и администратор портала) все ещё используют известные пароли по умолчанию. Пожалуйста, перейдите в меню Управление-&gt;Пользователи и обновите пароли. Кроме того, убедитесь, что указаны действительные адреса электронной почты.</value>
+  </data>
   <data name="InsecureDefaults.Title" xml:space="preserve">
     <value>Информация о небезопасной учетной записи</value>
   </data>
@@ -1064,7 +1076,9 @@
   <data name="CaptchaAlt.Text" xml:space="preserve">
     <value>Код безопасности</value>
   </data>
-  
+  <data name="PrivateConfirmationMessage.Text" xml:space="preserve">
+    <value>&lt;strong&gt;Письмо с вашими данными было отправлено администратору сайта для проверки. Вы будете уведомлены по электронной почте, когда ваша регистрация была одобрена. Между тем вы можете продолжить просмотр этого сайта.&lt;/strong&gt;  </value>
+  </data>
   <data name="DNN_ReadingComponent.Text" xml:space="preserve">
     <value>Читаем манифест компонента</value>
   </data>
@@ -1326,7 +1340,9 @@
   <data name="CLEANUP_ProcessComplete.Text" xml:space="preserve">
     <value>Завершена обработка очистки - {0}</value>
   </data>
-  
+  <data name="CLEANUP_ProcessError.Text" xml:space="preserve">
+    <value>Некритическая ошибка при очистки файлов: {0}</value>
+  </data>
   <data name="CLEANUP_Processing.Text" xml:space="preserve">
     <value>Обработка файла очистки - {0}</value>
   </data>
@@ -1348,7 +1364,9 @@
   <data name="SMTPConfigurationProblem.Text" xml:space="preserve">
     <value>Не удалось отослать почту из-за неверной конфигурации SMTP-сервера.</value>
   </data>
-  
+  <data name="SmtpInvalidPort.Text" xml:space="preserve">
+    <value>Указан неверный номер порта. Значение порта должно быть больше 0 и меньше, чем 65536. Почта не была отправлена.</value>
+  </data>
   <data name="FILE_NotAllowed.Text" xml:space="preserve">
     <value>Данное расширение имени файла недопустимо - {0}</value>
   </data>
@@ -1509,7 +1527,9 @@
   <data name="Delete.Text" xml:space="preserve">
     <value>Удалить</value>
   </data>
-  
+  <data name="UnverifiedUser.Text" xml:space="preserve">
+    <value>Вы используете неподтвержденную учетную запись. Пожалуйста, подтвердите вашу учетную запись, нажав на ссылку, содержащуюся в письме с подтверждением, которое было отправлено вам. Нажмите &lt;a href="#" class="send-verification-mail"&gt;здесь&lt;/a&gt; для повторной отправки письма с подтверждением.</value>
+  </data>
   <data name="DayAgo.Text" xml:space="preserve">
     <value>{0} день назад</value>
   </data>
@@ -1615,7 +1635,9 @@
   <data name="CopyPermissionsToChildren.Text" xml:space="preserve">
     <value>Разрешения всех подчинненных страниц будут заменены разрешениями этой страницы.&lt;br /&gt;&lt;br /&gt;Уверены, что хотите продолжить?</value>
   </data>
-  
+  <data name="MyFolderName.Text" xml:space="preserve">
+    <value>Моя папка</value>
+  </data>
   <data name="Basic.Text" xml:space="preserve">
     <value>Основные настройки профиля</value>
   </data>
@@ -1625,7 +1647,10 @@
   <data name="Location.Text" xml:space="preserve">
     <value>Информация о местоположении</value>
   </data>
-  
+  <data name="ProfileUrlCleaned.Text" xml:space="preserve">
+    <value>Отправленный URL содержит недопустимые символы, которые были удалены. Нажмите "Обновить", чтобы принять
+измененный URL.</value>
+  </data>
   <data name="CleanWarningTitle.Text" xml:space="preserve">
     <value>URL очищен</value>
   </data>
@@ -1884,7 +1909,9 @@
   <data name="FileUpload.UnzipFileFailedPromptBody.Text" xml:space="preserve">
     <value>&lt;div class="invalidFiles"&gt;&lt;p&gt;[COUNT] из [TOTAL] файлов не были извлечены из архива, так как их типы файлов не поддерживаются:&lt;/p&gt;[FILELIST]&lt;/div&gt;</value>
   </data>
-  
+  <data name="FileUpload.UnzipFileSuccessPromptBody.Text" xml:space="preserve">
+    <value>&lt;div class="validFiles"&gt;&lt;p&gt;[TOTAL] из [TOTAL] файла(ов) были успешно извлечены.&lt;/p&gt;&lt;/div&gt;</value>
+  </data>
   <data name="AuthorizeUser.Text" xml:space="preserve">
     <value>Авторизовать</value>
   </data>
@@ -1927,12 +1954,28 @@
   <data name="Search.Text" xml:space="preserve">
     <value>Поиск</value>
   </data>
-  
-  
-  
-  
-  
-  
-  
+  <data name="PotentialDangerousFile.Text" xml:space="preserve">
+    <value>На ваш сайт был добавлен потенциально опасный файл</value>
+  </data>
+  <data name="RestrictFileMail_Body.Text" xml:space="preserve">
+    <value>&lt;p&gt;Уважаемый администратор хостинга,&lt;/p&gt;&lt;p&gt;Наблюдатель по безопасности обнаружил, что один или несколько &lt;b&gt;потенциально опасных файлов&lt;/b&gt; были добавлены на ваш сайт. Чтобы увидеть все добавленные файлы, проверьте журналы событий сайта.
+Если вы ожидаете этого, просто проигнорируйте это письмо; в противном случае рекомендуем немедленно принять меры.&lt;/p&gt;
+&lt;p&gt;Добавлен файл(ы):&lt;br/&gt;&lt;b&gt;[Path]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Спасибо,&lt;/p&gt;&lt;p&gt;[AppName] [AppVersion]&lt;/p&gt;</value>
+  </data>
+  <data name="RestrictFileMail_Subject.Text" xml:space="preserve">
+    <value>На ваш сайт был добавлен потенциально опасный файл</value>
+  </data>
+  <data name="ModuleShared.Text" xml:space="preserve">
+    <value>Разделяемый модуль</value>
+  </data>
+  <data name="OAuthConfigBase_HostConfig.Help" xml:space="preserve">
+    <value>Установите этот флажок, чтобы сохранить эту конфигурацию на уровне хоста, чтобы все порталы обменивались информацией о конфигурации для этого поставщика аутентификации.</value>
+  </data>
+  <data name="OAuthConfigBase_HostConfig.Text" xml:space="preserve">
+    <value>Использовать конфигурацию хоста? </value>
+  </data>
+  <data name="VerificationMailSendSuccessful.Text" xml:space="preserve">
+    <value>Письмо для подтверждения успешно отправлено.</value>
+  </data>
   
 </root>

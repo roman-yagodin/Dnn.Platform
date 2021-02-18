@@ -153,13 +153,27 @@
   <data name="TabLoginSettings.Text" xml:space="preserve">
     <value>Параметры входа</value>
   </data>
-  
-  
-  
-  
-  
-  
-  
+  <data name="TabMoreSecuritySettings.Text" xml:space="preserve">
+    <value>ДОПОЛНИТЕЛЬНЫЕ ПАРАМЕТРЫ БЕЗОПАСНОСТИ</value>
+  </data>
+  <data name="TabMore.Text" xml:space="preserve">
+    <value>Подробнее</value>
+  </data>
+  <data name="TabSecurityBulletins.Text" xml:space="preserve">
+    <value>Бюллетени безопасности</value>
+  </data>
+  <data name="TabSecurityAnalyzer.Text" xml:space="preserve">
+    <value>Анализатор безопасности</value>
+  </data>
+  <data name="TabSslSettings.Text" xml:space="preserve">
+    <value>НАСТРОЙКИ SSL</value>
+  </data>
+  <data name="TabMemberAccounts.Text" xml:space="preserve">
+    <value>Учетные записи пользователей</value>
+  </data>
+  <data name="TabBasicLoginSettings.Text" xml:space="preserve">
+    <value>ОСНОВНЫЕ НАСТРОЙКИ ВХОДА В СИСТЕМУ</value>
+  </data>
   
   
   

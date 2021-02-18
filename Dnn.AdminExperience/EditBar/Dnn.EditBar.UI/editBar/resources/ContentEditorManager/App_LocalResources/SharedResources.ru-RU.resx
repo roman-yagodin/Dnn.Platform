@@ -117,19 +117,33 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  
-  
-  
-  
-  
+  <data name="25% + 50% + 25%.Text" xml:space="preserve">
+    <value>Три колонки 25 - 50 - 25</value>
+  </data>
+  <data name="25% + 75%.Text" xml:space="preserve">
+    <value>Две колонки 25-75</value>
+  </data>
+  <data name="33% + 33% + 33%.Text" xml:space="preserve">
+    <value>Три колонки 33 - 33 - 33</value>
+  </data>
+  <data name="50% + 50%.Text" xml:space="preserve">
+    <value>Две колонки 50 - 50</value>
+  </data>
+  <data name="75% + 25%.Text" xml:space="preserve">
+    <value>Две колонки 75 - 25</value>
+  </data>
   <data name="AddModule.Text" xml:space="preserve">
     <value>Новый модуль</value>
   </data>
-  
+  <data name="Blank.Text" xml:space="preserve">
+    <value>Пустой</value>
+  </data>
   <data name="Cancel.Text" xml:space="preserve">
     <value>Отмена</value>
   </data>
-  
+  <data name="CancelConfirm.Text" xml:space="preserve">
+    <value>Вы уверены, что хотите отменить добавление этого модуля на страницу?</value>
+  </data>
   <data name="CloseLabel.Text" xml:space="preserve">
     <value>Закрыть</value>
   </data>
@@ -142,36 +156,72 @@
   <data name="ConfirmYes.Text" xml:space="preserve">
     <value>Да</value>
   </data>
-  
-  
-  
-  
-  
-  
-  
+  <data name="ContentLayout.Delete.Text" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить этот макет?</value>
+  </data>
+  <data name="ContentLayout.Text" xml:space="preserve">
+    <value>Макет содержимого</value>
+  </data>
+  <data name="DiscardLabel.Text" xml:space="preserve">
+    <value>Не сохранять</value>
+  </data>
+  <data name="DragTip.Text" xml:space="preserve">
+    <value>&lt;p&gt;ДОБАВИТЬ МОДУЛЬ:&lt;/p&gt;&lt;p&gt;Нажмите и перетащите модуль в нужное место&lt;/p&gt;</value>
+  </data>
+  <data name="EditBarMessageLabel.Text" xml:space="preserve">
+    <value>Показанные изменения не опубликованы</value>
+  </data>
+  <data name="NoModules.Text" xml:space="preserve">
+    <value>На этой странице нет модулей, доступных для использования.</value>
+  </data>
+  <data name="PendingSave.Text" xml:space="preserve">
+    <value>Вы еще не завершили добавление модуля - уверены, что хотите продолжить без сохранения?</value>
+  </data>
   <data name="PublishLabel.Text" xml:space="preserve">
     <value>Опубликовать</value>
   </data>
-  
-  
-  
-  
+  <data name="Service_CopyPermissionError.Text" xml:space="preserve">
+    <value>Произошла ошибка при копировании разрешений на дочерние страницы.</value>
+  </data>
+  <data name="Service_CopyPermissionSuccessful.Text" xml:space="preserve">
+    <value>Копирование разрешений на дочерние страницы прошло успешно.</value>
+  </data>
+  <data name="Service_LayoutNotExist.Text" xml:space="preserve">
+    <value>Макет уже удален.</value>
+  </data>
+  <data name="Service_ModuleNotExist.Text" xml:space="preserve">
+    <value>Модуль уже удален.</value>
+  </data>
   <data name="System.Text" xml:space="preserve">
     <value>Система</value>
   </data>
-  
-  
-  
-  
-  
+  <data name="Service_RestoreTabModuleError.Text" xml:space="preserve">
+    <value>Ошибка при восстановлении страницы:&lt;br/&gt;{0}</value>
+  </data>
+  <data name="Service_RemoveTabModuleError.Text" xml:space="preserve">
+    <value>Ошибка при удалении страницы:&lt;br/&gt;{0}</value>
+  </data>
+  <data name="Service_RestoreModuleError.Text" xml:space="preserve">
+    <value>Произошла ошибка при восстановлении модуля {0} на страницу {1}. Страница была удалена.</value>
+  </data>
+  <data name="Service_RestoreTabError.Text" xml:space="preserve">
+    <value>Страница {0} не может быть восстановлена до тех пор, пока её родительская страница не будет восстановлена.&lt;br/&gt;</value>
+  </data>
+  <data name="DeleteModuleConfirm.Text" xml:space="preserve">
+    <value>Уверены, что хотите удалить этот модуль?</value>
+  </data>
   <data name="SearchPlaceHolder.Text" xml:space="preserve">
     <value>Поиск</value>
   </data>
-  
+  <data name="Category_Recommended.Text" xml:space="preserve">
+    <value>Рекомендовано</value>
+  </data>
   <data name="Category_All.Text" xml:space="preserve">
     <value>Все</value>
   </data>
-  
+  <data name="Service_RemoveTabError.Text" xml:space="preserve">
+    <value>Страница {0} не может быть удалена, пока её дочерние страницы не будут удалены.&lt;br/&gt;</value>
+  </data>
   <data name="AddExistingModule.Text" xml:space="preserve">
     <value>Существующий модуль</value>
   </data>
@@ -196,7 +246,9 @@
   <data name="pagePicker_selectedItemExpandTooltip.Text" xml:space="preserve">
     <value>Нажмите, чтобы развернуть</value>
   </data>
-  
+  <data name="pagePicker_selectItemDefaultText.Text" xml:space="preserve">
+    <value>&lt;Не указано&gt;</value>
+  </data>
   <data name="pagePicker_sortAscendingButtonTitle.Text" xml:space="preserve">
     <value>А-Я</value>
   </data>
@@ -209,7 +261,9 @@
   <data name="pagerPicker_sortDescendingButtonTooltip.Text" xml:space="preserve">
     <value>Сортировать по убыванию</value>
   </data>
-  
+  <data name="MakeCopy.Text" xml:space="preserve">
+    <value>Копировать</value>
+  </data>
   <data name="Page.Text" xml:space="preserve">
     <value>Страница:</value>
   </data>

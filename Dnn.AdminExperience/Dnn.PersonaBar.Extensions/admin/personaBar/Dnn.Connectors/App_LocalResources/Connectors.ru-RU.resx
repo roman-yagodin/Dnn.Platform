@@ -120,7 +120,9 @@
   <data name="btn_Cancel.Text" xml:space="preserve">
     <value>Отмена</value>
   </data>
-  
+  <data name="btn_Checking.Text" xml:space="preserve">
+    <value>Проверка ...</value>
+  </data>
   <data name="btn_Connect.Text" xml:space="preserve">
     <value>Присоединяйтесь</value>
   </data>
@@ -130,17 +132,37 @@
   <data name="btn_Save.Text" xml:space="preserve">
     <value>Сохранить</value>
   </data>
-  
+  <data name="nav_Connectors.Text" xml:space="preserve">
+    <value>Коннекторы</value>
+  </data>
   <data name="Save.Text" xml:space="preserve">
     <value>Сохранить</value>
   </data>
-  
-  
-    
-  
-    
-  
-  
-  
-  
+  <data name="title_Connections.Text" xml:space="preserve">
+    <value>Настройка коннекторов</value>
+  </data>
+  <data name="txt_Saved.Text" xml:space="preserve">
+    <value>Элемент успешно сохранен.</value>
+  </data>
+    <data name="txt_Deleted.Text" xml:space="preserve">
+    <value>Элемент успешно удален.</value>
+  </data>
+  <data name="txt_AddNew.Text" xml:space="preserve">
+    <value>Добавить новый</value>
+  </data>
+    <data name="txt_clickToEdit.Text" xml:space="preserve">
+    <value>Нажмите, чтобы изменить имя коннектора</value>
+  </data>
+  <data name="txt_SetupConnections.Text" xml:space="preserve">
+    <value>Настройте свои коннекторы для легкого обмена контентом и других целей</value>
+  </data>
+  <data name="txt_DisplayNameIsNotValid.Text" xml:space="preserve">
+    <value>Имя может содержать только буквы и цифры.</value>
+  </data>
+  <data name="txt_DisplayNameIsNotUnique.Text" xml:space="preserve">
+    <value>Имя должно быть уникальным.</value>
+  </data>
+  <data name="ErrConnectorNotFound.Text" xml:space="preserve">
+    <value>Коннектор не найден.</value>
+  </data>
 </root>

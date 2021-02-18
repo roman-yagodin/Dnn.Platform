@@ -246,25 +246,43 @@
   <data name="Confirm.Text" xml:space="preserve">
     <value>Уверены, что хотите создать новый словарь?</value>
   </data>
-  
-  
-  
-  
-  
+  <data name="ControlTitle_.Text" xml:space="preserve">
+    <value>Словари</value>
+  </data>
+  <data name="nav_Vocabularies.Text" xml:space="preserve">
+    <value>Словари</value>
+  </data>
+  <data name="TermExists.Error" xml:space="preserve">
+    <value>Термин "{0}" существует в списке.</value>
+  </data>
+  <data name="ConfirmDeletion_Vocabulary.Text" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить "{0}"?</value>
+  </data>
+  <data name="ConfirmDeletion_Term.Text" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить термин "{0}"?</value>
+  </data>
   <data name="LoadMore.Text" xml:space="preserve">
     <value>Еще</value>
   </data>
-  
+  <data name="RequiredField.Text" xml:space="preserve">
+    <value>Обязательное поле</value>
+  </data>
   <data name="CreateVocabulary.Text" xml:space="preserve">
     <value>Создать</value>
   </data>
-  
+  <data name="NoVocabularyTerms.Error" xml:space="preserve">
+    <value>Словари не найдены.</value>
+  </data>
   <data name="Close.Text" xml:space="preserve">
     <value>Закрыть</value>
   </data>
   <data name="All.Text" xml:space="preserve">
     <value>Все</value>
   </data>
-  
-  
+  <data name="BackToVocabularies.Text" xml:space="preserve">
+    <value>Вернуться к словарям</value>
+  </data>
+  <data name="EditFieldHelper.Text" xml:space="preserve">
+    <value>Нажмите клавишу ENTER, когда закончите, или ESC для отмены</value>
+  </data>
 </root>

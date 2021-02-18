@@ -147,7 +147,9 @@
   <data name="InvalidHomeFolder.Text" xml:space="preserve">
     <value>Каталог, который вы задали в качестве домашнего, не допустим.</value>
   </data>
-  
+  <data name="CreatePortalHomeFolderExists.Error" xml:space="preserve">
+    <value>Папка портала {0} уже используется.</value>
+  </data>
   <data name="InvalidName.Text" xml:space="preserve">
     <value>Имя сайта не должно содержать пробелы и знаки препинания.</value>
   </data>
@@ -283,7 +285,9 @@
   </data>
   
   
-  
+  <data name="HomeDirectory.Label" xml:space="preserve">
+    <value>Домашняя папка</value>
+  </data>
   
   <data name="SiteType.Label" xml:space="preserve">
     <value>Тип сайта:</value>
@@ -343,8 +347,12 @@
     <value>Настройки сайта</value>
   </data>
   
-  
-  
+  <data name="SiteExport.Text" xml:space="preserve">
+    <value>Экспорт сайта</value>
+  </data>
+  <data name="SiteImport.Text" xml:space="preserve">
+    <value>Импорт сайта</value>
+  </data>
   <data name="AddNewSite.Text" xml:space="preserve">
     <value>Добавить сайт</value>
   </data>

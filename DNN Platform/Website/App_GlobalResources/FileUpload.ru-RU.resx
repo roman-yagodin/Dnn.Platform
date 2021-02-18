@@ -117,8 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  
-  
-  
-  
+  <data name="AlreadyExists.Text" xml:space="preserve">
+    <value>Файл с таким именем уже существует.</value>
+  </data>
+  <data name="ErrorMessage.Text" xml:space="preserve">
+    <value>Файл '{0}' не может быть загружен: {1}.</value>
+  </data>
+  <data name="ExtensionNotAllowed.Text" xml:space="preserve">
+    <value>Недопустимое расширение файла.</value>
+  </data>
+  <data name="NoPermission.Text" xml:space="preserve">
+    <value>Нет прав доступа.</value>
+  </data>
 </root>

@@ -391,7 +391,11 @@
 </value>
   </data>
   
-  
+  <data name="MESSAGE_RETRIEVEPASSWORD_INSTRUCTIONS.Text" xml:space="preserve">
+    <value>Чтобы восстановить ваш пароль, Вы должны ввести ваше имя пользователя, а также
+			ответ на секретный вопрос о пароле.	
+		</value>
+  </data>
   <data name="EMAIL_PASSWORD_REMINDER_SUBJECT.Text" xml:space="preserve">
     <value>[Portal:PortalName] Восстановление утерянного пароля</value>
   </data>
@@ -416,7 +420,19 @@
   <data name="EMAIL_USER_AUTHORIZED_SUBJECT.Text" xml:space="preserve">
     <value>Регистрация была одобрена для сайта [Portal:URL]</value>
   </data>
-  
+  <data name="EMAIL_USER_AUTHORIZED_BODY.Text" xml:space="preserve">
+    <value>Уважаемый [User:DisplayName],
+
+Благодарим вас за регистрацию на [Portal:PortalName]. Ваша регистрация была одобрена и теперь ваша учетная запись активна.
+
+Адрес веб-сайта: [Portal:URL]
+Имя пользователя: [User:UserName]
+
+Спасибо, мы ценим вашу поддержку.
+
+[Portal:PortalName]
+    </value>
+  </data>
   <data name="EMAIL_PROFILE_UPDATED_SUBJECT.Text" xml:space="preserve">
     <value>[Portal:PortalName] Оповещение об обновлении профиля</value>
   </data>
@@ -449,11 +465,42 @@
   <data name="EMAIL_USER_REGISTRATION_VERIFIED_SUBJECT.Text" xml:space="preserve">
     <value>[Portal:PortalName] Регистрация нового пользователя</value>
   </data>
-  
+  <data name="EMAIL_USER_REGISTRATION_VERIFIED_BODY.Text" xml:space="preserve">
+    <value>Уважаемый(ая) [User:DisplayName],
+
+Мы рады сообщить, что вы были добавлены в качестве зарегистрированного пользователя на сайте [Portal:PortalName]. Пожалуйста, внимательно прочтите следующую информацию и не забудьте сохранить это сообщение в безопасном месте для будущего использования.
+
+Адрес сайта: [Portal:URL]
+Имя пользователя: [User:UserName]
+
+Вы можете использовать следующую ссылку для завершения регистрации:
+
+[Portal:FULLURL]/default.aspx?ctl=Login&amp;username=[Custom:0]&amp;verificationcode=[Custom:1]
+
+Спасибо за вашу поддержку...
+
+[Portal:PortalName]
+
+    </value>
+  </data>
   <data name="EMAIL_USER_REGISTRATION_PUBLIC_SUBJECT.Text" xml:space="preserve">
     <value>[Portal:PortalName] Регистрация нового пользователя</value>
   </data>
-  
+  <data name="EMAIL_USER_REGISTRATION_PUBLIC_BODY.Text" xml:space="preserve">
+    <value>Уважаемый(ая) [User:DisplayName],
+
+Мы рады сообщить, что вы были добавлены в качестве зарегистрированного пользователя на [Portal:PortalName]. Пожалуйста, внимательно прочтите следующую информацию и не забудьте сохранить это сообщение в безопасном месте для будущего использования.
+
+Адрес сайта портала: [Portal:URL]
+Имя пользователя: [User:UserName]
+
+Если Вы не знаете или не можете запомнить Ваш пароль, пожалуйста, перейдите по ссылке [Portal:FULLURL]/default.aspx?ctl=PasswordReset&amp;resetToken=[Membership:PasswordResetToken], чтобы сбросить его.
+Спасибо, мы ценим вашу поддержку...
+
+[Portal:PortalName]
+
+</value>
+  </data>
   <data name="EMAIL_AFFILIATE_NOTIFICATION_SUBJECT.Text" xml:space="preserve">
     <value>[Portal:PortalName] Уведомление партнерской программы</value>
   </data>
@@ -502,7 +549,15 @@
   <data name="EMAIL_VENDOR_REGISTRATION_ADMINISTRATOR_SUBJECT.Text" xml:space="preserve">
     <value>[Portal:PortalName] Заявление от поставщика</value>
   </data>
-  
+  <data name="EMAIL_VENDOR_REGISTRATION_BODY.Text" xml:space="preserve">
+    <value>Уважаемый(ая) [Custom:0] [Custom:1],
+
+ [Custom:2], был успешно зарегистрирован на [Portal:PortalName].
+
+ Благодарим Вас,
+
+ [Portal:PortalName]</value>
+  </data>
   <data name="EMAIL_VENDOR_REGISTRATION_SUBJECT.Text" xml:space="preserve">
     <value>[Portal:PortalName] Заявление от поставщика</value>
   </data>
@@ -599,7 +654,9 @@
   <data name="PurgeCacheUnsupported.Text" xml:space="preserve">
     <value>Данный поставщик кеширования не требует наличия возможности PurgeCache.</value>
   </data>
-  
+  <data name="NoLoginControl.Text" xml:space="preserve">
+    <value>Вы были перенаправлены на страницу входа по умолчанию, потому что заданная для этого веб-сайта страница входа в систему не содержит действующего модуля входа с помощью учетных записей DNN, или разрешения для него были заданы неправильно.</value>
+  </data>
   <data name="EMAIL_USER_UPDATED_OWN_PASSWORD_BODY.Text" xml:space="preserve">
     <value>Dear [User:DisplayName],
 You have changed your Password on [Portal:PortalName].
@@ -748,7 +805,13 @@ Sincerely,
   <data name="EMAIL_SUBJECT_FORMAT.Text" xml:space="preserve">
     <value>Новое сообщение от {0}</value>
   </data>
-  
+  <data name="EMAIL_BODY_FORMAT.Text" xml:space="preserve">
+    <value>Тема: {0}
+
+{1}
+
+Пожалуйста, не отвечайте на это письмо.</value>
+  </data>
   <data name="PortalLinks.Text" xml:space="preserve">
     <value>Ссылки на порталы</value>
   </data>
@@ -873,13 +936,33 @@ Sincerely,
   <data name="ThereIsAInstallationCurrentlyInProgress.Error" xml:space="preserve">
     <value>В настоящее время идет установка. Пожалуйста, повторите попытку позже.</value>
   </data>
-  
-  
+  <data name="EMAIL_USER_UNAUTHORIZED_BODY.Text" xml:space="preserve">
+    <value>Уважаемый(ая) [User:DisplayName],
+
+Авторизация вашей учетной записи на сайте [Portal:PortalName] была отозвана.
+
+Адрес веб-сайта: [Portal:URL]
+Имя пользователя: [User:UserName]
+
+Если у вас есть какие-либо вопросы, свяжитесь с администратором по эл. почте [Portal:Email]
+
+С уважением,
+[Portal:PortalName]</value>
+  </data>
+  <data name="EMAIL_USER_UNAUTHORIZED_SUBJECT.Text" xml:space="preserve">
+    <value>Авторизация вашей учетной записи на сайте [Portal:URL] была отозвана</value>
+  </data>
   <data name="DefaultStopwordGroup.Text" xml:space="preserve">
     <value>без,вам,вас,весь,весь,все,всего,всех,дабы,даже,для,его,еще,ещё,затем,зачем,или,итого,как,коли,которая,которое,который,которых,лишь,меня,мне,над,нет,они,откуда,под,после,потом,почему,при,так,таким,только,тот,что</value>
   </data>
   
-  
-  
-  
+  <data name="cc_dismiss.Text" xml:space="preserve">
+    <value>Понятно!</value>
+  </data>
+  <data name="cc_link.Text" xml:space="preserve">
+    <value>Узнать больше</value>
+  </data>
+  <data name="cc_message.Text" xml:space="preserve">
+    <value>Наш веб-сайт использует файлы cookie для того, чтобы обеспечить вам удобство работы.</value>
+  </data>
 </root>

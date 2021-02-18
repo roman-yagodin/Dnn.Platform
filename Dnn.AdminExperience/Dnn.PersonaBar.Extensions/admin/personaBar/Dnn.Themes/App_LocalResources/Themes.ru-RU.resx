@@ -120,7 +120,9 @@
   <data name="Containers.Text" xml:space="preserve">
     <value>Контейнеры</value>
   </data>
-  
+  <data name="Layouts.Text" xml:space="preserve">
+    <value>Расположение</value>
+  </data>
   <data name="nav_Themes.Text" xml:space="preserve">
     <value>Темы</value>
   </data>
@@ -160,14 +162,24 @@
   <data name="Portable.Text" xml:space="preserve">
     <value>Портируемый</value>
   </data>
-  
-  
-  
-  
+  <data name="SetEditContainer.Text" xml:space="preserve">
+    <value>Установить Контейнер редактирования</value>
+  </data>
+  <data name="SetEditLayout.Text" xml:space="preserve">
+    <value>Установить Редактирование макетов</value>
+  </data>
+  <data name="SetSiteContainer.Text" xml:space="preserve">
+    <value>Установить Контейнер редактирования</value>
+  </data>
+  <data name="SetSiteLayout.Text" xml:space="preserve">
+    <value>Установить Макет сайта</value>
+  </data>
   <data name="Setting.Text" xml:space="preserve">
     <value>Настройка</value>
   </data>
-  
+  <data name="StatusEdit.Text" xml:space="preserve">
+    <value>Е</value>
+  </data>
   
   <data name="Theme.Text" xml:space="preserve">
     <value>Тема</value>
@@ -178,22 +190,42 @@
   <data name="Value.Text" xml:space="preserve">
     <value>Значение</value>
   </data>
-  
+  <data name="RestoreTheme.Text" xml:space="preserve">
+    <value>[ Восстановить тему по умолчанию ]</value>
+  </data>
   <data name="Confirm.Text" xml:space="preserve">
     <value>Подтвердите пароль</value>
   </data>
-  
-  
-  
-  
+  <data name="RestoreThemeConfirm.Text" xml:space="preserve">
+    <value>Вы уверены, что хотите восстановить тему по умолчанию?</value>
+  </data>
+  <data name="ApplyConfirm.Text" xml:space="preserve">
+    <value>Вы уверены, что хотите применить эту тему?</value>
+  </data>
+  <data name="DeleteConfirm.Text" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить эту тему?</value>
+  </data>
+  <data name="UsePackageUninstall.Text" xml:space="preserve">
+    <value>Эта тема устанавливается как пакет, пожалуйста, перейдите в раздел расширения и удалите ее оттуда.</value>
+  </data>
   <data name="SearchPlaceHolder.Text" xml:space="preserve">
     <value>Поиск</value>
   </data>
-  
-  
-  
-  
-  
+  <data name="Successful.Text" xml:space="preserve">
+    <value>Операция завершена!</value>
+  </data>
+  <data name="NoPermission.Text" xml:space="preserve">
+    <value>У вас нет разрешения на выполнение этого действия.</value>
+  </data>
+  <data name="NoThemeFile.Text" xml:space="preserve">
+    <value>В этой теме не существует файлов тем.</value>
+  </data>
+  <data name="ThemeNotFound.Text" xml:space="preserve">
+    <value>Не удаётся найти конкретную тему.</value>
+  </data>
+  <data name="NoneSpecified.Text" xml:space="preserve">
+    <value>-- Выбрать --</value>
+  </data>
   <data name="ApplyTheme.Text" xml:space="preserve">
     <value>Применить</value>
   </data>
@@ -206,17 +238,31 @@
   <data name="InstallTheme.Text" xml:space="preserve">
     <value>Установить тему</value>
   </data>
-  
-  
+  <data name="BackToThemes.Text" xml:space="preserve">
+    <value>Вернуться к темам</value>
+  </data>
+  <data name="GlobalThemes.Text" xml:space="preserve">
+    <value>Глобальные темы</value>
+  </data>
   <data name="SiteThemes.Text" xml:space="preserve">
     <value>Темы сайта</value>
   </data>
-  
-  
+  <data name="ThemeLevelAll.Text" xml:space="preserve">
+    <value>Все темы</value>
+  </data>
+  <data name="ThemeLevelGlobal.Text" xml:space="preserve">
+    <value>Глобальные темы</value>
+  </data>
   <data name="ThemeLevelSite.Text" xml:space="preserve">
     <value>Темы сайта</value>
   </data>
-  
-  
-  
+  <data name="ShowFilterLabel">
+    <value>Показано:</value>
+  </data>
+  <data name="NoThemes">
+    <value>Темы не найдены.</value>
+  </data>
+  <data name="NoThemesMessage">
+    <value>Попробуйте настроить фильтр поиска или установить новую тему в свою библиотеку.</value>
+  </data>
 </root>

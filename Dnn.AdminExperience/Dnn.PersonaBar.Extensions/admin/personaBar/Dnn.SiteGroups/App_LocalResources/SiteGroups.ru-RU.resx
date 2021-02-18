@@ -130,7 +130,9 @@
     <value>Новая</value>
   </data>
   
-  
+  <data name="AuthenticationDomain.Help" xml:space="preserve">
+    <value>Обычно не требуется.</value>
+  </data>
   
   <data name="EditModule_Assigned.Label" xml:space="preserve">
     <value>Выбранные</value>
@@ -142,24 +144,44 @@
     <value>Имя группы:</value>
   </data>
   
-  
+  <data name="GroupName.Required" xml:space="preserve">
+    <value>Требуется указать имя группы</value>
+  </data>
    <data name="Description.Label" xml:space="preserve">
     <value>Описание:</value>
   </data>
-  
+  <data name="Description.Help" xml:space="preserve">
+    <value>Задайте описание этой группе сайтов</value>
+  </data>
   <data name="Edit.Button" xml:space="preserve">
     <value>Редактировать</value>
   </data>
-  
-  
-  
-  
-  
-  
-  
+  <data name="MasterSite.Header" xml:space="preserve">
+    <value>Главный сайт</value>
+  </data>
+  <data name="MasterSite.Label" xml:space="preserve">
+    <value>Главный сайт:</value>
+  </data>
+  <data name="MasterSite.Help" xml:space="preserve">
+    <value>Главный сайт</value>
+  </data>
+  <data name="ChooseASite.Label" xml:space="preserve">
+    <value>Выберите сайт</value>
+  </data>
+  <data name="NewSiteGroup.Button" xml:space="preserve">
+    <value>Новая группа сайтов</value>
+  </data>
+  <data name="SiteGroup.Label" xml:space="preserve">
+    <value>Группа сайтов:</value>
+  </data>
+  <data name="Sites.Label" xml:space="preserve">
+    <value>Сайты:</value>
+  </data>
   <data name="Delete.Button" xml:space="preserve">
     <value>Удалить</value>
   </data>
-  
+  <data name="DeleteGroup.Confirm" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить эту группу сайтов?</value>
+  </data>
   
 </root>

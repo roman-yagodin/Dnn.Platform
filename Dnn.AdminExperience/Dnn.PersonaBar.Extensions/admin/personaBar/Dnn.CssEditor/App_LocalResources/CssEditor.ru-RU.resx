@@ -121,10 +121,12 @@
   <data name="SaveStyleSheet.Text" xml:space="preserve">
     <value>Сохранить файл стилей</value>
   </data>
-  
+  <data name="RestoreDefault.Text" xml:space="preserve">
+    <value>Восстановить по умолчанию</value>
+  </data>
   
   <data name="ConfirmRestore.Text" xml:space="preserve">
-    <value>Вы уверены, что хотиле восстановить файл стилей по-умолчанию? Все изменения в стилевом файле, сделанные к этому моменту, будут утеряны.</value>
+    <value>Вы уверены, что хотите восстановить таблицы стилей по умолчанию? Все изменения в текущей таблице стилей будут потеряны.</value>
   </data>
   <data name="RestoreButton.Text" xml:space="preserve">
     <value>Да</value>
@@ -132,6 +134,10 @@
   <data name="CancelButton.Text" xml:space="preserve">
     <value>Нет</value>
   </data>
-    
-  
+    <data name="StyleSheetSaved.Text" xml:space="preserve">
+    <value>Таблица стилей успешно сохранена.</value>
+  </data>
+  <data name="StyleSheetRestored.Text" xml:space="preserve">
+    <value>Таблица стилей успешно восстановлена.</value>
+  </data>
 </root>

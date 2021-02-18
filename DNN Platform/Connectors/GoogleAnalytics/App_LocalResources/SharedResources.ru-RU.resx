@@ -117,17 +117,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  
+  <data name="btnDelete.Text" xml:space="preserve">
+    <value>Удалить соединение</value>
+  </data>
   
   <data name="TrackAdministrators.Text" xml:space="preserve">
     <value>Отслеживать для администраторов:</value>
   </data>
-  
+  <data name="TrackingCodeFormat.ErrorMessage" xml:space="preserve">
+    <value>Код отслеживания не может быть пустым</value>
+  </data>
   <data name="TrackingID.Text" xml:space="preserve">
     <value>Ид. отслеживания:</value>
   </data>
-  
-  
-  
+  <data name="UrlParameter.Text" xml:space="preserve">
+    <value>Параметр URL:</value>
+  </data>
+  <data name="AnonymizeIp.Text" xml:space="preserve">
+    <value>Анонимизировать IP:</value>
+  </data>
+  <data name="TrackUserId.Text" xml:space="preserve">
+    <value>Отслеживать UserID:</value>
+  </data>
   
 </root>

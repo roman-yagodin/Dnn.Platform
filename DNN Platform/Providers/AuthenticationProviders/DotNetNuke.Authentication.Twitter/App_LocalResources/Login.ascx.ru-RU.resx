@@ -117,7 +117,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  
-  
+  <data name="RegisterTwitter.Text" xml:space="preserve">
+    <value>Регистрация через Twitter</value>
+  </data>
+  <data name="SignInTwitter.Text" xml:space="preserve">
+    <value>Войти через Twitter</value>
+  </data>
   
 </root>

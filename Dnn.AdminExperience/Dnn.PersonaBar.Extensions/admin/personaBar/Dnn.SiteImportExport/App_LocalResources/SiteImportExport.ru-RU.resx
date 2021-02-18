@@ -117,13 +117,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  
-  
-  
-  
-  
-  
-  
+  <data name="nav_SiteImportExport.Text" xml:space="preserve">
+    <value>Импорт / Экспорт</value>
+  </data>
+  <data name="SiteImportExport.Header" xml:space="preserve">
+    <value>Импорт / Экспорт</value>
+  </data>
+  <data name="ImportButton.Text" xml:space="preserve">
+    <value>Импортировать данные</value>
+  </data>
+  <data name="ExportButton.Text" xml:space="preserve">
+    <value>Экспортировать данные</value>
+  </data>
+  <data name="LastImport.Text" xml:space="preserve">
+    <value>Последний импорт</value>
+  </data>
+  <data name="LastExport.Text" xml:space="preserve">
+    <value>Последний экспорт</value>
+  </data>
+  <data name="LastUpdate.Text" xml:space="preserve">
+    <value>Последнее обновление</value>
+  </data>
   <data name="JobDate.Header" xml:space="preserve">
     <value>Дата</value>
   </data>
@@ -136,24 +150,48 @@
   <data name="JobPortal.Header" xml:space="preserve">
     <value>Вебсайт</value>
   </data>
+  <data name="JobStatus.Header" xml:space="preserve">
+    <value>Состояние</value>
+  </data>
+  <data name="LegendExport.Text" xml:space="preserve">
+    <value>Экспорт сайта</value>
+  </data>
+  <data name="LegendImport.Text" xml:space="preserve">
+    <value>Импорт сайта</value>
+  </data>
+  
+  <data name="ShowSiteLabel.Text" xml:space="preserve">
+    <value>Сайт: </value>
+  </data>
+  <data name="ShowFilterLabel.Text" xml:space="preserve">
+    <value>Фильтр: </value>
+  </data>
   
   
   
+  <data name="SearchPlaceHolder.Text" xml:space="preserve">
+    <value>Искать по ключевому слову</value>
+  </data>
+  <data name="SummaryNoteTitle.Text" xml:space="preserve">
+    <value>*Примечание:</value>
+  </data>
   
+  <data name="ExportSummary.Text" xml:space="preserve">
+    <value>Сводка по экспорту</value>
+  </data>
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  <data name="BackToImportExport.Text" xml:space="preserve">
+    <value>Вернуться к импорту / экспорту</value>
+  </data>
+  <data name="Export.Text" xml:space="preserve">
+    <value>Экспортировать данные</value>
+  </data>
+  <data name="Import.Text" xml:space="preserve">
+    <value>Импортировать данные</value>
+  </data>
+  <data name="ExportSettings.Text" xml:space="preserve">
+    <value>Настройки экспорта</value>
+  </data>
   <data name="Site.Text" xml:space="preserve">
     <value>Сайт</value>
   </data>
@@ -163,16 +201,24 @@
   <data name="Name.Text" xml:space="preserve">
     <value>Имя</value>
   </data>
-  
-  
-  
+  <data name="IncludeInExport.Text" xml:space="preserve">
+    <value>Включить в экспорт</value>
+  </data>
+  <data name="PagesInExport.Text" xml:space="preserve">
+    <value>Страницы в экспорте</value>
+  </data>
+  <data name="BeginExport.Text" xml:space="preserve">
+    <value>Начать экспорт</value>
+  </data>
   <data name="Cancel.Text" xml:space="preserve">
     <value>Отмена</value>
   </data>
   <data name="Content.Text" xml:space="preserve">
     <value>Содержимое</value>
   </data>
-  
+  <data name="ProfileProperties.Text" xml:space="preserve">
+    <value>Свойства профиля</value>
+  </data>
   <data name="Permissions.Text" xml:space="preserve">
     <value>Разрешения</value>
   </data>
@@ -191,7 +237,9 @@
   
   
   
-  
+  <data name="JobStatus4.Text" xml:space="preserve">
+    <value>Отменено</value>
+  </data>
   
   
   

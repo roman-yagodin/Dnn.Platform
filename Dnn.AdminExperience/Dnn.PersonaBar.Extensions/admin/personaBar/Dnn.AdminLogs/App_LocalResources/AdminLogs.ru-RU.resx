@@ -159,7 +159,9 @@
   <data name="Summary.Text" xml:space="preserve">
     <value>Кратко</value>
   </data>
-  
+  <data name="btnDelete.Text" xml:space="preserve">
+    <value>Удалить отмеченное</value>
+  </data>
   <data name="btnClear.Text" xml:space="preserve">
     <value>Очистить журнал</value>
   </data>
@@ -291,7 +293,9 @@
   <data name="Edit.EditText" xml:space="preserve">
     <value>Редактировать</value>
   </data>
-  
+  <data name="plIsActive.Text" xml:space="preserve">
+    <value>Регистрация</value>
+  </data>
   <data name="plIsActive.Help" xml:space="preserve">
     <value>Отметьте, если желаете сохранять события.</value>
   </data>
@@ -316,7 +320,9 @@
   <data name="plFileName.Help" xml:space="preserve">
     <value>Укажите имя файла, предназначенного для хранения журнала.</value>
   </data>
-  
+  <data name="plEmailNotificationStatus.Text" xml:space="preserve">
+    <value>Уведомление по электронной почте</value>
+  </data>
   <data name="plEmailNotificationStatus.Help" xml:space="preserve">
     <value>Отметьте, если желаете отправлять сообщения при появлении данного типа событий.</value>
   </data>

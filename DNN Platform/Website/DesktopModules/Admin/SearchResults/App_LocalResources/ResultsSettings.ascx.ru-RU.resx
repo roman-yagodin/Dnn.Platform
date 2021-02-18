@@ -135,8 +135,12 @@
   <data name="plEnableWildSearch.Text" xml:space="preserve">
     <value>Разрешает поиск по шаблону по-умолчанию</value>
   </data>
-  
-  
+  <data name="plMaxDescriptionLength.Help" xml:space="preserve">
+    <value>Макс. длина описания</value>
+  </data>
+  <data name="plMaxDescriptionLength.Text" xml:space="preserve">
+    <value>Макс. длина описания</value>
+  </data>
   <data name="plResultsScopeForFilters.Help" xml:space="preserve">
     <value>Ограничивает результаты поиска выбранными типами содержимого.</value>
   </data>
@@ -149,20 +153,48 @@
   <data name="plResultsScopeForPortals.Text" xml:space="preserve">
     <value>Ограничить поиск сайтами</value>
   </data>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  <data name="plResultsScopeForRoles.Help" xml:space="preserve">
+    <value>Ограничить результаты поиска выбранной ролью (ролями).</value>
+  </data>
+  <data name="plResultsScopeForRoles.Text" xml:space="preserve">
+    <value>Ограничить поиск ролью (ролями)</value>
+  </data>
+  <data name="plShowDescription.Help" xml:space="preserve">
+    <value>Показывать описание</value>
+  </data>
+  <data name="plShowDescription.Text" xml:space="preserve">
+    <value>Показывать описание</value>
+  </data>
+  <data name="plShowFriendlyTitle.Help" xml:space="preserve">
+    <value>Показать заголовок страницы вместо внутреннего имени страницы.</value>
+  </data>
+  <data name="plShowFriendlyTitle.Text" xml:space="preserve">
+    <value>Показать дружественный заголовок страницы</value>
+  </data>
+  <data name="plShowLastUpdated.Help" xml:space="preserve">
+    <value>Показать, когда содержимое было обновлено, например 5 дней назад</value>
+  </data>
+  <data name="plShowLastUpdated.Text" xml:space="preserve">
+    <value>Показать дату последнего обновления</value>
+  </data>
+  <data name="plShowSnippet.Help" xml:space="preserve">
+    <value>Показать, где искомый текст встречается в содержимом.</value>
+  </data>
+  <data name="plShowSnippet.Text" xml:space="preserve">
+    <value>Показать фрагмент</value>
+  </data>
+  <data name="plShowSource.Help" xml:space="preserve">
+    <value>Показать источник содержимого, например страницы, документы, и т.п.</value>
+  </data>
+  <data name="plShowSource.Text" xml:space="preserve">
+    <value>Показать источник</value>
+  </data>
+  <data name="plShowTags.Help" xml:space="preserve">
+    <value>Показать метки</value>
+  </data>
+  <data name="plShowTags.Text" xml:space="preserve">
+    <value>Показать метки</value>
+  </data>
   <data name="plTitleLinkTarget.Help" xml:space="preserve">
     <value>Определяет, будет ли ссылка открываться на той же странице или в новом окне.</value>
   </data>

@@ -138,7 +138,9 @@
   <data name="recyclebin_EmptyRecycleBin.Text" xml:space="preserve">
     <value>Очистить корзину</value>
   </data>
-  
+  <data name="recyclebin_EmptyRecycleBinConfirm.Text" xml:space="preserve">
+    <value>Вы хотите удалить все файлы из корзины?</value>
+  </data>
   <data name="recyclebin_Modules.Text" xml:space="preserve">
     <value>Модули</value>
   </data>
@@ -157,10 +159,18 @@
   <data name="recyclebin_NoConfirm.Text" xml:space="preserve">
     <value>Нет</value>
   </data>
-  
-  
-  
-  
+  <data name="recyclebin_NoItems.Text" xml:space="preserve">
+    <value>Корзина сейчас пуста</value>
+  </data>
+  <data name="recyclebin_NoModules.Text" xml:space="preserve">
+    <value>В корзинет нет модулей</value>
+  </data>
+  <data name="recyclebin_NoPages.Text" xml:space="preserve">
+    <value>В корзине нет страниц</value>
+  </data>
+  <data name="recyclebin_NoUsers.Text" xml:space="preserve">
+    <value>В корзине нет пользователей</value>
+  </data>
   <data name="recyclebin_Page.Text" xml:space="preserve">
     <value>Страница</value>
   </data>
@@ -191,6 +201,44 @@
   <data name="recyclebin_YesConfirm.Text" xml:space="preserve">
     <value>Да</value>
   </data>
+  <data name="Service_RemoveTabError.Text" xml:space="preserve">
+    <value>Произошла ошибка при удалении страницы:{0}</value>
+  </data>
+  <data name="Service_RemoveTabModuleError.Text" xml:space="preserve">
+    <value>Произошла ошибка удаления модулей на странице:{0}</value>
+  </data>
+  <data name="Service_RemoveUserError.Text" xml:space="preserve">
+    <value>Произошла ошибка при удалении пользователя:{0}</value>
+  </data>
+  <data name="Service_RestoreModuleError.Text" xml:space="preserve">
+    <value>Произошла ошибка при восстановлении модуля {0} на страницу {1}. Страница была удалена.</value>
+  </data>
+  <data name="Service_RestoreTabError.Text" xml:space="preserve">
+    <value>Страница {0} не может быть восстановлена до тех пор, пока не будет восстановлена её родительская страница.</value>
+  </data>
+  <data name="Service_RestoreTabModuleError.Text" xml:space="preserve">
+    <value>Произошла ошибка при восстановлении страницы:{0}</value>
+  </data>
+  <data name="Service_EmptyRecycleBinError.Text" xml:space="preserve">
+    <value>Некоторые из элементов не были удалены.</value>
+  </data>
+  <data name="Service_RestoreUserError.Text" xml:space="preserve">
+    <value>Произошла ошибка при восстановлении пользователя.</value>
+  </data>
+  <data name="CanNotDeleteModule.Text" xml:space="preserve">
+    <value>У вас нет прав на удаление модуля с идентификатором "{0}".</value>
+  </data>
+  
+  
+  
+  
+  
+  <data name="Prompt_ModulePurgedSuccessfully.Text" xml:space="preserve">
+    <value>Модуль с идентификатором "{0}" успешно вычищен.</value>
+  </data>
+  <data name="Service_RemoveTabWithChildError.Text" xml:space="preserve">
+    <value>Страница {0} не может быть удалена до тех пор, пока не будут удалены её дочерние страницы.</value>
+  </data>
   
   
   
@@ -226,24 +274,12 @@
   
   
   
+  <data name="Prompt_RecylcleBinCategory.Text" xml:space="preserve">
+    <value>Команды корзины</value>
+  </data>
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  <data name="Service_RemoveTabParentTabError" xml:space="preserve">
+    <value>Страница {0} не может быть удалена до тех пор, пока не будут удалены её дочерние страницы.</value>
+  </data>
 </root>

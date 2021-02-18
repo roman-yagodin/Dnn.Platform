@@ -231,6 +231,10 @@
   <data name="UserLockedOut_ContactAdmin.Text" xml:space="preserve">
     <value>Эта учетная запись заблокирована после множественных неудачных попыток входа. Для разблокирования свяжитесь с администратором.</value>
   </data>
-  
-  
+  <data name="MustConsent.Text" xml:space="preserve">
+    <value>Вы должны согласиться с нашими условиями для продолжения</value>
+  </data>
+  <data name="FailedToRemoveAccount.Text" xml:space="preserve">
+    <value>Не удалось удалить учетную запись. Пожалуйста, свяжитесь с администратором сайта и сообщите ему/ей, что вы хотите удалить.</value>
+  </data>
 </root>

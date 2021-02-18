@@ -144,7 +144,9 @@
   <data name="Tab.404ErrorPage.Title.Text" xml:space="preserve">
     <value>Страница ошибки 404</value>
   </data>
-  
+  <data name="Tab.ActivityFeed.CenterPane.JournalModule.Title.Text" xml:space="preserve">
+    <value>Журнал</value>
+  </data>
   <data name="Tab.ActivityFeed.CenterPane.ProfileModule.Title.Text" xml:space="preserve">
     <value>Просмотр профиля</value>
   </data>
@@ -261,35 +263,57 @@
   <data name="Tab.Home.Header.Title" xml:space="preserve">
     <value>Каждое путешествие начинается с первого шага. </value>
   </data>
+  <data name="Tab.Home.Main.Title" xml:space="preserve">
+    <value>ПОДКЛЮЧАЙТЕСЬ и УЧАСТВУЙТЕ</value>
+  </data>
   
+  <data name="Tab.Home.Main.Docs.Title" xml:space="preserve">
+    <value>Документация</value>
+  </data>
   
+  <data name="Tab.Home.Main.Docs.SubLink.Text" xml:space="preserve">
+    <value>Перейти к документации DNN</value>
+  </data>
   
+  <data name="Tab.Home.Main.Community.Title" xml:space="preserve">
+    <value>Сообщество</value>
+  </data>
   
+  <data name="Tab.Home.Main.Community.SubLink.Text" xml:space="preserve">
+    <value>Посетить сайт сообщества DNN</value>
+  </data>
   
+  <data name="Tab.Home.Main.Code.Title" xml:space="preserve">
+    <value>Код</value>
+  </data>
   
-  
-  
-  
-  
-  
-  
-  
+  <data name="Tab.Home.Main.Code.SubLink.Text" xml:space="preserve">
+    <value>Посетить проект DNN на GitHub</value>
+  </data>
   
   <data name="Tab.Home.Main.Forums.Title" xml:space="preserve">
     <value>Форумы</value>
   </data>
   
+  <data name="Tab.Home.Main.Forums.SubLink.Text" xml:space="preserve">
+    <value>Посетить форумы DNN</value>
+  </data>
   
+  <data name="Tab.Home.Main.Blogs.Title" xml:space="preserve">
+    <value>Блоги</value>
+  </data>
   
-  
-  
-  
+  <data name="Tab.Home.Main.Blogs.SubLink.Text" xml:space="preserve">
+    <value>Посетить блоги DNN</value>
+  </data>
   
   <data name="Tab.Home.Main.Extensions.Title" xml:space="preserve">
     <value>Расширения</value>
   </data>
   
-  
+  <data name="Tab.Home.Main.Extensions.SubLink.Text" xml:space="preserve">
+    <value>Посетить сайт расширений DNN</value>
+  </data>
   
   
   

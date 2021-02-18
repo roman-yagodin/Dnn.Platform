@@ -120,6 +120,44 @@
   
   
   
+  <data name="LicenseType.Header" xml:space="preserve">
+    <value>ТИП ЛИЦЕНЗИИ</value>
+  </data>
+  <data name="InvoiceNumber.Header" xml:space="preserve">
+    <value>НОМЕР СЧЁТА</value>
+  </data>
+  <data name="WebServer.Header" xml:space="preserve">
+    <value>ВЕБ-СЕРВЕР</value>
+  </data>
+  
+  
+  
+  
+  
+  
+  
+  <data name="Error.Unknown.Activation" xml:space="preserve">
+    <value>Не удается обработать запрос, повторите попытку позже или используйте ручную активацию.</value>
+  </data>
+  <data name="Error.LicenseAlreadyExists" xml:space="preserve">
+    <value>Не удалось активировать лицензию. Сервер хоста {0} уже имеет лицензию {1}.</value>
+  </data>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <data name="Error.DEA1.Text" xml:space="preserve">
+    <value>Ошибка при удалении лицензии. Лицензия не найдена.</value>
+  </data>
+  
+  <data name="Error.Unknown" xml:space="preserve">
+    <value>Не удалось обработать запрос, пожалуйста, повторите попытку позже.</value>
+  </data>
   
   
   
@@ -132,36 +170,20 @@
   
   
   
+  <data name="Intro.Header" xml:space="preserve">
+    <value>Платформа DNN</value>
+  </data>
   
+  <data name="GitHub.Header" xml:space="preserve">
+    <value>КОД</value>
+  </data>
   
+  <data name="Community.Header" xml:space="preserve">
+    <value>СООБЩЕСТВО</value>
+  </data>
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  <data name="Docs.Header" xml:space="preserve">
+    <value>ДОКУМЕНТАЦИЯ</value>
+  </data>
   
 </root>

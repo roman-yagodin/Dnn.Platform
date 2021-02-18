@@ -126,5 +126,7 @@
   <data name="PageName.Text" xml:space="preserve">
     <value>Управление определением устройств</value>
   </data>
-  
+  <data name="SuccessMessage.Text" xml:space="preserve">
+    <value>Обновление данных устройств прошло успешно</value>
+  </data>
 </root>

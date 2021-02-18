@@ -117,13 +117,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  
-  
+  <data name="Anonymize.Confirm" xml:space="preserve">
+    <value>Ваши личные данные будут анонимизированы. После анонимизации данные больше не могут быть отслежены с вами лично, и вы больше не сможете войти в систему, используя эту учетную запись. Вы хотите продолжить?</value>
+  </data>
+  <data name="cmdDeleteMe.Text" xml:space="preserve">
+    <value>Удалить меня</value>
+  </data>
   <data name="cmdSubmit.Text" xml:space="preserve">
     <value>Отправить</value>
   </data>
-  
-  
-  
-  
+  <data name="DataConsent.Text" xml:space="preserve">
+    <value>Я согласен с &lt;a href="{0}"&gt;Условиями использования&lt;/a&gt; данного веб-сайта и &lt;a href="{1}"&gt;Соглашением о конфиденциальности&lt;/a&gt;</value>
+  </data>
+  <data name="DelayedHardDelete.Confirm" xml:space="preserve">
+    <value>Ваши персональные данные будут удалены с этого сайта. После удаления они больше уже не могут быть восстановлены, то есть будут потеряны навсегда. Вы также не сможете войти в систему, используя эту учетную запись. Вы хотите продолжить?</value>
+  </data>
+  <data name="HardDelete.Confirm" xml:space="preserve">
+    <value>Ваши персональные данные будут немедленно удалены с этого сайта. После удаления они больше уже не могут быть восстановлены, то есть будут потеряны навсегда. Вы также не сможете войти в систему, используя эту учетную запись. Вы хотите продолжить?</value>
+  </data>
+  <data name="ManualDelete.Confirm" xml:space="preserve">
+    <value>Мы займемся удалением Ваших персональных данных на этом сайте в ближайшее время. После удаления они больше уже не могут быть восстановлены, то есть будут потеряны навсегда. Вы также не сможете войти в систему, используя эту учетную запись. Вы хотите продолжить?</value>
+  </data>
 </root>

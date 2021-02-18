@@ -117,18 +117,46 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  <data name="AccountName.Text" xml:space="preserve">
+    <value>Имя учетной записи хранилища:</value>
+  </data>
+  <data name="AccountKey.Text" xml:space="preserve">
+    <value>Ключ учетной записи хранилища:</value>
+  </data>
+  <data name="Container.Text" xml:space="preserve">
+    <value>Название контейнера:</value>
+  </data>
+  <data name="AuthenticationFailure.ErrorMessage" xml:space="preserve">
+    <value>Произошла ошибка аутентификации.</value>
+  </data>
+  <data name="AccessDenied.ErrorMessage" xml:space="preserve">
+    <value>Доступ запрещен.</value>
+  </data>
+  <data name="AccountNotFound.ErrorMessage" xml:space="preserve">
+    <value>Указанная учетная запись не найдена.</value>
+  </data>
+  <data name="ErrorInvalidContainerName.Text" xml:space="preserve">
+    <value>Введенное имя контейнера недопустимо.</value>
+  </data>
+  <data name="SelectContainer.Text" xml:space="preserve">
+    <value>-Выберите контейнер-</value>
+  </data>
+  <data name="ErrorRequiredFields.Text" xml:space="preserve">
+    <value>Укажите ключ доступа к хранилищу и имя учетной записи хранилища.</value>
+  </data>
+  <data name="ErrorMappingNameExists.Text" xml:space="preserve">
+    <value>Имя подключения уже существует.</value>
+  </data>
+  <data name="InvalidAccountKey.ErrorMessage" xml:space="preserve">
+    <value>Введенные данные не являются действительным ключом учетной записи хранилища.</value>
+  </data>
+  <data name="InvalidAccountName.ErrorMessage" xml:space="preserve">
+    <value>Введенные данные не являются допустимым именем учетной записи хранилища.</value>
+  </data>
+  <data name="AccountNameCannotBeEmpty.ErrorMessage" xml:space="preserve">
+    <value>Имя учетной записи хранилища не может быть пустым.</value>
+  </data>
+  <data name="AccountKeyCannotBeEmpty.ErrorMessage" xml:space="preserve">
+    <value>Ключ учетной записи хранилища не может быть пустым.</value>
+  </data>
 </root>

@@ -255,7 +255,9 @@
   <data name="Module.Type" xml:space="preserve">
     <value>Модули</value>
   </data>
-  
+  <data name="MoreExtensions.Text" xml:space="preserve">
+    <value>Больше расширений</value>
+  </data>
   
   <data name="Provider.Type" xml:space="preserve">
     <value>Поставщики</value>
@@ -454,7 +456,9 @@
   <data name="EditAuthSystem_SettingsCtrlSource.Tooltip" xml:space="preserve">
     <value>Отметьте, чтобы включить данную систему аутентификации.</value>
   </data>
-  
+  <data name="EditAuthSystem_Type.Label" xml:space="preserve">
+    <value>Тип аутентификации</value>
+  </data>
   <data name="EditAuthSystem_Type.Tooltip" xml:space="preserve">
     <value>Тип системы аутентификации (например: LiveID, OpenID и др.)</value>
   </data>
@@ -471,7 +475,9 @@
   <data name="EditExtension_PackageName.Label" xml:space="preserve">
     <value>Имя</value>
   </data>
-  
+  <data name="EditExtension_PackageOrganization.Label" xml:space="preserve">
+    <value>Организация</value>
+  </data>
   <data name="EditExtension_PackageOwner.Label" xml:space="preserve">
     <value>Владелец</value>
   </data>
@@ -484,9 +490,15 @@
   <data name="InstallExtension_Cancel.Button" xml:space="preserve">
     <value>Отмена</value>
   </data>
-  
-  
-  
+  <data name="InstallExtension_FileUploadDefault.Text" xml:space="preserve">
+    <value>Перетащите файл или щелкните по значку для выбора</value>
+  </data>
+  <data name="InstallExtension_FileUploadDragOver.Text" xml:space="preserve">
+    <value>Перетащите файл</value>
+  </data>
+  <data name="InstallExtension_Or.Text" xml:space="preserve">
+    <value>или</value>
+  </data>
   <data name="InstallExtension_PackageExists.Error" xml:space="preserve">
     <value>Этот пакет уже установлен.</value>
   </data>
@@ -498,11 +510,17 @@
   <data name="InstallExtension_Upload.Button" xml:space="preserve">
     <value>След.</value>
   </data>
+  <data name="InstallExtension_UploadAFile.Text" xml:space="preserve">
+    <value>Загрузить файл</value>
+  </data>
+  <data name="InstallExtension_UploadComplete.Text" xml:space="preserve">
+    <value>Загрузка завершена</value>
+  </data>
   
   
-  
-  
-  
+  <data name="InstallExtension_UploadPackage.Header" xml:space="preserve">
+    <value>Загрузить пакет расширения</value>
+  </data>
   
   <data name="NewModule_AddFolder.Button" xml:space="preserve">
     <value>Добавить папку</value>
@@ -510,7 +528,9 @@
   <data name="NewModule_AddTestPage.HelpText" xml:space="preserve">
     <value>Отметьте, чтобы создать тестовую страницу для нового модуля.</value>
   </data>
-  
+  <data name="NewModule_AddTestPage.Label" xml:space="preserve">
+    <value>Добавить тестовую страницу:</value>
+  </data>
   <data name="NewModule_Cancel.Button" xml:space="preserve">
     <value>Отмена</value>
   </data>
@@ -538,12 +558,18 @@
   <data name="NewModule_ModuleFolder.HelpText" xml:space="preserve">
     <value>Это папка, где находятся файлы и папки Вашего модуля.</value>
   </data>
-  
+  <data name="NewModule_ModuleFolder.Label" xml:space="preserve">
+    <value>Папка модуля</value>
+  </data>
   <data name="NewModule_ModuleName.HelpText" xml:space="preserve">
     <value>Введите дружественное имя для создаваемого модуля.</value>
   </data>
-  
-  
+  <data name="NewModule_ModuleName.Label" xml:space="preserve">
+    <value>Имя модуля</value>
+  </data>
+  <data name="NewModule_NoneSpecified.Text" xml:space="preserve">
+    <value>&lt;Не указано&gt;</value>
+  </data>
   
   
   <data name="AddModuleControl_Cancel.Button" xml:space="preserve">
@@ -552,7 +578,9 @@
   <data name="AddModuleControl_Definition.HelpText" xml:space="preserve">
     <value>Это название определения модуля</value>
   </data>
-  
+  <data name="AddModuleControl_Definition.Label" xml:space="preserve">
+    <value>Определение</value>
+  </data>
   <data name="AddModuleControl_HelpURL.HelpText" xml:space="preserve">
     <value>Вы можете указать URL помощи для данного элемента управления. Эта ссылка появится меню действий модуля.</value>
   </data>
@@ -590,7 +618,9 @@
   <data name="AddModuleControl_SupportsPopups.HelpText" xml:space="preserve">
     <value>Этот флаг показывает, поддерживает ли элемент управления модуля модальные всплывающие окна.</value>
   </data>
-  
+  <data name="AddModuleControl_SupportsPopups.Label" xml:space="preserve">
+    <value>Поддерживает всплывающие окна?</value>
+  </data>
   
   <data name="AddModuleControl_Title.Label" xml:space="preserve">
     <value>Заголовок</value>
@@ -607,7 +637,9 @@
   <data name="AddModuleControl_ViewOrder.HelpText" xml:space="preserve">
     <value>Укажите порядок показа этого элемента управления в списке элементов управления определения модуля.</value>
   </data>
-  
+  <data name="AddModuleControl_ViewOrder.Label" xml:space="preserve">
+    <value>Порядок показа</value>
+  </data>
   <data name="EditModule_Assigned.Label" xml:space="preserve">
     <value>Выбранные</value>
   </data>
@@ -662,7 +694,9 @@
   <data name="EditModule_ModuleName.HelpText" xml:space="preserve">
     <value>Имя модуля</value>
   </data>
-  
+  <data name="EditModule_ModuleName.Label" xml:space="preserve">
+    <value>Имя модуля</value>
+  </data>
   <data name="EditModule_ModuleSharing.HelpText" xml:space="preserve">
     <value>Указывает, поддерживает ли модуль совместное использование на нескольких сайтах.</value>
   </data>
@@ -703,7 +737,9 @@
   <data name="NewModule_Resource.HelpText" xml:space="preserve">
     <value>Выберите ресурс для создания модуля.</value>
   </data>
-  
+  <data name="NewModule_Resource.Label" xml:space="preserve">
+    <value>Ресурс</value>
+  </data>
   <data name="CreatePackage_Header.Header" xml:space="preserve">
     <value>Создать пакет</value>
   </data>
@@ -872,8 +908,12 @@
   <data name="Done.Button" xml:space="preserve">
     <value>Готово</value>
   </data>
-  
-  
+  <data name="EditModule_SaveAndClose.Button" xml:space="preserve">
+    <value>Сохранить и закрыть</value>
+  </data>
+  <data name="InstallExtension_AcceptLicense.Label" xml:space="preserve">
+    <value>Принять условия лицензии?</value>
+  </data>
   <data name="InstallExtension_License.Header" xml:space="preserve">
     <value>Лицензия</value>
   </data>
@@ -895,7 +935,9 @@
     <value>Отмена</value>
   </data>
   
-  
+  <data name="EditExtension_PackageType.Label" xml:space="preserve">
+    <value>Тип расширения</value>
+  </data>
   <data name="InstallExtension_PackageInfo.Header" xml:space="preserve">
     <value>Информация пакета</value>
   </data>
@@ -929,29 +971,45 @@
     <value>Загрузить</value>
   </data>
   
-  
+  <data name="EditModule_ModuleSharingSupported.Label" xml:space="preserve">
+    <value>Поддерживается</value>
+  </data>
   <data name="EditModule_ModuleSharingUnknown.Label" xml:space="preserve">
     <value>Неизвестно</value>
   </data>
-  
+  <data name="EditModule_ModuleSharingUnsupported.Label" xml:space="preserve">
+    <value>Не поддерживается</value>
+  </data>
   <data name="Install.Button" xml:space="preserve">
     <value>Установить</value>
   </data>
   <data name="Previous.Button" xml:space="preserve">
     <value>Пред.</value>
   </data>
-  
-  
-  
+  <data name="Errors.Text" xml:space="preserve">
+    <value>ошибки</value>
+  </data>
+  <data name="TryAgain.Text" xml:space="preserve">
+    <value>[Попробовать снова]</value>
+  </data>
+  <data name="ViewErrorLog.Text" xml:space="preserve">
+    <value>[Просмотр журнала ошибок]</value>
+  </data>
   <data name="Delete.Button" xml:space="preserve">
     <value>Удалить</value>
   </data>
-  
+  <data name="DeleteExtension.Action" xml:space="preserve">
+    <value>Удалить расширения - {0}</value>
+  </data>
   <data name="DeleteFiles.HelpText" xml:space="preserve">
     <value>Отметьте, чтобы вместе с расширением удалить также все созданные при его установке файлы.</value>
   </data>
-  
-  
+  <data name="DeleteFiles.Label" xml:space="preserve">
+    <value>Удалить файлы?</value>
+  </data>
+  <data name="Extension.Header" xml:space="preserve">
+    <value>Расширение</value>
+  </data>
   <data name="Container.Text" xml:space="preserve">
     <value>Контейнер</value>
   </data>
@@ -971,13 +1029,19 @@
     <value>Развернуть</value>
   </data>
   
+  <data name="InstallExtension_UploadFailedUnknown.Text" xml:space="preserve">
+    <value>Ошибка при загрузке файла Zip</value>
+  </data>
   
   
   
+  <data name="BackToEditExtension.Text" xml:space="preserve">
+    <value>Вернуться к редактированию расширения {0}</value>
+  </data>
   
-  
-  
-  
+  <data name="ModuleUsageTitle.Text" xml:space="preserve">
+    <value>Информация об использовании модуля {0}</value>
+  </data>
   
   
   <data name="NoModuleUsageDetail.Text" xml:space="preserve">

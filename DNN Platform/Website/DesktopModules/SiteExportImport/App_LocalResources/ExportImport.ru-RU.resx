@@ -117,24 +117,50 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ASSETS.InfoText" xml:space="preserve">
+    <value>Ресурсы:</value>
+  </data>
+  <data name="InvalidPortal.Text" xml:space="preserve">
+    <value>Неверный портал.</value>
+  </data>
   
+  <data name="JobStatus_Cancelled.Text" xml:space="preserve">
+    <value>Отменено</value>
+  </data>
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <data name="PAGES.InfoText" xml:space="preserve">
-    <value>Страницы:</value>
+  <data name="JobStatus_DoneSuccess.Text" xml:space="preserve">
+    <value>Успешно</value>
   </data>
   
   
-  
-  
-  
-  
+  <data name="JobType_Export.Text" xml:space="preserve">
+    <value>Экспорт сайта</value>
+  </data>
+  <data name="JobType_Import.Text" xml:space="preserve">
+    <value>Импорт сайта</value>
+  </data>
+  <data name="NotPortalAdmin.Text" xml:space="preserve">
+    <value>Пользователь не является администратором портала</value>
+  </data>
+  <data name="PAGES.InfoText" xml:space="preserve">
+    <value>Страницы:</value>
+  </data>
+  <data name="PORTAL.InfoText" xml:space="preserve">
+    <value>Конфигурации портала:</value>
+  </data>
+  <data name="PROFILE_PROPERTIES.InfoText" xml:space="preserve">
+    <value>Определения профиля:</value>
+  </data>
+  <data name="ROLES.InfoText" xml:space="preserve">
+    <value>Роли:</value>
+  </data>
+  <data name="USERS.InfoText" xml:space="preserve">
+    <value>Пользователи:</value>
+  </data>
+  <data name="USERS_DATA.InfoText" xml:space="preserve">
+    <value>Дополнительные данные пользователей:</value>
+  </data>
+  <data name="VOCABULARIES.InfoText" xml:space="preserve">
+    <value>Словари:</value>
+  </data>
 </root>

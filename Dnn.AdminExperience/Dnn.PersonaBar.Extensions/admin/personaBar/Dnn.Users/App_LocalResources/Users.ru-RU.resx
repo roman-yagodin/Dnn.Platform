@@ -126,26 +126,36 @@
   <data name="nav_Users.Text" xml:space="preserve">
     <value>Пользователи</value>
   </data>
-  
-  
+  <data name="RegisteredUsers.Text" xml:space="preserve">
+    <value>Зарегистрированные пользователи</value>
+  </data>
+  <data name="SuperUsers.Text" xml:space="preserve">
+    <value>Администраторы хостинга</value>
+  </data>
   <data name="UnAuthorized.Text" xml:space="preserve">
     <value>Не авторизован</value>
   </data>
-  
+  <data name="SearchPlaceHolder.Text" xml:space="preserve">
+    <value>Поиск пользователей</value>
+  </data>
   <data name="AccountSettings.Text" xml:space="preserve">
     <value>Настройки учетной записи</value>
   </data>
   <data name="Add.Text" xml:space="preserve">
     <value>Новая</value>
   </data>
-  
+  <data name="AddRolePlaceHolder.Text" xml:space="preserve">
+    <value>Начните печатать, чтобы добавить роль этому пользователю.</value>
+  </data>
   <data name="Approved.Help" xml:space="preserve">
     <value>Авторизован ли пользователь на данном сайте.</value>
   </data>
   <data name="Approved.Text" xml:space="preserve">
     <value>Авторизован:</value>
   </data>
-  
+  <data name="Authorized.Header" xml:space="preserve">
+    <value>Состояние</value>
+  </data>
   <data name="Authorized.Text" xml:space="preserve">
     <value>Авторизирован</value>
   </data>
@@ -182,7 +192,9 @@
   <data name="cmdPassword.Text" xml:space="preserve">
     <value>Потребовать смену пароля</value>
   </data>
-  
+  <data name="cmdUnAuthorize.Text" xml:space="preserve">
+    <value>Отозвать авторизацию пользователя</value>
+  </data>
   <data name="cmdUnLock.Text" xml:space="preserve">
     <value>Разблокировать</value>
   </data>
@@ -196,11 +208,15 @@
   <data name="Delete.Text" xml:space="preserve">
     <value>Удалить</value>
   </data>
-  
+  <data name="DeleteRole.Confirm" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить роль '{0}' из '{1}'?</value>
+  </data>
   <data name="DeleteUser.Confirm" xml:space="preserve">
     <value>Уверены, что хотите удалить этого пользователя?</value>
   </data>
-  
+  <data name="DeleteUser.Text" xml:space="preserve">
+    <value>Удалить пользователя</value>
+  </data>
   <data name="DemoteFromSuperUser.Text" xml:space="preserve">
     <value>Сделать обычным пользователем</value>
   </data>
@@ -291,14 +307,18 @@
   <data name="Never.Text" xml:space="preserve">
     <value>Никогда</value>
   </data>
-  
+  <data name="NoRoles.Text" xml:space="preserve">
+    <value>Роли не найдены.</value>
+  </data>
   <data name="OptionUnavailable.Text" xml:space="preserve">
     <value>Возможность сброса пароля на настоящий момент недоступна.</value>
   </data>
   <data name="PasswordInvalid.Text" xml:space="preserve">
     <value>Нужно указать корректный пароль. Свяжитесь с администратором сайта, если требования к паролям Вам неизвестны.</value>
   </data>
-  
+  <data name="PasswordManagement.Text" xml:space="preserve">
+    <value>Управление паролем</value>
+  </data>
   <data name="PasswordResetFailed.Text" xml:space="preserve">
     <value>Ваш новый пароль не был принят из соображений безопасности. Пожалуйста, убедитесь, что Вы указали пароль, не совпадающий с предыдущим, а также достаточно длинный и сложный, чтобы удовлетворить требованиям к сложности, применяемых к паролям для сайтов.</value>
   </data>
@@ -308,7 +328,9 @@
   <data name="PasswordSent.Text" xml:space="preserve">
     <value>Если введенное имя пользователя корректно, вы вскоре получите электронное письмо со ссылкой для сброса пароля.</value>
   </data>
-  
+  <data name="NewConfirmMismatch.ErrorMessage" xml:space="preserve">
+    <value>Новый пароль и подтверждение должны совпадать.</value>
+  </data>
   <data name="NewConfirm.Help" xml:space="preserve">
     <value>Подтвердите новый пароль путем его повторного ввода, чтобы убедиться в отсутствии ошибок при наборе.</value>
   </data>
@@ -327,11 +349,15 @@
   <data name="RemoveUser.Confirm" xml:space="preserve">
     <value>Уверены, что хотите навсегда удалить этого пользователя?</value>
   </data>
-  
+  <data name="RemoveUser.Text" xml:space="preserve">
+    <value>Удалить пользователя навсегда</value>
+  </data>
   <data name="ResetPassword.Text" xml:space="preserve">
     <value>Выслать ссылку для сброса пароля</value>
   </data>
-  
+  <data name="RestoreUser.Text" xml:space="preserve">
+    <value>Восстановить пользователя</value>
+  </data>
   <data name="Role.Header" xml:space="preserve">
     <value>Роль</value>
   </data>
@@ -375,13 +401,19 @@
   <data name="UserPasswordUpdateChanged.Text" xml:space="preserve">
     <value>Пользователь должен обновить пароль при следующем входе в систему.</value>
   </data>
-  
-  
+  <data name="UserRestored.Text" xml:space="preserve">
+    <value>Пользователь успешно восстановлен</value>
+  </data>
+  <data name="usersPageSizeOptionText.Text" xml:space="preserve">
+    <value>{0} пользователей на страницу</value>
+  </data>
   
   <data name="UserUnAuthorized.Text" xml:space="preserve">
     <value>Авторизация пользователя успешно отменена.</value>
   </data>
-  
+  <data name="UserUpdated.Text" xml:space="preserve">
+    <value>Пользователь успешно обновлен.</value>
+  </data>
   <data name="ViewProfile.Text" xml:space="preserve">
     <value>Просмотр профиля</value>
   </data>
@@ -403,7 +435,9 @@
   <data name="LastName.Text" xml:space="preserve">
     <value>Фамилия:</value>
   </data>
-  
+  <data name="Notify.Text" xml:space="preserve">
+    <value>Отправить электронное письмо новому пользователю</value>
+  </data>
   <data name="Password.Help" xml:space="preserve">
     <value>Введите пароль для этого пользователя.</value>
   </data>
@@ -416,7 +450,9 @@
   <data name="Random.Text" xml:space="preserve">
     <value>Случайный пароль</value>
   </data>
-  
+  <data name="UserCreated.Text" xml:space="preserve">
+    <value>Пользователь успешно создан.</value>
+  </data>
   <data name="Confirm.Required" xml:space="preserve">
     <value>Необходимо повторно ввести пароль.</value>
   </data>
@@ -459,34 +495,107 @@
   <data name="Username.Required" xml:space="preserve">
     <value>Укажите имя пользователя.</value>
   </data>
-  
-  
+  <data name="noUsers.Text" xml:space="preserve">
+    <value>Пользователи не найдены.</value>
+  </data>
+  <data name="ShowLabel.Text" xml:space="preserve">
+    <value>Показать: </value>
+  </data>
   <data name="DemoteToRegularUser.Text" xml:space="preserve">
     <value>Сделать обычным пользователем</value>
   </data>
+  <data name="InSufficientPermissions.Text" xml:space="preserve">
+    <value>У вас недостаточно прав для выполнения этого действия.</value>
+  </data>
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  <data name="RegisterationFailed.Text" xml:space="preserve">
+    <value>Регистрация не удалась. Пожалуйста, попробуйте позже.</value>
+  </data>
+  <data name="UserDeleteError.Text" xml:space="preserve">
+    <value>Не удалось удалить пользователя.</value>
+  </data>
+  <data name="UsernameNotUnique.Text" xml:space="preserve">
+    <value>Имя пользователя должно быть уникальным.</value>
+  </data>
+  <data name="UserNotFound.Text" xml:space="preserve">
+    <value>Пользователь не найден.</value>
+  </data>
+  <data name="UserRemoveError.Text" xml:space="preserve">
+    <value>Невозможно удалить пользователя.</value>
+  </data>
+  <data name="UserRestoreError.Text" xml:space="preserve">
+    <value>Невозможно восстановить пользователя.</value>
+  </data>
+  <data name="RoleIsNotApproved.Text" xml:space="preserve">
+    <value>Не удается назначить роль, которая не утверждена.</value>
+  </data>
+  <data name="UserUnlockError.Text" xml:space="preserve">
+    <value>Не удалось разблокировать пользователя.</value>
+  </data>
+  <data name="cmUnlockUser.Text" xml:space="preserve">
+    <value>Разблокировать пользователя</value>
+  </data>
+  <data name="UserUnLocked.Text" xml:space="preserve">
+    <value>Пользователь успешно разблокирован.</value>
+  </data>
   
   <data name="False.Text" xml:space="preserve">
     <value>Нет</value>
   </data>
-  
-  
+  <data name="SwitchOff.Text" xml:space="preserve">
+    <value>Выкл</value>
+  </data>
+  <data name="SwitchOn.Text" xml:space="preserve">
+    <value>Вкл</value>
+  </data>
   <data name="True.Text" xml:space="preserve">
     <value>Да</value>
   </data>
   
   
+  <data name="Prompt_EmailSent.Text" xml:space="preserve">
+    <value>Электронное письмо было отправлено пользователю.</value>
+  </data>
+  
+  <data name="Prompt_InvalidFlag.Text" xml:space="preserve">
+    <value>Недопустимый флаг '--{0}'. Вы имели в виду --{1} ?</value>
+  </data>
+  
+  <data name="Prompt_NoUserId.Text" xml:space="preserve">
+    <value>Не передан ID пользователя. Нечего делать.</value>
+  </data>
+  
+  <data name="Prompt_PasswordReset.Text" xml:space="preserve">
+    <value>Пароль пользователя был сброшен.</value>
+  </data>
+  <data name="Prompt_RestoreNotRequired.Text" xml:space="preserve">
+    <value>Этот пользователь не был удален. Нечего восстанавливать.</value>
+  </data>
+  <data name="Prompt_RolesEmpty.Text" xml:space="preserve">
+    <value>--роли не могут быть пустыми.</value>
+  </data>
+  
+  <data name="Prompt_StartDateGreaterThanEnd.Text" xml:space="preserve">
+    <value>Дата начала не может быть меньше, чем дата окончания.</value>
+  </data>
+  <data name="Prompt_UserAlreadyDeleted.Text" xml:space="preserve">
+    <value>Пользователь уже удален. Хотите удалить навсегда? Используйте \"purge-user\"</value>
+  </data>
+  <data name="Prompt_UserDeletionFailed.Text" xml:space="preserve">
+    <value>Пользователь найден, но система не может удалить его.</value>
+  </data>
+  
+  
+  
+  
+  <data name="Prompt_AddRoles_FlagEnd.Text" xml:space="preserve">
+    <value>Дата окончания действия роли.</value>
+  </data>
+  
+  
+  <data name="Prompt_AddRoles_FlagStart.Text" xml:space="preserve">
+    <value>Дата назначения роли.</value>
+  </data>
   
   
   
@@ -498,57 +607,56 @@
   
   
   
+  <data name="Prompt_ListUsers_FlagMax.Text" xml:space="preserve">
+    <value>Размер страницы. Максимум-500.</value>
+  </data>
   
   
   
   
+  <data name="Prompt_NewUser_Description.Text" xml:space="preserve">
+    <value>Создает новую запись пользователя на портале</value>
+  </data>
+  
+  <data name="Prompt_NewUser_FlagEmail.Text" xml:space="preserve">
+    <value>Адрес электронной почты пользователя</value>
+  </data>
+  
+  <data name="Prompt_NewUser_FlagLastname.Text" xml:space="preserve">
+    <value>Фамилия пользователя</value>
+  </data>
+  
+  
+  <data name="Prompt_NewUser_FlagUsername.Text" xml:space="preserve">
+    <value>Имя пользователя для входа в систему</value>
+  </data>
+  
+  
+  <data name="Prompt_ResetPassword_FlagId.Text" xml:space="preserve">
+    <value>ID пользователя для отправки ссылки на сброс пароля.</value>
+  </data>
+  
+  
+  <data name="Prompt_SetUser_Description.Text" xml:space="preserve">
+    <value>Позволяет вам устанавливать различные значения, относящиеся к указанному пользователю.</value>
+  </data>
+  
+  <data name="Prompt_SetUser_FlagDisplayname.Text" xml:space="preserve">
+    <value>Имя пользователя, отображаемое на экране.</value>
+  </data>
+  
+  
+  
+  <data name="Prompt_SetUser_FlagLastname.Text" xml:space="preserve">
+    <value>Фамилия пользователя.</value>
+  </data>
   
   
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  <data name="Prompt_UsersCategory.Text" xml:space="preserve">
+    <value>Команды пользователя</value>
+  </data>
   <data name="Answer.Help" xml:space="preserve">
     <value>Укажите ответ на секретный вопрос.</value>
   </data>
@@ -563,19 +671,39 @@
   <data name="Question.Text" xml:space="preserve">
     <value>Секретный вопрос:</value>
   </data>
+  <data name="HasAgreedToTerms.Text" xml:space="preserve">
+    <value>Согласился с условиями</value>
+  </data>
+  <data name="HasNotAgreedToTerms.Text" xml:space="preserve">
+    <value>Не согласился с условиями</value>
+  </data>
+  <data name="RequestedRemoval.Text" xml:space="preserve">
+    <value>Подал запрос на удаление</value>
+  </data>
+  <data name="HasAgreedToTerms.title" xml:space="preserve">
+    <value>Пользователь согласился с условиями использования</value>
+  </data>
+  <data name="HasNotAgreedToTerms.title" xml:space="preserve">
+    <value>Пользователь не согласился с условиями использования</value>
+  </data>
+  <data name="RequestsRemoval.title" xml:space="preserve">
+    <value>Пользователь запросил удаление с сайта</value>
+  </data>
   
-  
-  
-  
-  
-  
-  
-  
+  <data name="LastConsented.Help" xml:space="preserve">
+    <value>Время, когда в последний раз пользователь согласился на условия использования этого сайта. Если условия были изменены с тех пор, пользователь может быть помечен как не давший согласия</value>
+  </data>
   
   <data name="RemoveDeleted.Btn" xml:space="preserve">
     <value>Очистить удаленных пользователей</value>
   </data>
-  
-  
-  
+  <data name="RemoveDeleted.Confirm" xml:space="preserve">
+    <value>Вы хотите навсегда вычистить удалённых пользователей? Вы не можете отменить эту операцию.</value>
+  </data>
+  <data name="RemoveDeleted.Done" xml:space="preserve">
+    <value>Все удаленные пользователи были вычищены</value>
+  </data>
+  <data name="CouldNotRemoveAll.Text" xml:space="preserve">
+    <value>Не удалось удалить всех пользователей</value>
+  </data>
 </root>

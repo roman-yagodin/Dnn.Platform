@@ -117,7 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  
+  <data name="nav_Analytics.Text" xml:space="preserve">
+    <value>Статистика</value>
+  </data>
   <data name="nav_Dashboard.Text" xml:space="preserve">
     <value>Панель управления</value>
   </data>
@@ -143,24 +145,54 @@
     <value>Инструменты</value>
   </data>
   
-  
+  <data name="nav_DocCenter.Text" xml:space="preserve">
+    <value>Документы</value>
+  </data>
   <data name="nav_Help.Text" xml:space="preserve">
     <value>Справка</value>
   </data>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  <data name="nav_Site.Text" xml:space="preserve">
+    <value>Просмотреть сайт</value>
+  </data>
+  <data name="err_BetweenMinMax.Text" xml:space="preserve">
+    <value>Значение может быть только между Минимальным значением и Максимальным значением</value>
+  </data>
+  <data name="err_Email.Text" xml:space="preserve">
+    <value>Допускается только действительная электронная почта</value>
+  </data>
+  <data name="err_Minimum.Text" xml:space="preserve">
+    <value>Текст должен содержать не менее {0} символов</value>
+  </data>
+  <data name="err_MinLessThanMax.Text" xml:space="preserve">
+    <value>Минимальное значение должно быть меньше Максимального значения</value>
+  </data>
+  <data name="err_NoLargerThanExp.Text" xml:space="preserve">
+    <value>Очки репутации не могут быть больше очков опыта</value>
+  </data>
+  <data name="err_NonDecimalNumber.Text" xml:space="preserve">
+    <value>Десятичные числа не допускаются</value>
+  </data>
+  <data name="err_NonNegativeNumber.Text" xml:space="preserve">
+    <value>Отрицательные числа не допускаются</value>
+  </data>
+  <data name="err_NoUserFolder.Text" xml:space="preserve">
+    <value>{0} не владеет никакими ресурсами.</value>
+  </data>
+  <data name="err_Number.Text" xml:space="preserve">
+    <value>Разрешены только цифры</value>
+  </data>
+  <data name="err_OneActionNeeded.Text" xml:space="preserve">
+    <value>Необходимо хотя бы одно действие</value>
+  </data>
+  <data name="err_PositiveNumber.Text" xml:space="preserve">
+    <value>Допускаются только положительные числа</value>
+  </data>
+  <data name="err_Required.Text" xml:space="preserve">
+    <value>Требуется текст</value>
+  </data>
+  <data name="err_RoleAssignedToUser.Text" xml:space="preserve">
+    <value>Эта роль уже назначена данному пользователю.</value>
+  </data>
   <data name="nav_Home.Text" xml:space="preserve">
     <value>Главная</value>
   </data>
@@ -176,7 +208,9 @@
   <data name="permissiongrid.Add.Text" xml:space="preserve">
     <value>Новая</value>
   </data>
-  
+  <data name="permissiongrid.AllRoles.Text" xml:space="preserve">
+    <value>&lt;Все роли&gt;</value>
+  </data>
   <data name="permissiongrid.Copy.Text" xml:space="preserve">
     <value>Копировать</value>
   </data>
@@ -189,19 +223,33 @@
   <data name="permissiongrid.Edit Content.Text" xml:space="preserve">
     <value>Редактировать</value>
   </data>
-  
-  
+  <data name="permissiongrid.Edit Tab.Text" xml:space="preserve">
+    <value>Полный контроль</value>
+  </data>
+  <data name="permissiongrid.Edit.Text" xml:space="preserve">
+    <value>Полный контроль</value>
+  </data>
   <data name="permissiongrid.Export.Text" xml:space="preserve">
     <value>Экспорт</value>
   </data>
-  
-  
+  <data name="permissiongrid.Filter By Group.Text" xml:space="preserve">
+    <value>Фильтр по группам</value>
+  </data>
+  <data name="permissiongrid.GlobalRoles.Text" xml:space="preserve">
+    <value>&lt;Глобальные роли&gt;</value>
+  </data>
   <data name="permissiongrid.Import.Text" xml:space="preserve">
     <value>Импорт</value>
   </data>
-  
-  
-  
+  <data name="permissiongrid.Manage Settings.Text" xml:space="preserve">
+    <value>Управление настройками</value>
+  </data>
+  <data name="permissiongrid.Navigate.Text" xml:space="preserve">
+    <value>Навигация</value>
+  </data>
+  <data name="permissiongrid.Select Role.Text" xml:space="preserve">
+    <value>Выберите Роль</value>
+  </data>
   <data name="permissiongrid.Type-roles.Text" xml:space="preserve">
     <value>Роли</value>
   </data>
@@ -214,27 +262,53 @@
   <data name="permissiongrid.View.Text" xml:space="preserve">
     <value>Просмотр</value>
   </data>
-  
-  
+  <data name="nav_SiteAssets.Text" xml:space="preserve">
+    <value>Материалы сайта</value>
+  </data>
+  <data name="nav_GlobalAssets.Text" xml:space="preserve">
+    <value>Глобальные ресурсы</value>
+  </data>
   <data name="title_Tasks.Text" xml:space="preserve">
     <value>Задачи</value>
   </data>
-  
+  <data name="txt_ViewIndex.Text" xml:space="preserve">
+    <value>Просмотр {0} из {1}</value>
+  </data>
   <data name="btn_LoadMore.Text" xml:space="preserve">
     <value>Еще</value>
   </data>
+  <data name="Documentation.Text" xml:space="preserve">
+    <value>Документация</value>
+  </data>
   
-  
-  
+  <data name="LicenseKey.Text" xml:space="preserve">
+    <value>Лицензионный Ключ</value>
+  </data>
   <data name="ServerName.Text" xml:space="preserve">
     <value>Имя сервера</value>
   </data>
-  
-  
-  
-  
-  
-  
-  
-  
+  <data name="UpgradeLicense.Text" xml:space="preserve">
+    <value>[ Обновление до Evoq ]</value>
+  </data>
+  <data name="btn_CloseDialog.Text" xml:space="preserve">
+    <value>Хорошо</value>
+  </data>
+  <data name="CriticalUpdate.Text" xml:space="preserve">
+    <value>[ Критическое обновление ]</value>
+  </data>
+  <data name="NormalUpdate.Text" xml:space="preserve">
+    <value>[ Новое обновление ]</value>
+  </data>
+  <data name="LockEditMode.Help" xml:space="preserve">
+    <value>При блокировке значок будет отображаться синим цветом, и вы будете оставаться в режиме редактирования даже при переходе на другие страницы.</value>
+  </data>
+  <data name="LockEditMode.Text" xml:space="preserve">
+    <value>Нажмите, чтобы заблокировать режим редактирования.</value>
+  </data>
+  <data name="UnlockEditMode.Help" xml:space="preserve">
+    <value>После разблокировки вы будете выходить из режима редактирования всякий раз, когда перейдете на другую страницу или завершите свои изменения.</value>
+  </data>
+  <data name="UnlockEditMode.Text" xml:space="preserve">
+    <value>Нажмите, чтобы разблокировать режим редактирования.</value>
+  </data>
 </root>

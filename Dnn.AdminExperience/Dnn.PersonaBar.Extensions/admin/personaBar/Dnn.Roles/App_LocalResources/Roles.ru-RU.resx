@@ -117,29 +117,43 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  
-  
+  <data name="Create.Text" xml:space="preserve">
+    <value>Создать новую роль</value>
+  </data>
+  <data name="DuplicateRole.Text" xml:space="preserve">
+    <value>Роль с таким именем уже существует.</value>
+  </data>
   <data name="nav_Roles.Text" xml:space="preserve">
     <value>Роли</value>
   </data>
+  <data name="SearchPlaceHolder.Text" xml:space="preserve">
+    <value>Поиск ролей по ключевым словам</value>
+  </data>
   
-  
-  
+  <data name="AllGroups.Text" xml:space="preserve">
+    <value>[Все группы]</value>
+  </data>
   <data name="Auto.Header" xml:space="preserve">
     <value>Автоназначение</value>
   </data>
-  
+  <data name="GlobalRolesGroup.Text" xml:space="preserve">
+    <value>[Глобальные роли]</value>
+  </data>
   <data name="GroupName.Header" xml:space="preserve">
     <value>Группа</value>
   </data>
   <data name="LoadMore.Text" xml:space="preserve">
     <value>Еще</value>
   </data>
-  
+  <data name="RoleName.Header" xml:space="preserve">
+    <value>Имя роли</value>
+  </data>
   <data name="Users.Header" xml:space="preserve">
     <value>Пользователи</value>
   </data>
-  
+  <data name="AutoAssignment.Text" xml:space="preserve">
+    <value>Автоназначение</value>
+  </data>
   <data name="Cancel.Text" xml:space="preserve">
     <value>Отмена</value>
   </data>
@@ -149,11 +163,15 @@
   <data name="Description.Text" xml:space="preserve">
     <value>Описание</value>
   </data>
-  
+  <data name="NewGroup.Text" xml:space="preserve">
+    <value>Новая группа</value>
+  </data>
   <data name="Public.Text" xml:space="preserve">
     <value>Общедоступная</value>
   </data>
-  
+  <data name="plRoleGroups.Text" xml:space="preserve">
+    <value>Группа ролей</value>
+  </data>
   <data name="Save.Text" xml:space="preserve">
     <value>Сохранить</value>
   </data>
@@ -162,9 +180,13 @@
   <data name="GroupName.Text" xml:space="preserve">
     <value>Имя группы</value>
   </data>
+  <data name="RoleName.Text" xml:space="preserve">
+    <value>Имя роли</value>
+  </data>
   
-  
-  
+  <data name="statusListLabel.Text" xml:space="preserve">
+    <value>Состояние</value>
+  </data>
   
   
   
@@ -256,15 +278,21 @@
   <data name="isOwner.Text" xml:space="preserve">
     <value>Владелец</value>
   </data>
+  <data name="InSufficientPermissions.Text" xml:space="preserve">
+    <value>У вас недостаточно прав для выполнения этого действия.</value>
+  </data>
+  <data name="UserNotFound.Text" xml:space="preserve">
+    <value>Пользователь не найден.</value>
+  </data>
   
   
   
   
   
   
-  
-  
-  
+  <data name="Prompt_NoRoles.Text" xml:space="preserve">
+    <value>Роли не найдены.</value>
+  </data>
   
   
   

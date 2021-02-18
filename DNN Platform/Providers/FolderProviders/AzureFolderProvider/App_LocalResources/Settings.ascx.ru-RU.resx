@@ -117,35 +117,97 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  <data name="AccessDenied.ErrorMessage" xml:space="preserve">
+    <value>Доступ запрещен.</value>
+  </data>
+  <data name="AccountNotFound.ErrorMessage" xml:space="preserve">
+    <value>Указанная учетная запись не найдена.</value>
+  </data>
+  <data name="AuthenticationFailure.ErrorMessage" xml:space="preserve">
+    <value>Произошла ошибка аутентификации.</value>
+  </data>
+  <data name="CredentialsRequired.ErrorMessage" xml:space="preserve">
+    <value>Пожалуйста, предоставьте ваши учетные данные перед обновлением списка контейнеров.</value>
+  </data>
+  <data name="ListContainers.ErrorMessage" xml:space="preserve">
+    <value>Произошла ошибка при попытке получения списка контейнеров.</value>
+  </data>
+  <data name="MultipleFolderMappingsWithSameSettings.ErrorMessage" xml:space="preserve">
+    <value>Существует еще одно сопоставление папок с использованием той же учетной записи и контейнера. Пожалуйста, введите другую учетную запись или контейнер.</value>
+  </data>
+  <data name="NewContainer.ErrorMessage" xml:space="preserve">
+    <value>Произошла ошибка при создании нового контейнера.</value>
+  </data>
+  <data name="NewContainer.Text" xml:space="preserve">
+    <value>Новый контейнер</value>
+  </data>
+  <data name="plAccountKey.Help" xml:space="preserve">
+    <value>Введите ключ учетной записи. Для ключа учетной записи можно использовать как первичный, так и вторичный ключи доступа Azure.</value>
+  </data>
+  <data name="plAccountKey.Text" xml:space="preserve">
+    <value>Ключ учетной записи</value>
+  </data>
+  <data name="plAccountName.Help" xml:space="preserve">
+    <value>Введите имя учетной записи.</value>
+  </data>
+  <data name="plAccountName.Text" xml:space="preserve">
+    <value>Имя учетной записи</value>
+  </data>
+  <data name="plContainerName.Help" xml:space="preserve">
+    <value>Выберите или введите имя контейнера.</value>
+  </data>
+  <data name="plContainerName.Text" xml:space="preserve">
+    <value>Имя контейнера</value>
+  </data>
+  <data name="plUseHttps.Help" xml:space="preserve">
+    <value>Выберите этот параметр, если вы хотите использовать конечные точки HTTPS по умолчанию.</value>
+  </data>
+  <data name="plUseHttps.Text" xml:space="preserve">
+    <value>Использовать конечные точки HTTPS</value>
+  </data>
+  <data name="RefreshContainerList.Text" xml:space="preserve">
+    <value>&lt;Обновить&gt;</value>
+  </data>
+  <data name="SelectContainer.Text" xml:space="preserve">
+    <value>&lt;Выберите контейнер&gt;</value>
+  </data>
+  <data name="SelectExistingContainer.Text" xml:space="preserve">
+    <value>Выбрать существующий контейнер</value>
+  </data>
+  <data name="valAccountKey.ErrorMessage" xml:space="preserve">
+    <value>Требуется указать ключ учетной записи</value>
+  </data>
+  <data name="valAccountName.ErrorMessage" xml:space="preserve">
+    <value>Требуется указать имя учетной записи</value>
+  </data>
+  <data name="valContainerName.ErrorMessage" xml:space="preserve">
+    <value>Требуется указать имя контейнера</value>
+  </data>
+  <data name="plDirectLink.Help" xml:space="preserve">
+    <value>Если это поле отмечено, то путь к файлам данного типа папок будет указывать на реальный путь. Если этот флажок не установлен, то будет использоваться путь LinkClick.</value>
+  </data>
+  <data name="plDirectLink.Text" xml:space="preserve">
+    <value>Использовать прямую ссылку</value>
+  </data>
+  <data name="tbCustomDomain.Error" xml:space="preserve">
+    <value>Пользовательское доменное имя должно быть допустимым именем DNS</value>
+  </data>
+  <data name="tbCustomDomain.Help" xml:space="preserve">
+    <value>Введите тот же пользовательский домен, который ранее был указан в учетной записи хранилища Azure</value>
+  </data>
+  <data name="plCustomDomain.Help" xml:space="preserve">
+    <value>Введите тот же пользовательский домен, который ранее был указан в учетной записи хранилища Azure</value>
+  </data>
+  <data name="plCustomDomain.Text" xml:space="preserve">
+    <value>Пользовательский домен</value>
+  </data>
+  <data name="tbSyncBatchSize.Error" xml:space="preserve">
+    <value>Размер пакета синхронизации должен быть положительным целым числом</value>
+  </data>
+  <data name="plSyncBatchSize.Help" xml:space="preserve">
+    <value>Задает максимальное количество элементов, которые могут быть извлечены из хранилища Azure при каждом запросе во время синхронизации папок. Чем меньше число, тем больше понадобится времени, чтобы забрать все элементы. Большие числа приведут к тайм-аутам в случае больших репозиториев.</value>
+  </data>
+  <data name="plSyncBatchSize.Text" xml:space="preserve">
+    <value>Размер пакета синхронизации</value>
+  </data>
 </root>

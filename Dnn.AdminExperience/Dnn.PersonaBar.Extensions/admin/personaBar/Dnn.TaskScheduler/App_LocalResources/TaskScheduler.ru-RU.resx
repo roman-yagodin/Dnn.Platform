@@ -123,8 +123,12 @@
   <data name="ScheduleHistory.Action" xml:space="preserve">
     <value>Просмотр журнала</value>
   </data>
-  
-  
+  <data name="plType.Text" xml:space="preserve">
+    <value>Полное название класса и сборки</value>
+  </data>
+  <data name="plEnabled.Text" xml:space="preserve">
+    <value>Включить Планировщик</value>
+  </data>
   <data name="plTimeLapse.Text" xml:space="preserve">
     <value>Частота</value>
   </data>
@@ -155,11 +159,15 @@
   <data name="plRetryTimeLapse.Help" xml:space="preserve">
     <value>Пример: задайте "5" и выберите "Минут" для повторного запуска задачи каждые 5 минут после сбоя.</value>
   </data>
-  
+  <data name="plRetainHistoryNum.Text" xml:space="preserve">
+    <value>Сохранить историю Планировщика</value>
+  </data>
   <data name="plRetainHistoryNum.Help" xml:space="preserve">
     <value>Пример: Выберите "10" для сохранения в истории десяти последних записей.</value>
   </data>
-  
+  <data name="plAttachToEvent.Text" xml:space="preserve">
+    <value>Запуск по событию</value>
+  </data>
   <data name="plAttachToEvent.Help" xml:space="preserve">
     <value>Пример: Выберите "ЗАПУСК_ПРИЛОЖЕНИЯ", чтобы запускать это задание при старте веб-приложения. Обратите внимание, что задания, назначенные на "ЗАВЕРШЕНИЕ_ПРИЛОЖЕНИЯ" могут не запускаться со 100%-ной надежностью на некоторых хостах.</value>
   </data>
@@ -172,7 +180,9 @@
   <data name="APPLICATION_START.Text" xml:space="preserve">
     <value>ЗАПУСК_ПРИЛОЖЕНИЯ</value>
   </data>
-  
+  <data name="plCatchUpEnabled.Text" xml:space="preserve">
+    <value>Решить задачи</value>
+  </data>
   <data name="plCatchUpEnabled.Help" xml:space="preserve">
     <value>Отметьте, если желаете, чтобы задание выполнилось столько раз, сколько раз оно могло быть пропущено в результате временной неработоспособности сервера.</value>
   </data>
@@ -188,8 +198,12 @@
   <data name="DeleteSuccess.Text" xml:space="preserve">
     <value>Задание было удалено из расписания.</value>
   </data>
-  
-  
+  <data name="DeleteError.Text" xml:space="preserve">
+    <value>Не удалось удалить элемент расписания. Пожалуйста, попробуйте позже.</value>
+  </data>
+  <data name="ControlTitle_edit.Text" xml:space="preserve">
+    <value>Редактировать задачу</value>
+  </data>
   <data name="ModuleHelp.Text" xml:space="preserve">
     <value>&lt;h1&gt;О модуле "Планировщик заданий"&lt;/h1&gt;&lt;p&gt;Модуль позволяет управлять заданиями, выполняемыми по расписанию.&lt;/p&gt;</value>
   </data>
@@ -211,7 +225,9 @@
   <data name="plFriendlyName.Help" xml:space="preserve">
     <value>Введите имя для запланированного задания.</value>
   </data>
-  
+  <data name="plFriendlyName.Text" xml:space="preserve">
+    <value>Понятное имя</value>
+  </data>
   <data name="cmdRun.Text" xml:space="preserve">
     <value>Выполнить сейчас</value>
   </data>
@@ -227,7 +243,9 @@
   <data name="TimeLapseValidator.ErrorMessage" xml:space="preserve">
     <value>Значение частоты должно быть в диапазоне от 1 до 999999.</value>
   </data>
-  
+  <data name="TimeLapseRequired.ErrorMessage" xml:space="preserve">
+    <value>Вы должны установить значение частоты от 1 до 999999.</value>
+  </data>
   <data name="RetryTimeLapseValidator.ErrorMessage" xml:space="preserve">
     <value>Значение частоты повторов должно быть в диапазоне от 1 до 999999.</value>
   </data>
@@ -244,11 +262,15 @@
   <data name="Type.Header" xml:space="preserve">
     <value>Тип</value>
   </data>
-  
+  <data name="Enabled.Header" xml:space="preserve">
+    <value>ВКЛЮЧЕНО</value>
+  </data>
   <data name="Enabled.Label" xml:space="preserve">
     <value>Включено</value>
   </data>
-  
+  <data name="Frequency.Header" xml:space="preserve">
+    <value>ЧАСТОТА</value>
+  </data>
   
   <data name="NextStart.Header" xml:space="preserve">
     <value>Следующий запуск</value>
@@ -332,7 +354,9 @@
   <data name="Notes.Header" xml:space="preserve">
     <value>Примечания</value>
   </data>
-  
+  <data name="ControlTitle_history.Text" xml:space="preserve">
+    <value>История задач</value>
+  </data>
   <data name="Description.Header" xml:space="preserve">
     <value>Описание</value>
   </data>
@@ -360,16 +384,30 @@
   <data name="lblProcessing.Text" xml:space="preserve">
     <value>В обработке</value>
   </data>
-  
-  
-  
-  
-  
+  <data name="ScheduleID.Header" xml:space="preserve">
+    <value>ID: </value>
+  </data>
+  <data name="ObjectDependencies.Header" xml:space="preserve">
+    <value>Зависимости объектов: </value>
+  </data>
+  <data name="TriggeredBy.Header" xml:space="preserve">
+    <value>Срабатывает на: </value>
+  </data>
+  <data name="Thread.Header" xml:space="preserve">
+    <value>Поток: </value>
+  </data>
+  <data name="Servers.Header" xml:space="preserve">
+    <value>Серверы: </value>
+  </data>
   <data name="lblQueue.Text" xml:space="preserve">
     <value>В очереди</value>
   </data>
-  
-  
+  <data name="Overdue.Header" xml:space="preserve">
+    <value>Просрочено (секунды): </value>
+  </data>
+  <data name="TimeRemaining.Header" xml:space="preserve">
+    <value>Оставшееся время: </value>
+  </data>
   
   
   
@@ -391,13 +429,21 @@
   <data name="Stop.Header" xml:space="preserve">
     <value>Останов</value>
   </data>
-  
-  
-  
+  <data name="TabTaskQueue.Text" xml:space="preserve">
+    <value>ОЧЕРЕДЬ ЗАДАЧ</value>
+  </data>
+  <data name="TabScheduler.Text" xml:space="preserve">
+    <value>ПЛАНИРОВЩИК</value>
+  </data>
+  <data name="TabHistory.Text" xml:space="preserve">
+    <value>ИСТОРИЯ</value>
+  </data>
   <data name="TabHistoryTitle.Text" xml:space="preserve">
     <value>Журнал выполнения задач</value>
   </data>
-  
+  <data name="HistoryModalTitle.Text" xml:space="preserve">
+    <value>История задач: </value>
+  </data>
   <data name="Cancel.Text" xml:space="preserve">
     <value>Отмена</value>
   </data>
@@ -411,7 +457,9 @@
   
   
   
-  
+  <data name="STOPPED.Text" xml:space="preserve">
+    <value>ОСТАНОВЛЕНО</value>
+  </data>
   
   
   
@@ -455,7 +503,9 @@
   
   
   
-  
+  <data name="DaySingular.Text" xml:space="preserve">
+    <value>день</value>
+  </data>
   
   
   

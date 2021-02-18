@@ -126,11 +126,21 @@
   <data name="Crawler_user.Text" xml:space="preserve">
     <value>Пользователи</value>
   </data>
-  
-  
-  
-  
-  
+  <data name="Module_Answers.Text" xml:space="preserve">
+    <value>Ответы</value>
+  </data>
+  <data name="Module_Blogs.Text" xml:space="preserve">
+    <value>Блоги</value>
+  </data>
+  <data name="Module_Events.Text" xml:space="preserve">
+    <value>События</value>
+  </data>
+  <data name="Module_Ideas.Text" xml:space="preserve">
+    <value>Идеи</value>
+  </data>
+  <data name="Module_Journal.Text" xml:space="preserve">
+    <value>Журнал</value>
+  </data>
   <data name="Module_Text/HTML.Text" xml:space="preserve">
     <value>Страницы</value>
   </data>

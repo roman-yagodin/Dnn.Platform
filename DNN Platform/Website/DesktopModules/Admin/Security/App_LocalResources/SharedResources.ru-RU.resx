@@ -120,7 +120,10 @@
   <data name="Username.Text" xml:space="preserve">
     <value>Имя пользователя:</value>
   </data>
-  
+  <data name="Username.Help" xml:space="preserve">
+    <value>Введите имя пользователя. Длина имени должна быть не менее пяти символов, оно может состоять из букв и цифр,
+    не должно начинаться с пробела и не должно содержать ни одного из этих символов !"#$%&amp;'()*+,/:;&lt;=&gt;?@[\]^`{|}</value>
+  </data>
   <data name="FirstName.Text" xml:space="preserve">
     <value>Имя:</value>
   </data>

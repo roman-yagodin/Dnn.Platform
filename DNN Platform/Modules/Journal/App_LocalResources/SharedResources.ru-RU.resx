@@ -181,22 +181,9 @@
   <data name="forum_topic.Text" xml:space="preserve">
     <value>Темы форума</value>
   </data>
-  <data name="journal_forum_reply.Text" xml:space="preserve">
-    <value>&lt;div class="author"&gt;&lt;img src="[BaseUrl]/profilepic.ashx?userId=[JournalAuthor:Id]&amp;h=32&amp;w=32" /&gt;&lt;/div&gt;
-&lt;div class="journalitem"&gt;
-	&lt;p&gt;
-		&lt;span class="authorname"&gt;[JournalControl:AUTHORNAMELINK]&lt;/span&gt;replied to: &lt;a href="[journaldata:Url]"&gt;[journalitem:Title]&lt;/a&gt;
-&lt;div class="dnnClear"&gt;&lt;i&gt;[journalitem:Summary]&lt;/i&gt;&lt;/div&gt;
-&lt;/p&gt;
-		&lt;p class="journalfooter"&gt;
-		&lt;abbr title="[journalItem:DateCreated]"&gt;[journalitem:TimeFrame]&lt;/abbr&gt; {CanComment}&lt;span&gt;&amp;#149;&lt;/span&gt; [JOURNALCONTROL:LIKELINK] &lt;span&gt;&amp;#149;&lt;/span&gt; &lt;a href="[journaldata:Url]"&gt;Подробнее&lt;/a&gt;{/CanComment}
-	&lt;/p&gt;
-		[JOURNALCONTROL:LIKELIST]
-	
-	&lt;/div&gt;</value>
-  </data>
+  
   <data name="journal_forum_topic.Text" xml:space="preserve">
-    <value>&lt;div class="author"&gt;&lt;img src="[BaseUrl]/profilepic.ashx?userId=[JournalAuthor:Id]&amp;h=32&amp;w=32" /&gt;&lt;/div&gt;
+    <value>&lt;div class="author"&gt;&lt;img src="[JournalProfile:relativeurl|32]" /&gt;&lt;/div&gt;
 &lt;div class="journalitem"&gt;
 	&lt;p&gt;
 		&lt;span class="authorname"&gt;[JournalControl:AUTHORNAMELINK]&lt;/span&gt;created the topic: &lt;a href="[journaldata:Url]"&gt;[journalitem:Title]&lt;/a&gt;
@@ -209,7 +196,9 @@
 	
 	&lt;/div&gt;</value>
   </data>
-  
+  <data name="blog.Text" xml:space="preserve">
+    <value>Блоги</value>
+  </data>
   <data name="journal_blog.Text" xml:space="preserve">
     <value>&lt;div class="author"&gt;&lt;img src="[BaseUrl]/profilepic.ashx?userId=[JournalAuthor:Id]&amp;h=32&amp;w=32" /&gt;&lt;/div&gt;
 &lt;div class="journalitem"&gt;
@@ -241,7 +230,9 @@
   <data name="answer.Action" xml:space="preserve">
     <value>ответил на вопрос</value>
   </data>
-  
+  <data name="answer.Text" xml:space="preserve">
+    <value>Ответы</value>
+  </data>
   <data name="articleadd.Action" xml:space="preserve">
     <value>добавил(а) статью</value>
   </data>
@@ -272,14 +263,18 @@
   <data name="eventcreate.Action" xml:space="preserve">
     <value>создал мероприятие</value>
   </data>
-  
+  <data name="eventcreate.Text" xml:space="preserve">
+    <value>События</value>
+  </data>
   <data name="friend.Text" xml:space="preserve">
     <value>Друзья</value>
   </data>
   <data name="ideaadd.Action" xml:space="preserve">
     <value>добавил идею</value>
   </data>
-  
+  <data name="ideaadd.Text" xml:space="preserve">
+    <value>Идеи</value>
+  </data>
   <data name="ideaupdate.Action" xml:space="preserve">
     <value>обновил идею</value>
   </data>

@@ -149,7 +149,13 @@
   <data name="ExtensionsUpgrade.Text" xml:space="preserve">
     <value>Обновляем расширения</value>
   </data>
-  
+  <data name="IntroDetail.Text" xml:space="preserve">
+    <value>&lt;p&gt;Добро пожаловать на страницу обновления DNN.&lt;/p&gt;
+
+&lt;p&gt;Первый шаг-это выбор языка, который вы хотите использовать для обновления.&lt;/p&gt;
+
+</value>
+  </data>
   <data name="InvalidCredentials.Text" xml:space="preserve">
     <value>Имя пользователя и пароль не распознаны.</value>
   </data>
@@ -215,6 +221,10 @@
   <data name="UpgradeStarted.Text" xml:space="preserve">
     <value>Обновление начато в</value>
   </data>
-  
-  
+  <data name="AcceptTerms.Required" xml:space="preserve">
+    <value>Примите условия лицензионного соглашения, чтобы продолжить работу.</value>
+  </data>
+  <data name="AcceptTerms.Text" xml:space="preserve">
+    <value>Я принимаю условия &lt;a href="../Licenses/Dnn_Corp_License.pdf" target="_blank"&gt;принять условия&lt;/a&gt;</value>
+  </data>
 </root>
